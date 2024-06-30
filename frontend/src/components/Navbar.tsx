@@ -53,7 +53,6 @@ const Navbar: React.FC = () => {
           <Link to='/' className='text-red-700 text-2xl font-bold'>
             <div className='flex gap-2 items-center'>
               <p className='text-3xl'>DHL Driver Assistant</p>
-              {/* Adjust FlagIcon size for mobile */}
               <FlagIcon
                 code={currentLanguage.code as any}
                 size={isMenuOpen ? 32 : 24}
@@ -80,18 +79,23 @@ const Navbar: React.FC = () => {
                 onClick={() => changeLanguage(lang)}
                 className='text-black hover:text-white mx-1'
               >
-                {/* Adjust FlagIcon size dynamically based on menu state */}
                 <FlagIcon code={code as any} size={isMenuOpen ? 32 : 24} />
               </button>
             ))}
           </div>
         </div>
       </div>
-      <div className='bg-red-800 text-yellow-500 py-2 px-4 text-center justify-center'>
-        <Link to='/about' className='mx-2 font-semibold'>
+      <div className='bg-red-800 py-2 px-4 text-center justify-center'>
+        <Link
+          to='/about'
+          className='mx-2 font-bold text-lg md:text-base md:font-semibold text-yellow-500'
+        >
           About
         </Link>
-        <Link to='/contact' className='mx-2 font-semibold'>
+        <Link
+          to='/contact'
+          className='mx-2 font-bold text-lg md:text-base md:font-semibold text-yellow-500'
+        >
           Contact
         </Link>
       </div>
