@@ -4,7 +4,7 @@ import CurrentDate from '../components/CurrentDate';
 import { useTranslation } from 'react-i18next';
 import DateRange from '../components/DateRange';
 import WeeklyCalendar from '../components/WeeklyCalendar';
-import calendarImage from '../assets/cbName.jpg';
+import calendarImage from '../assets/controllBook.jpg';
 
 const Home: React.FC = () => {
   const { t, i18n } = useTranslation();
