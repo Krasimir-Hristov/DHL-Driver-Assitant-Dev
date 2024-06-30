@@ -1,6 +1,8 @@
 import React from 'react';
+
 import { useTranslation } from 'react-i18next';
-import someImage from '../assets/controllBook.jpg';
+
+import controllBook from '../assets/controllBook.jpg';
 
 const ControllBook: React.FC = () => {
   const { t } = useTranslation();
@@ -8,7 +10,7 @@ const ControllBook: React.FC = () => {
   const rows = [
     {
       title: 'titel', // Примерен ключ от вашите i18n ресурси
-      image: someImage,
+      image: controllBook,
       description: 'description', // Примерен ключ от вашите i18n ресурси
     },
 
@@ -18,8 +20,11 @@ const ControllBook: React.FC = () => {
   return (
     <div>
       <div className='justify-center text-center'>
-        <h1>{t('controllBook')}</h1>
-        <p>{t('cbDescription')}</p>
+        <h1 className='text-red-800 font-extrabold uppercase my-4 text-2xl underline decoration-red-800 decoration-4 md:text-4xl'>
+          {t('controllBook')}
+        </h1>
+        <p className='text-lg text-justify mx-4 my-2'>{t('cbDescription')}</p>
+        <hr className='border-t border-gray-400 mx-4 my-4' />
       </div>
 
       {rows.map((row, index) => (
