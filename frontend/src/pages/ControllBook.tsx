@@ -12,9 +12,9 @@ const ControllBook: React.FC = () => {
 
   const rows = [
     {
-      title: 'titel', // Примерен ключ от вашите i18n ресурси
+      title: `${t('cbNameAndAddress')}`, // Примерен ключ от вашите i18n ресурси
       image: controllBook,
-      description: 'description', // Примерен ключ от вашите i18n ресурси
+      description: `${t('cbNameAndAddressDesc')}`, // Примерен ключ от вашите i18n ресурси
     },
 
     // Добавете повече обекти тук, ако е необходимо
@@ -30,16 +30,21 @@ const ControllBook: React.FC = () => {
         <hr className='border-t border-gray-400 mx-4 my-4' />
       </div>
 
-      <h1 className='text-2xl md:text-3xl lg:text-4xl mb-8 font-bold text-center'>
+      <h1 className='text-2xl md:text-3xl lg:text-4xl mb-8 font-bold text-center '>
         {t('controlBookInfo')}
       </h1>
       <DayOfYear />
       <CurrentDate />
-      <DateRange />
+
+      <h2 className='justify-center text-center mt-5'>
+        <DateRange />
+      </h2>
 
       {rows.map((row, index) => (
         <div key={index} className='row'>
-          <h2 className='justify-center text-center mt-5'>{row.title}</h2>
+          <h2 className='justify-center text-center mt-5 text-3xl underline uppercase'>
+            {row.title}
+          </h2>
           <div className='flex justify-center my-4'>
             <img
               src={row.image}
@@ -49,7 +54,10 @@ const ControllBook: React.FC = () => {
               className='w-96 h-96 lg:w-[500px] lg:h-[500px]' // Добавете класове за големи екрани
             />
           </div>
-          <p className='justify-center text-center'>{row.description}</p>
+          <p className='justify-center text-center text-2xl'>
+            {row.description}
+          </p>
+          <hr className='border-t border-gray-400 mx-4 my-4' />
         </div>
       ))}
     </div>
