@@ -3,6 +3,9 @@ import React from 'react';
 import { useTranslation } from 'react-i18next';
 
 import controllBook from '../assets/controllBook.jpg';
+import DayOfYear from '../components/DayOfYear';
+import CurrentDate from '../components/CurrentDate';
+import DateRange from '../components/DateRange';
 
 const ControllBook: React.FC = () => {
   const { t } = useTranslation();
@@ -20,12 +23,19 @@ const ControllBook: React.FC = () => {
   return (
     <div>
       <div className='justify-center text-center'>
-        <h1 className='text-red-800 font-extrabold uppercase my-4 text-2xl underline decoration-red-800 decoration-4 md:text-4xl'>
+        <h1 className='text-red-800 font-extrabold uppercase my-4 text-2xl underline decoration-red-800 decoration-4 md:text-6xl'>
           {t('controllBook')}
         </h1>
         <p className='text-lg text-justify mx-4 my-2'>{t('cbDescription')}</p>
         <hr className='border-t border-gray-400 mx-4 my-4' />
       </div>
+
+      <h1 className='text-2xl md:text-3xl lg:text-4xl mb-8 font-bold text-center'>
+        {t('controlBookInfo')}
+      </h1>
+      <DayOfYear />
+      <CurrentDate />
+      <DateRange />
 
       {rows.map((row, index) => (
         <div key={index} className='row'>
