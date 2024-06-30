@@ -18,7 +18,7 @@ const Home: React.FC = () => {
       <DayOfYear />
       <CurrentDate />
       <DateRange />
-      {/* <div className='flex justify-center my-4'>
+      <div className='flex justify-center my-4'>
         <img
           src={calendarImage}
           alt='Calendar'
@@ -26,7 +26,7 @@ const Home: React.FC = () => {
           height={400} // Запазете тези стойности за по-малки екрани
           className='w-96 h-96 lg:w-[500px] lg:h-[500px]' // Добавете класове за големи екрани
         />
-      </div> */}
+      </div>
       <div className='mt-5 border-black p-2 border-8'>
         <h1 className='font-bold text-2xl md:text-4xl border-b-4 border-red-500 pb-2'>
           {' '}
