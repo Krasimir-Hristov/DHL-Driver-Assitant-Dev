@@ -1,13 +1,13 @@
 import React from 'react';
-// import { useTranslation } from 'react-i18next';
+import { useTranslation } from 'react-i18next';
 import someImage from '../assets/controllBook.jpg';
 
 const ControllBook: React.FC = () => {
-  // const { t } = useTranslation();
+  const { t } = useTranslation();
 
   const rows = [
     {
-      title: 'title', // Примерен ключ от вашите i18n ресурси
+      title: 'titel', // Примерен ключ от вашите i18n ресурси
       image: someImage,
       description: 'description', // Примерен ключ от вашите i18n ресурси
     },
@@ -18,8 +18,8 @@ const ControllBook: React.FC = () => {
   return (
     <div>
       <div className='justify-center text-center'>
-        <h1>title</h1>
-        <p>description</p>
+        <h1>{t('controllBook')}</h1>
+        <p>{t('cbDescription')}</p>
       </div>
 
       {rows.map((row, index) => (
