@@ -4,7 +4,6 @@ import CurrentDate from '../components/CurrentDate';
 import { useTranslation } from 'react-i18next';
 import DateRange from '../components/DateRange';
 import WeeklyCalendar from '../components/WeeklyCalendar';
-import calendarImage from '../assets/controllBook.jpg';
 
 const Home: React.FC = () => {
   const { t, i18n } = useTranslation();
@@ -18,15 +17,7 @@ const Home: React.FC = () => {
       <DayOfYear />
       <CurrentDate />
       <DateRange />
-      <div className='flex justify-center my-4'>
-        <img
-          src={calendarImage}
-          alt='Calendar'
-          width={400} // Запазете тези стойности за по-малки екрани
-          height={400} // Запазете тези стойности за по-малки екрани
-          className='w-96 h-96 lg:w-[500px] lg:h-[500px]' // Добавете класове за големи екрани
-        />
-      </div>
+
       <div className='mt-5 border-black p-2 border-8'>
         <h1 className='font-bold text-2xl md:text-4xl border-b-4 border-red-500 pb-2'>
           {' '}

@@ -87,10 +87,10 @@ const Navbar: React.FC = () => {
       </div>
       <div className='bg-red-800 py-2 px-4 text-center justify-center'>
         <Link
-          to='/about'
+          to='/controllbook'
           className='mx-2 font-bold text-lg md:text-base md:font-semibold text-yellow-500'
         >
-          About
+          ControllBook
         </Link>
         <Link
           to='/contact'
