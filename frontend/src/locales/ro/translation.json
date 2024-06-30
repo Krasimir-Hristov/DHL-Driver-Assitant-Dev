@@ -1,0 +1,15 @@
+{
+  "indicator": "RO",
+  "title": "Asistent Șofer DHL",
+  "login": "Autentificare",
+  "register": "Înregistrare",
+  "controlBookInfo": "Informații actualizate despre cartea de control",
+  "dayOfYear": "Ziua anului",
+  "currentDate": "Data curentă",
+  "datesNeeded": "Aveți nevoie de aceste date",
+  "checkDayOff": "Verificați zilele libere",
+  "choseGroup": "Alegeți grupul dvs.",
+  "previous": "Anterior",
+  "next": "Următor",
+  "createdByAndSupported": "Creat și susținut de:"
+}

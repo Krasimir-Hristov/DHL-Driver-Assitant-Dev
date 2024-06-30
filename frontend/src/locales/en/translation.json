@@ -1,0 +1,15 @@
+{
+  "indicator": "EN",
+  "title": "DHL Driver Assistant",
+  "login": "Login",
+  "register": "Register",
+  "controlBookInfo": "Updated information for the control book",
+  "dayOfYear": "Day of the year",
+  "currentDate": "Current date",
+  "datesNeeded": "You need these dates",
+  "checkDayOff": "Check your days off",
+  "choseGroup": "Choose your group",
+  "previous": "Previous",
+  "next": "Next",
+  "createdByAndSupported": "Created and Supported by:"
+}

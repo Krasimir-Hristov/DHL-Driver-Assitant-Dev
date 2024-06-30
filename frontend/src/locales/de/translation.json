@@ -1,0 +1,15 @@
+{
+  "indicator": "DE",
+  "title": "DHL Fahrerassistent",
+  "login": "Anmeldung",
+  "register": "Registrieren",
+  "controlBookInfo": "Aktualisierte Informationen für das Kontrollbuch",
+  "dayOfYear": "Tag des Jahres",
+  "currentDate": "Aktuelles Datum",
+  "datesNeeded": "Sie benötigen diese Daten",
+  "checkDayOff": "Überprüfen Sie Ihre freien Tage",
+  "choseGroup": "Wählen Sie Ihre Gruppe",
+  "previous": "Vorherige",
+  "next": "Nächste",
+  "createdByAndSupported": "Erstellt und unterstützt von:"
+}

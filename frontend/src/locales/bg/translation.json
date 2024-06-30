@@ -1,0 +1,15 @@
+{
+  "indicator": "BG",
+  "title": "Асистент за шофьори на DHL",
+  "login": "Вход",
+  "register": "Регистрация",
+  "controlBookInfo": "Актуална информация за контролната книга",
+  "dayOfYear": "Ден от годината",
+  "currentDate": "Текуща дата",
+  "datesNeeded": "Необходими са ви тези дати",
+  "checkDayOff": "Проверете почивните си дни",
+  "choseGroup": "Изберете своята група",
+  "previous": "Предишен",
+  "next": "Следващ",
+  "createdByAndSupported": "Създадено и поддържано от:"
+}

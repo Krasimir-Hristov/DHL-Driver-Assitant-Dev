@@ -1,0 +1,15 @@
+{
+  "indicator": "RU",
+  "title": "Ассистент Водителя DHL",
+  "login": "Вход",
+  "register": "Регистрация",
+  "controlBookInfo": "Актуальная информация для контрольной книги",
+  "dayOfYear": "День года",
+  "currentDate": "Текущая дата",
+  "datesNeeded": "Вам нужны эти даты",
+  "checkDayOff": "Проверьте свои выходные дни",
+  "choseGroup": "Выберите свою группу",
+  "previous": "Предыдущий",
+  "next": "Следующий",
+  "createdByAndSupported": "Создано и поддерживается:"
+}
