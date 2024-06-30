@@ -49,12 +49,18 @@ const Navbar: React.FC = () => {
   return (
     <nav className='fixed w-full top-0 bg-yellow-500 p-2 md:p-4 z-50'>
       <div className='container mx-auto flex justify-between items-center'>
-        <Link to='/' className='text-red-700 text-2xl font-bold'>
-          <div className='flex gap-2 items-center'>
-            <p className='text-3xl'>DHL Driver Assistant</p>
-            <FlagIcon code={currentLanguage.code as any} size={24} />
-          </div>
-        </Link>
+        <div className='flex items-center'>
+          <Link to='/' className='text-red-700 text-2xl font-bold'>
+            <div className='flex gap-2 items-center'>
+              <p className='text-3xl'>DHL Driver Assistant</p>
+              {/* Adjust FlagIcon size for mobile */}
+              <FlagIcon
+                code={currentLanguage.code as any}
+                size={isMenuOpen ? 32 : 24}
+              />
+            </div>
+          </Link>
+        </div>
         <div className='md:hidden'>
           <button onClick={toggleMenu} className='text-black'>
             {isMenuOpen ? (
@@ -65,22 +71,29 @@ const Navbar: React.FC = () => {
           </button>
         </div>
         <div
-          className={`flex-col md:flex-row md:flex ${
-            isMenuOpen ? 'flex' : 'hidden'
-          } md:flex md:items-center`}
+          className={`md:flex ${isMenuOpen ? 'flex' : 'hidden'} items-center`}
         >
-          <div className='flex flex-wrap justify-center md:justify-start'>
+          <div className='flex flex-row justify-end'>
             {languages.map(({ code, lang }) => (
               <button
                 key={lang}
                 onClick={() => changeLanguage(lang)}
-                className='text-black hover:text-white mx-1 my-1 md:my-0'
+                className='text-black hover:text-white mx-1'
               >
-                <FlagIcon code={code as any} size={24} />
+                {/* Adjust FlagIcon size dynamically based on menu state */}
+                <FlagIcon code={code as any} size={isMenuOpen ? 32 : 24} />
               </button>
             ))}
           </div>
         </div>
+      </div>
+      <div className='bg-red-800 text-yellow-500 py-2 px-4 text-center justify-center'>
+        <Link to='/about' className='mx-2 font-semibold'>
+          About
+        </Link>
+        <Link to='/contact' className='mx-2 font-semibold'>
+          Contact
+        </Link>
       </div>
     </nav>
   );

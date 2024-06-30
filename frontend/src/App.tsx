@@ -4,6 +4,8 @@ import { I18nextProvider } from 'react-i18next';
 import i18n from './i18n';
 import Navbar from './components/Navbar';
 import Home from './pages/Home';
+import About from './pages/About';
+import Contact from './pages/Contact';
 import Footer from './components/Footer';
 
 const App: React.FC = () => {
@@ -12,9 +14,12 @@ const App: React.FC = () => {
       <Router>
         <div className='flex flex-col min-h-screen'>
           <Navbar />
-          <main className='flex-grow pt-32 md:pt-28 mb-4'>
+          {/* Increase padding top for different screen sizes even more */}
+          <main className='flex-grow mb-4 pt-24 md:pt-28'>
             <Routes>
               <Route path='/' element={<Home />} />
+              <Route path='/about' element={<About />} />
+              <Route path='/contact' element={<Contact />} />
             </Routes>
           </main>
           <Footer />
