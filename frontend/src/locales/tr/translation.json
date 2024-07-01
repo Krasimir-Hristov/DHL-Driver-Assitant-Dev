@@ -49,5 +49,6 @@
   "cbExample": "Kontrol kitabının doldurulması örneği",
   "cbExampleDesc": "Sürücüler için kontrol kitabının doldurulması örneği (Satırlar)",
   "cbTotalDailyHours": "Toplam günlük saat",
-  "cbTotalDailyHoursDesc": "Bir günde toplam saat, burada her zaman 24 yazılmalıdır"
+  "cbTotalDailyHoursDesc": "Bir günde toplam saat, burada her zaman 24 yazılmalıdır",
+  "dayOffCalendar": "Tatil Takvimi"
 }

@@ -49,5 +49,6 @@
   "cbExample": "Shembull i plotësimit të librit të kontrollit",
   "cbExampleDesc": "Shembull i plotësimit të librit të kontrollit për shoferët (Linjat)",
   "cbTotalDailyHours": "Orët totale ditore",
-  "cbTotalDailyHoursDesc": "Orët totale në një ditë, këtu duhet të plotësohet numri 24"
+  "cbTotalDailyHoursDesc": "Orët totale në një ditë, këtu duhet të plotësohet numri 24",
+  "dayOffCalendar": "Kalendar i ditëve të pushimit"
 }

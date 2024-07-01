@@ -49,5 +49,6 @@
   "cbExample": "A vezérlő könyv kitöltésének példája",
   "cbExampleDesc": "Példa a vezérlő könyv kitöltésére a sofőrök számára (Sorok)",
   "cbTotalDailyHours": "Napi összes óra",
-  "cbTotalDailyHoursDesc": "A nap teljes óraszáma, itt mindig 24-et kell beírni"
+  "cbTotalDailyHoursDesc": "A nap teljes óraszáma, itt mindig 24-et kell beírni",
+  "dayOffCalendar": "Szabadnap naptár"
 }

@@ -49,5 +49,6 @@
   "cbExample": "Beispiel zum Ausfüllen des Kontrollbuchs",
   "cbExampleDesc": "Beispiel zum Ausfüllen des Kontrollbuchs für Fahrer (Zeilen)",
   "cbTotalDailyHours": "Gesamtstunden pro Tag",
-  "cbTotalDailyHoursDesc": "Gesamtstunden pro Tag, hier sollte die Zahl 24 eingetragen werden"
+  "cbTotalDailyHoursDesc": "Gesamtstunden pro Tag, hier sollte die Zahl 24 eingetragen werden",
+  "dayOffCalendar": "Freizeitkalender"
 }

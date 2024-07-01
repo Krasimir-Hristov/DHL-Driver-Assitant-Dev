@@ -49,5 +49,6 @@
   "cbExample": "Esempio di compilazione del registro di controllo",
   "cbExampleDesc": "Esempio di compilazione del registro di controllo per conducenti (Linee)",
   "cbTotalDailyHours": "Ore totali giornaliere",
-  "cbTotalDailyHoursDesc": "Ore totali in un giorno, qui dovrebbe essere sempre 24"
+  "cbTotalDailyHoursDesc": "Ore totali in un giorno, qui dovrebbe essere sempre 24",
+  "dayOffCalendar": "Calendario dei giorni liberi"
 }
