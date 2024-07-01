@@ -4,6 +4,8 @@ import { useTranslation } from 'react-i18next';
 
 import greenBookImg from '../assets/controlBookImg/controllBook.jpg';
 import dayOfYearImg from '../assets/controlBookImg/cbDayOfYear.jpg';
+import nameAndFamilyImg from '../assets/controlBookImg/cbName.jpg';
+
 import DayOfYear from '../components/DayOfYear';
 import CurrentDate from '../components/CurrentDate';
 import DateRange from '../components/DateRange';
@@ -16,6 +18,11 @@ const ControllBook: React.FC = () => {
       title: `${t('cbNameAndAddress')}`, // Примерен ключ от вашите i18n ресурси
       image: greenBookImg,
       description: `${t('cbNameAndAddressDesc')}`, // Примерен ключ от вашите i18n ресурси
+    },
+    {
+      title: `${t('cbNameAndFamily')}`, // Примерен ключ от вашите i18n ресурси
+      image: nameAndFamilyImg,
+      description: `${t('cbNameAndFamilyDesc')}`, // Примерен ключ от вашите i18n ресурси
     },
 
     // Добавете повече обекти тук, ако е необходимо
