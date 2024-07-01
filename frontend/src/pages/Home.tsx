@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
-import DayOfYear from '../components/DayOfYear';
-import CurrentDate from '../components/CurrentDate';
+// import DayOfYear from '../components/DayOfYear';
+// import CurrentDate from '../components/CurrentDate';
 import { useTranslation } from 'react-i18next';
-import DateRange from '../components/DateRange';
+// import DateRange from '../components/DateRange';
 import WeeklyCalendar from '../components/WeeklyCalendar';
 
 const Home: React.FC = () => {
@@ -11,12 +11,12 @@ const Home: React.FC = () => {
 
   return (
     <div className='flex flex-col items-center justify-center min-h-screen text-center px-4 pt-12 md:pt-0 bg-slate-200'>
-      <h1 className='text-3xl md:text-4xl lg:text-6xl mb-8 font-bold'>
+      {/* <h1 className='text-3xl md:text-4xl lg:text-6xl mb-8 font-bold'>
         {t('controlBookInfo')}
       </h1>
       <DayOfYear />
       <CurrentDate />
-      <DateRange />
+      <DateRange /> */}
 
       <div className='mt-5 border-black p-2 border-8'>
         <h1 className='font-bold text-2xl md:text-4xl border-b-4 border-red-500 pb-2'>

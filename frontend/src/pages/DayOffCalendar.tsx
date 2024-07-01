@@ -1,0 +1,43 @@
+import React, { useState } from 'react';
+import { useTranslation } from 'react-i18next';
+import WeeklyCalendar from '../components/WeeklyCalendar';
+
+const DayOffCalendar: React.FC = () => {
+  const { t, i18n } = useTranslation();
+  const [startWeek, setStartWeek] = useState<number>(1); // Използваме 1 като стойност по подразбиране
+
+  return (
+    <div>
+      <h1 className='text-red-800 font-extrabold bg-yellow-500 justify-center text-center uppercase py-4 text-2xl  decoration-red-800  md:text-6xl'>
+        {t('dayOffCalendar')}
+      </h1>
+
+      <div className='flex flex-col items-center justify-center min-h-screen text-center px-4 pt-12 md:pt-0 bg-slate-200'>
+        <div className='mt-5 border-black p-2 border-8'>
+          <h1 className='font-bold text-2xl md:text-4xl border-b-4 border-red-500 pb-2'>
+            {t('checkDayOff')}
+          </h1>
+          <h2 className='text-xl font-bold mt-5  '>{t('choseGroup')}</h2>
+          <div className='flex flex-row p-3 justify-center items-center mt-4 gap-3 border-b-4 border-yellow-500  md:gap-5 font-semibold'>
+            {[1, 2, 3, 4, 5, 6, 7, 8, 9].map((week) => (
+              <p
+                key={week}
+                onClick={() => setStartWeek(week)}
+                className={`p-1 md:p-2 border-2 border-black rounded-md cursor-pointer ${
+                  startWeek === week ? 'bg-green-500' : 'bg-white'
+                }`}
+                style={{ minWidth: '1.5rem', textAlign: 'center' }}
+              >
+                {week}
+              </p>
+            ))}
+          </div>
+
+          <WeeklyCalendar startWeek={startWeek} locale={i18n.language} />
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default DayOffCalendar;

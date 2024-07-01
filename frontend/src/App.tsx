@@ -4,9 +4,9 @@ import { I18nextProvider } from 'react-i18next';
 import i18n from './i18n';
 import Navbar from './components/Navbar';
 import Home from './pages/Home';
-import Contact from './pages/Contact';
 import Footer from './components/Footer';
 import ControllBook from './pages/ControllBook';
+import DayOffCalendar from './pages/DayOffCalendar';
 
 const App: React.FC = () => {
   return (
@@ -19,7 +19,7 @@ const App: React.FC = () => {
             <Routes>
               <Route path='/' element={<Home />} />
               <Route path='/controllbook' element={<ControllBook />} />
-              <Route path='/contact' element={<Contact />} />
+              <Route path='/contact' element={<DayOffCalendar />} />
             </Routes>
           </main>
           <Footer />
