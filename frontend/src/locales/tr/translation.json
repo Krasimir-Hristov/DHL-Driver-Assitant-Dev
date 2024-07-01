@@ -45,5 +45,7 @@
   "cbTotalBreak": "Toplam mola süresi (saat)",
   "cbTotalBreakDesc": "Gün boyunca sürücünün dinlendiği toplam süre.",
   "cbDestination": "Varış Noktası",
-  "cbDestinationDesc": "Her yolculuk için başlangıç ve bitiş noktası."
+  "cbDestinationDesc": "Her yolculuk için başlangıç ve bitiş noktası.",
+  "cbExample": "Kontrol kitabının doldurulması örneği",
+  "cbExampleDesc": "Sürücüler için kontrol kitabının doldurulması örneği (Satırlar)"
 }

@@ -45,5 +45,7 @@
   "cbTotalBreak": "Koha totale e pushimit (orë)",
   "cbTotalBreakDesc": "Koha totale që shoferi pushon për ditën.",
   "cbDestination": "Destinacioni",
-  "cbDestinationDesc": "Destinacioni fillestar dhe përfundimtar për çdo udhëtim."
+  "cbDestinationDesc": "Destinacioni fillestar dhe përfundimtar për çdo udhëtim.",
+  "cbExample": "Shembull i plotësimit të librit të kontrollit",
+  "cbExampleDesc": "Shembull i plotësimit të librit të kontrollit për shoferët (Linjat)"
 }

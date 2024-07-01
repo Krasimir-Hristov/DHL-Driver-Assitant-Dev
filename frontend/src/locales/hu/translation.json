@@ -45,5 +45,7 @@
   "cbTotalBreak": "Teljes szünet idő (óra)",
   "cbTotalBreakDesc": "Az idő, amely alatt a sofőr pihen a nap folyamán.",
   "cbDestination": "Úti cél",
-  "cbDestinationDesc": "Minden utazás kezdő és végpontja."
+  "cbDestinationDesc": "Minden utazás kezdő és végpontja.",
+  "cbExample": "A vezérlő könyv kitöltésének példája",
+  "cbExampleDesc": "Példa a vezérlő könyv kitöltésére a sofőrök számára (Sorok)"
 }

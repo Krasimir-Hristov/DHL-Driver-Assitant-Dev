@@ -45,5 +45,7 @@
   "cbTotalBreak": "Gesamtruhezeit (Stunden)",
   "cbTotalBreakDesc": "Die Gesamtzeit, die der Fahrer an einem Tag ruht.",
   "cbDestination": "Ziel",
-  "cbDestinationDesc": "Start- und Endziel für jede Fahrt."
+  "cbDestinationDesc": "Start- und Endziel für jede Fahrt.",
+  "cbExample": "Beispiel zum Ausfüllen des Kontrollbuchs",
+  "cbExampleDesc": "Beispiel zum Ausfüllen des Kontrollbuchs für Fahrer (Zeilen)"
 }

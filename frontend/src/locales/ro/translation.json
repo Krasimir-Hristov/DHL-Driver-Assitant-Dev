@@ -45,5 +45,7 @@
   "cbTotalBreak": "Total ore de pauză",
   "cbTotalBreakDesc": "Timpul total în care șoferul se odihnește într-o zi.",
   "cbDestination": "Destinație",
-  "cbDestinationDesc": "Destinația de început și de sfârșit pentru fiecare călătorie."
+  "cbDestinationDesc": "Destinația de început și de sfârșit pentru fiecare călătorie.",
+  "cbExample": "Exemplu de completare a cărții de control",
+  "cbExampleDesc": "Exemplu de completare a cărții de control pentru șoferi (Liniile)"
 }

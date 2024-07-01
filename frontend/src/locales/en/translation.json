@@ -45,5 +45,7 @@
   "cbTotalBreak": "Total break (hours)",
   "cbTotalBreakDesc": "The total time the driver rests for the day.",
   "cbDestination": "Destination",
-  "cbDestinationDesc": "Start and end destination for each trip."
+  "cbDestinationDesc": "Start and end destination for each trip.",
+  "cbExample": "Example of filling out the control book",
+  "cbExampleDesc": "Example of filling out the control book for drivers (Lines)"
 }

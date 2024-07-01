@@ -45,5 +45,7 @@
   "cbTotalBreak": "Ore totali di pausa",
   "cbTotalBreakDesc": "Il tempo totale in cui l'autista si riposa durante il giorno.",
   "cbDestination": "Destinazione",
-  "cbDestinationDesc": "Destinazione iniziale e finale per ogni viaggio."
+  "cbDestinationDesc": "Destinazione iniziale e finale per ogni viaggio.",
+  "cbExample": "Esempio di compilazione del registro di controllo",
+  "cbExampleDesc": "Esempio di compilazione del registro di controllo per conducenti (Linee)"
 }
