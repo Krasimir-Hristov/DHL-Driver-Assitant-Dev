@@ -43,5 +43,7 @@
   "cbTotalWork": "Gesamtarbeitszeit (Stunden)",
   "cbTotalWorkDesc": "Die Gesamtzeit, die der Fahrer an einem Tag Arbeitsaktivitäten durchführt.",
   "cbTotalBreak": "Gesamtruhezeit (Stunden)",
-  "cbTotalBreakDesc": "Die Gesamtzeit, die der Fahrer an einem Tag ruht."
+  "cbTotalBreakDesc": "Die Gesamtzeit, die der Fahrer an einem Tag ruht.",
+  "cbDestination": "Ziel",
+  "cbDestinationDesc": "Start- und Endziel für jede Fahrt."
 }

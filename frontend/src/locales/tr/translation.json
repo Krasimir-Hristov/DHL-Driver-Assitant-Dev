@@ -43,5 +43,7 @@
   "cbTotalWork": "Toplam çalışma süresi (saat)",
   "cbTotalWorkDesc": "Gün boyunca sürücünün çalışma faaliyetlerini gerçekleştirdiği toplam süre.",
   "cbTotalBreak": "Toplam mola süresi (saat)",
-  "cbTotalBreakDesc": "Gün boyunca sürücünün dinlendiği toplam süre."
+  "cbTotalBreakDesc": "Gün boyunca sürücünün dinlendiği toplam süre.",
+  "cbDestination": "Varış Noktası",
+  "cbDestinationDesc": "Her yolculuk için başlangıç ve bitiş noktası."
 }

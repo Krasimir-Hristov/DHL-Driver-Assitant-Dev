@@ -43,5 +43,7 @@
   "cbTotalWork": "Teljes munkaidő (óra)",
   "cbTotalWorkDesc": "Az idő, amely alatt a sofőr munkafeladatokat végez a nap folyamán.",
   "cbTotalBreak": "Teljes szünet idő (óra)",
-  "cbTotalBreakDesc": "Az idő, amely alatt a sofőr pihen a nap folyamán."
+  "cbTotalBreakDesc": "Az idő, amely alatt a sofőr pihen a nap folyamán.",
+  "cbDestination": "Úti cél",
+  "cbDestinationDesc": "Minden utazás kezdő és végpontja."
 }

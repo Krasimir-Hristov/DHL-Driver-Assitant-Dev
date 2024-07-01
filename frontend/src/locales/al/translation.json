@@ -43,5 +43,7 @@
   "cbTotalWork": "Koha totale e punës (orë)",
   "cbTotalWorkDesc": "Koha totale që shoferi kryen aktivitete pune për ditën.",
   "cbTotalBreak": "Koha totale e pushimit (orë)",
-  "cbTotalBreakDesc": "Koha totale që shoferi pushon për ditën."
+  "cbTotalBreakDesc": "Koha totale që shoferi pushon për ditën.",
+  "cbDestination": "Destinacioni",
+  "cbDestinationDesc": "Destinacioni fillestar dhe përfundimtar për çdo udhëtim."
 }

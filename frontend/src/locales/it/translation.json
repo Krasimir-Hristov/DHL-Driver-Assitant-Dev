@@ -43,5 +43,7 @@
   "cbTotalWork": "Ore totali di lavoro",
   "cbTotalWorkDesc": "Il tempo totale in cui l'autista svolge attività lavorative durante il giorno.",
   "cbTotalBreak": "Ore totali di pausa",
-  "cbTotalBreakDesc": "Il tempo totale in cui l'autista si riposa durante il giorno."
+  "cbTotalBreakDesc": "Il tempo totale in cui l'autista si riposa durante il giorno.",
+  "cbDestination": "Destinazione",
+  "cbDestinationDesc": "Destinazione iniziale e finale per ogni viaggio."
 }

@@ -43,5 +43,7 @@
   "cbTotalWork": "Total ore de muncă",
   "cbTotalWorkDesc": "Timpul total în care șoferul efectuează activități de muncă într-o zi.",
   "cbTotalBreak": "Total ore de pauză",
-  "cbTotalBreakDesc": "Timpul total în care șoferul se odihnește într-o zi."
+  "cbTotalBreakDesc": "Timpul total în care șoferul se odihnește într-o zi.",
+  "cbDestination": "Destinație",
+  "cbDestinationDesc": "Destinația de început și de sfârșit pentru fiecare călătorie."
 }
