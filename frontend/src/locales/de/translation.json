@@ -47,5 +47,7 @@
   "cbDestination": "Ziel",
   "cbDestinationDesc": "Start- und Endziel für jede Fahrt.",
   "cbExample": "Beispiel zum Ausfüllen des Kontrollbuchs",
-  "cbExampleDesc": "Beispiel zum Ausfüllen des Kontrollbuchs für Fahrer (Zeilen)"
+  "cbExampleDesc": "Beispiel zum Ausfüllen des Kontrollbuchs für Fahrer (Zeilen)",
+  "cbTotalDailyHours": "Gesamtstunden pro Tag",
+  "cbTotalDailyHoursDesc": "Gesamtstunden pro Tag, hier sollte die Zahl 24 eingetragen werden"
 }

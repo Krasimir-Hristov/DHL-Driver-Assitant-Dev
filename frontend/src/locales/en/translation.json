@@ -47,5 +47,7 @@
   "cbDestination": "Destination",
   "cbDestinationDesc": "Start and end destination for each trip.",
   "cbExample": "Example of filling out the control book",
-  "cbExampleDesc": "Example of filling out the control book for drivers (Lines)"
+  "cbExampleDesc": "Example of filling out the control book for drivers (Lines)",
+  "cbTotalDailyHours": "Total daily hours",
+  "cbTotalDailyHoursDesc": "Total hours in a day, this should always be 24"
 }
