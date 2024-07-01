@@ -12,6 +12,7 @@ import breakLineImg from '../assets/controlBookImg/cbPause.jpg';
 import workLineImg from '../assets/controlBookImg/cbLagerWork.jpg';
 import destinationImg from '../assets/controlBookImg/cbDestination.jpg';
 import exampleImg from '../assets/controlBookImg/cbDailyDiagram.jpg';
+import startKMImg from '../assets/controlBookImg/cbKMStart.jpg';
 
 import DayOfYear from '../components/DayOfYear';
 import CurrentDate from '../components/CurrentDate';
@@ -60,6 +61,16 @@ const ControllBook: React.FC = () => {
       title: `${t('cbDestination')}`, // Примерен ключ от вашите i18n ресурси
       image: destinationImg,
       description: `${t('cbDestinationDesc')}`, // Примерен ключ от вашите i18n ресурси
+    },
+    {
+      title: `${t('cbStart')}`, // Примерен ключ от вашите i18n ресурси
+      image: startKMImg,
+      description: `${t('cbStartDesc')}`, // Примерен ключ от вашите i18n ресурси
+    },
+    {
+      title: `${t('cbEnd')}`, // Примерен ключ от вашите i18n ресурси
+      image: startKMImg,
+      description: `${t('cbStacbEndDescrtDesc')}`, // Примерен ключ от вашите i18n ресурси
     },
 
     // Добавете повече обекти тук, ако е необходимо
