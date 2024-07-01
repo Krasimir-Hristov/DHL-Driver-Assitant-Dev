@@ -6,6 +6,7 @@ import greenBookImg from '../assets/controlBookImg/controllBook.jpg';
 import dayOfYearImg from '../assets/controlBookImg/cbDayOfYear.jpg';
 import nameAndFamilyImg from '../assets/controlBookImg/cbName.jpg';
 import currentDateImg from '../assets/controlBookImg/cbDate.jpg';
+import licensePlateImg from '../assets/controlBookImg/cbPlates.jpg';
 
 import DayOfYear from '../components/DayOfYear';
 import CurrentDate from '../components/CurrentDate';
@@ -24,6 +25,11 @@ const ControllBook: React.FC = () => {
       title: `${t('cbNameAndFamily')}`, // Примерен ключ от вашите i18n ресурси
       image: nameAndFamilyImg,
       description: `${t('cbNameAndFamilyDesc')}`, // Примерен ключ от вашите i18n ресурси
+    },
+    {
+      title: `${t('cbLicensePlate')}`, // Примерен ключ от вашите i18n ресурси
+      image: licensePlateImg,
+      description: `${t('cbLicensePlateDesc')}`, // Примерен ключ от вашите i18n ресурси
     },
 
     // Добавете повече обекти тук, ако е необходимо
