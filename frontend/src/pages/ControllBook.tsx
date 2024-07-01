@@ -2,7 +2,7 @@ import React from 'react';
 
 import { useTranslation } from 'react-i18next';
 
-import greenBook from '../assets/controlBookImg/controllBook.jpg';
+import greenBookImg from '../assets/controlBookImg/controllBook.jpg';
 import dayOfYearImg from '../assets/controlBookImg/cbDayOfYear.jpg';
 import DayOfYear from '../components/DayOfYear';
 import CurrentDate from '../components/CurrentDate';
@@ -14,7 +14,7 @@ const ControllBook: React.FC = () => {
   const rows = [
     {
       title: `${t('cbNameAndAddress')}`, // Примерен ключ от вашите i18n ресурси
-      image: greenBook,
+      image: greenBookImg,
       description: `${t('cbNameAndAddressDesc')}`, // Примерен ключ от вашите i18n ресурси
     },
 
