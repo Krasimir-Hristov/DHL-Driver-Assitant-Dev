@@ -17,6 +17,7 @@ import endKMImg from '../assets/controlBookImg/cbKMEnd.jpg';
 import totalKMImg from '../assets/controlBookImg/cbSumKM.jpg';
 import totalDrivingImg from '../assets/controlBookImg/cbSumDriving.jpg';
 import totalBreakImg from '../assets/controlBookImg/cbSumPause.jpg';
+import totalWorkImg from '../assets/controlBookImg/cbSumLager.jpg';
 
 import DayOfYear from '../components/DayOfYear';
 import CurrentDate from '../components/CurrentDate';
@@ -90,6 +91,11 @@ const ControllBook: React.FC = () => {
       title: `${t('cbTotalBreak')}`, // Примерен ключ от вашите i18n ресурси
       image: totalBreakImg,
       description: `${t('cbTotalBreakDesc')}`, // Примерен ключ от вашите i18n ресурси
+    },
+    {
+      title: `${t('cbTotalWork')}`, // Примерен ключ от вашите i18n ресурси
+      image: totalWorkImg,
+      description: `${t('cbTotalWorkDesc')}`, // Примерен ключ от вашите i18n ресурси
     },
 
     // Добавете повече обекти тук, ако е необходимо
