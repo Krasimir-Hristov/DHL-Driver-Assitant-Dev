@@ -2,8 +2,8 @@ import React from 'react';
 
 import { useTranslation } from 'react-i18next';
 
-import greenBook from '../assets/controllBook.jpg';
-import dayOfYearImg from '../assets/cbDayOfYear.jpg';
+import greenBook from '../assets/controlBookImg/controllBook.jpg';
+import dayOfYearImg from '../assets/controlBookImg/cbDayOfYear.jpg';
 import DayOfYear from '../components/DayOfYear';
 import CurrentDate from '../components/CurrentDate';
 import DateRange from '../components/DateRange';
