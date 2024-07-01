@@ -8,6 +8,7 @@ import nameAndFamilyImg from '../assets/controlBookImg/cbName.jpg';
 import currentDateImg from '../assets/controlBookImg/cbDate.jpg';
 import licensePlateImg from '../assets/controlBookImg/cbPlates.jpg';
 import drivingLineImg from '../assets/controlBookImg/cbDriving.jpg';
+import breakLineImg from '../assets/controlBookImg/cbPause.jpg';
 
 import DayOfYear from '../components/DayOfYear';
 import CurrentDate from '../components/CurrentDate';
@@ -36,6 +37,11 @@ const ControllBook: React.FC = () => {
       title: `${t('cbDrivingLine')}`, // Примерен ключ от вашите i18n ресурси
       image: drivingLineImg,
       description: `${t('cbDrivingLineDesc')}`, // Примерен ключ от вашите i18n ресурси
+    },
+    {
+      title: `${t('cbBreakLine')}`, // Примерен ключ от вашите i18n ресурси
+      image: breakLineImg,
+      description: `${t('cbBreakLineDesc')}`, // Примерен ключ от вашите i18n ресурси
     },
 
     // Добавете повече обекти тук, ако е необходимо
