@@ -5,6 +5,7 @@ import { useTranslation } from 'react-i18next';
 import greenBookImg from '../assets/controlBookImg/controllBook.jpg';
 import dayOfYearImg from '../assets/controlBookImg/cbDayOfYear.jpg';
 import nameAndFamilyImg from '../assets/controlBookImg/cbName.jpg';
+import currentDateImg from '../assets/controlBookImg/cbDate.jpg';
 
 import DayOfYear from '../components/DayOfYear';
 import CurrentDate from '../components/CurrentDate';
@@ -41,15 +42,13 @@ const ControllBook: React.FC = () => {
       <h1 className='text-2xl md:text-3xl lg:text-4xl mb-8 font-bold text-center '>
         {t('controlBookInfo')}
       </h1>
-      <DayOfYear />
-      <CurrentDate />
 
       <h2 className='justify-center text-center mt-5'>
         <DateRange />
       </h2>
 
       <div>
-        <h2 className='justify-center text-center mt-5 text-3xl underline uppercase'>
+        <h2 className='justify-center text-center mt-5 text-3xl  uppercase'>
           {t('cbDayOfTheYear')}
         </h2>
         <div className='flex justify-center my-4'>
@@ -68,15 +67,34 @@ const ControllBook: React.FC = () => {
         <hr className='border-t border-gray-400 mx-4 my-4' />
       </div>
 
+      <div>
+        <h2 className='justify-center text-center mt-5 text-3xl  uppercase'>
+          {t('cbDate')}
+        </h2>
+        <div className='flex justify-center my-4'>
+          <img
+            src={currentDateImg}
+            alt={t('cbDate')}
+            width={400} // Запазете тези стойности за по-малки екрани
+            height={400} // Запазете тези стойности за по-малки екрани
+            className='w-96 h-96 lg:w-[500px] lg:h-[500px]' // Добавете класове за големи екрани
+          />
+        </div>
+        <p className='justify-center text-center text-2xl'>
+          <CurrentDate />
+        </p>
+        <hr className='border-t border-gray-400 mx-4 my-4' />
+      </div>
+
       {rows.map((row, index) => (
         <div key={index} className='row'>
-          <h2 className='justify-center text-center mt-5 text-3xl underline uppercase'>
+          <h2 className='justify-center text-center mt-5 text-3xl  uppercase'>
             {row.title}
           </h2>
           <div className='flex justify-center my-4'>
             <img
               src={row.image}
-              alt='Calendar'
+              alt={row.title}
               width={400} // Запазете тези стойности за по-малки екрани
               height={400} // Запазете тези стойности за по-малки екрани
               className='w-96 h-96 lg:w-[500px] lg:h-[500px]' // Добавете класове за големи екрани
