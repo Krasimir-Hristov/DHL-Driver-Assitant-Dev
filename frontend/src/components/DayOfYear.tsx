@@ -12,7 +12,7 @@ const DayOfYear: React.FC = () => {
 
   return (
     <div className='text-2xl'>
-      <span className='font-semibold'>{t('dayOfYear')}:</span>{' '}
+      <span className='font-semibold'>{t('cbDayOfTheYearDesc')}</span>{' '}
       <span className='font-extrabold'>{day}</span>
     </div>
   );
