@@ -28,7 +28,7 @@ const DayOffCalendar: React.FC = () => {
 
           <div className='mt-10 border-8 border-black bg-yellow-500'>
             <h3 className='font-extrabold text-red-800 text-3xl uppercase'>
-              Важно!!!
+              {t('important')}
             </h3>
             <p className='font-extrabold text2xl'>
               След като разберете коя е вашата група, важно е да запомните, че

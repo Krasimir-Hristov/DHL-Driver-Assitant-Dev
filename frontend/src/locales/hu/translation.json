@@ -53,5 +53,6 @@
   "dayOffCalendar": "Szabadnap naptár",
   "myGroup": "Melyik a csoportom?",
   "findGroupA": "A csoport megtalálásához szükséges, hogy munkaidőtáblát kapjon a hónapra, amelyet munkaadója biztosít",
-  "findGroupB": "Ezután csoportokat kell váltania az alkalmazásban (1-től 9-ig), összehasonlítva a szabadnapjait a naptári rendszerében az alábbi naptárban szereplőkkel. Ha a szabadnapok megegyeznek, ez a csoportja."
+  "findGroupB": "Ezután csoportokat kell váltania az alkalmazásban (1-től 9-ig), összehasonlítva a szabadnapjait a naptári rendszerében az alábbi naptárban szereplőkkel. Ha a szabadnapok megegyeznek, ez a csoportja.",
+  "important": "Fontos!!!"
 }
