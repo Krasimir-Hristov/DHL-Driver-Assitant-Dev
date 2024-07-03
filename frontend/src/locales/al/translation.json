@@ -52,5 +52,6 @@
   "cbTotalDailyHoursDesc": "Orët totale në një ditë, këtu duhet të plotësohet numri 24",
   "dayOffCalendar": "Kalendar i ditëve të pushimit",
   "myGroup": "Cili është grupi im?",
-  "findGroupA": "Gjetja e grupit tuaj kërkon të keni një orar pune për muajin, të dhënë nga punëdhënësi juaj"
+  "findGroupA": "Gjetja e grupit tuaj kërkon të keni një orar pune për muajin, të dhënë nga punëdhënësi juaj",
+  "findGroupB": "Pastaj duhet të ndërroni grupet në aplikacion (nga 1 deri në 9), duke krahasuar ditët e pushimit në sistemin tuaj kalendarik me ato në kalendarin më poshtë. Kur ditët e pushimit përputhen, kjo është grupi juaj."
 }

@@ -52,5 +52,6 @@
   "cbTotalDailyHoursDesc": "Totalul orelor într-o zi, aici trebuie completat numărul 24",
   "dayOffCalendar": "Calendar de zile libere",
   "myGroup": "Care este grupul meu?",
-  "findGroupA": "Găsirea grupului dvs. necesită să aveți un program de lucru pentru luna respectivă, furnizat de angajatorul dvs."
+  "findGroupA": "Găsirea grupului dvs. necesită să aveți un program de lucru pentru luna respectivă, furnizat de angajatorul dvs.",
+  "findGroupB": "Apoi trebuie să schimbați grupurile în aplicație (de la 1 la 9), potrivind zilele libere din sistemul dvs. de calendar cu cele din calendarul de mai jos. Când zilele libere se potrivesc, aceasta este grupul dvs."
 }

@@ -18,15 +18,12 @@ const DayOffCalendar: React.FC = () => {
             {t('myGroup')}
           </h2>
 
-          <p className='font-extrabold text-2xl'>
+          <p className='font-bold text-2xl'>
             {t('findGroupA')} (
             <span className='text-red-800 bg-yellow-500 font-extrabold rounded'>
               DHL
             </span>
-            ). След това трябва да сменяте групите в приложението (от 1 до 9),
-            като съпоставяте почивните дни във вашата календарна система с тези
-            в календара по-долу. Когато почивните дни съвпаднат, това е вашата
-            група.
+            ). {t('findGroupB')}
           </p>
 
           <div className='mt-10 border-8 border-black bg-yellow-500'>

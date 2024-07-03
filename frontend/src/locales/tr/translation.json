@@ -52,5 +52,6 @@
   "cbTotalDailyHoursDesc": "Bir günde toplam saat, burada her zaman 24 yazılmalıdır",
   "dayOffCalendar": "Tatil Takvimi",
   "myGroup": "Benim grubum ne?",
-  "findGroupA": "Grubunuzu bulmak için işvereniniz tarafından sağlanan aylık çalışma programına sahip olmanız gerekmektedir"
+  "findGroupA": "Grubunuzu bulmak için işvereniniz tarafından sağlanan aylık çalışma programına sahip olmanız gerekmektedir",
+  "findGroupB": "Daha sonra uygulamada grupları değiştirmeniz gerekmektedir (1'den 9'a kadar), tatil günlerinizi takvim sisteminizdeki tatil günleriyle karşılaştırarak aşağıdaki takvimdeki tatil günleriyle eşleştirmeniz gerekmektedir. Tatil günleri eşleştiğinde, bu sizin grubunuzdur."
 }

@@ -52,5 +52,6 @@
   "cbTotalDailyHoursDesc": "Gesamtstunden pro Tag, hier sollte die Zahl 24 eingetragen werden",
   "dayOffCalendar": "Freizeitkalender",
   "myGroup": "Welche ist meine Gruppe?",
-  "findGroupA": "Das Finden Ihrer Gruppe erfordert, dass Sie einen Arbeitsplan für den Monat haben, der von Ihrem Arbeitgeber bereitgestellt wird"
+  "findGroupA": "Das Finden Ihrer Gruppe erfordert, dass Sie einen Arbeitsplan für den Monat haben, der von Ihrem Arbeitgeber bereitgestellt wird",
+  "findGroupB": "Dann müssen Sie die Gruppen in der Anwendung (von 1 bis 9) vergleichen, indem Sie die freien Tage in Ihrem Kalendersystem mit denen im Kalender unten vergleichen. Wenn die freien Tage übereinstimmen, ist das Ihre Gruppe."
 }

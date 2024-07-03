@@ -52,5 +52,6 @@
   "cbTotalDailyHoursDesc": "Total hours in a day, this should always be 24",
   "dayOffCalendar": "Day Off Calendar",
   "myGroup": "Which is my group?",
-  "findGroupA": "Finding your group requires you to have a work schedule for the month provided by your employer"
+  "findGroupA": "Finding your group requires you to have a work schedule for the month provided by your employer",
+  "findGroupB": "Then you need to switch groups in the application (from 1 to 9) by matching your days off in your calendar system with those in the calendar below. When the days off match, that is your group."
 }
