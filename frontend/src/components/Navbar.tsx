@@ -96,7 +96,7 @@ const Navbar: React.FC = () => {
           to='/contact'
           className='mx-2 font-bold text-lg md:text-base md:font-semibold text-yellow-500'
         >
-          Contact
+          {t('calendar')}
         </Link>
       </div>
     </nav>

@@ -55,5 +55,6 @@
   "findGroupA": "Gjetja e grupit tuaj kërkon të keni një orar pune për muajin, të dhënë nga punëdhënësi juaj",
   "findGroupB": "Pastaj duhet të ndërroni grupet në aplikacion (nga 1 deri në 9), duke krahasuar ditët e pushimit në sistemin tuaj kalendarik me ato në kalendarin më poshtë. Kur ditët e pushimit përputhen, kjo është grupi juaj.",
   "important": "E rëndësishme!!!",
-  "importantCalendarText": "Pas gjetjes së grupit tuaj, është e rëndësishme të kujtoni se AI NDIKUR nuk ndryshon kurrë. Mund të futni gjithmonë përsëri në kalendar për të parë ditët e pushimit tuaja pa e kërkuar përsëri."
+  "importantCalendarText": "Pas gjetjes së grupit tuaj, është e rëndësishme të kujtoni se AI NDIKUR nuk ndryshon kurrë. Mund të futni gjithmonë përsëri në kalendar për të parë ditët e pushimit tuaja pa e kërkuar përsëri.",
+  "calendar": "Kalendar"
 }

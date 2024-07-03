@@ -55,5 +55,6 @@
   "findGroupA": "Das Finden Ihrer Gruppe erfordert, dass Sie einen Arbeitsplan für den Monat haben, der von Ihrem Arbeitgeber bereitgestellt wird",
   "findGroupB": "Dann müssen Sie die Gruppen in der Anwendung (von 1 bis 9) vergleichen, indem Sie die freien Tage in Ihrem Kalendersystem mit denen im Kalender unten vergleichen. Wenn die freien Tage übereinstimmen, ist das Ihre Gruppe.",
   "important": "Wichtig!!!",
-  "importantCalendarText": "Nachdem Sie Ihre Gruppe gefunden haben, ist es wichtig zu bedenken, dass sie sich NIE ändert. Sie können sie immer wieder im Kalender eingeben, um Ihre freien Tage anzuzeigen, ohne sie erneut suchen zu müssen."
+  "importantCalendarText": "Nachdem Sie Ihre Gruppe gefunden haben, ist es wichtig zu bedenken, dass sie sich NIE ändert. Sie können sie immer wieder im Kalender eingeben, um Ihre freien Tage anzuzeigen, ohne sie erneut suchen zu müssen.",
+  "calendar": "Kalender"
 }
