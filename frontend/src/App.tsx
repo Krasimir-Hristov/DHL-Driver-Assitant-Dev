@@ -19,7 +19,7 @@ const App: React.FC = () => {
             <Routes>
               <Route path='/' element={<Home />} />
               <Route path='/controllbook' element={<ControllBook />} />
-              <Route path='/contact' element={<DayOffCalendar />} />
+              <Route path='/calendar' element={<DayOffCalendar />} />
             </Routes>
           </main>
           <Footer />

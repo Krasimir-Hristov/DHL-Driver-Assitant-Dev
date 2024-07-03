@@ -93,7 +93,7 @@ const Navbar: React.FC = () => {
           {t('controllBook')}
         </Link>
         <Link
-          to='/contact'
+          to='/calendar'
           className='mx-2 font-bold text-lg md:text-base md:font-semibold text-yellow-500'
         >
           {t('calendar')}
