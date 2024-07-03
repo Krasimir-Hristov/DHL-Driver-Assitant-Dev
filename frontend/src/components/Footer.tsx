@@ -7,7 +7,7 @@ const Footer: React.FC = () => {
   return (
     <footer className='bg-yellow-500 p-4'>
       <div className='container mx-auto flex flex-col md:flex-row justify-between items-center text-center md:text-left'>
-        <Link to='/' className='text-red-700 text-2xl font-bold'>
+        <Link to='/' className='text-red-800 text-2xl font-bold'>
           <div className='flex gap-2 items-center'>
             <p>DHL Driver Assistant</p>
             <p className='text-black font-extrabold'>{t('indicator')}</p>
