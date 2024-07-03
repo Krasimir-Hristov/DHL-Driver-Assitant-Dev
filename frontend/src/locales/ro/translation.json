@@ -54,5 +54,6 @@
   "myGroup": "Care este grupul meu?",
   "findGroupA": "Găsirea grupului dvs. necesită să aveți un program de lucru pentru luna respectivă, furnizat de angajatorul dvs.",
   "findGroupB": "Apoi trebuie să schimbați grupurile în aplicație (de la 1 la 9), potrivind zilele libere din sistemul dvs. de calendar cu cele din calendarul de mai jos. Când zilele libere se potrivesc, aceasta este grupul dvs.",
-  "important": "Important!!!"
+  "important": "Important!!!",
+  "importantCalendarText": "După ce găsiți grupul dvs., este important să vă amintiți că acesta NU se schimbă niciodată. Îl puteți introduce întotdeauna din nou în calendar pentru a vă vedea zilele libere, fără a-l căuta din nou."
 }

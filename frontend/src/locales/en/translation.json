@@ -54,5 +54,6 @@
   "myGroup": "Which is my group?",
   "findGroupA": "Finding your group requires you to have a work schedule for the month provided by your employer",
   "findGroupB": "Then you need to switch groups in the application (from 1 to 9) by matching your days off in your calendar system with those in the calendar below. When the days off match, that is your group.",
-  "important": "Important!!!"
+  "important": "Important!!!",
+  "importantCalendarText": "Once you find your group, it's important to remember that it NEVER changes. You can always enter it again in the calendar to view your days off without searching for it again."
 }

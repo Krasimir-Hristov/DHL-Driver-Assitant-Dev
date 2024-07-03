@@ -31,10 +31,7 @@ const DayOffCalendar: React.FC = () => {
               {t('important')}
             </h3>
             <p className='font-extrabold text2xl'>
-              След като разберете коя е вашата група, важно е да запомните, че
-              тя <span>НИКОГА</span> не се променя. Можете винаги да я въведете
-              отново в календара, за да видите вашите почивни дни без да я
-              търсите отново.
+              {t('importantCalendarText')}
             </p>
           </div>
         </div>

@@ -54,5 +54,6 @@
   "myGroup": "Qual è il mio gruppo?",
   "findGroupA": "Per trovare il tuo gruppo, è necessario avere un programma di lavoro per il mese fornito dal tuo datore di lavoro",
   "findGroupB": "Successivamente, è necessario cambiare gruppi nell'applicazione (da 1 a 9), confrontando i giorni di riposo nel tuo sistema di calendario con quelli nel calendario sottostante. Quando i giorni di riposo coincidono, questo è il tuo gruppo.",
-  "important": "Importante!!!"
+  "important": "Importante!!!",
+  "importantCalendarText": "Una volta trovato il tuo gruppo, è importante ricordare che NON cambia MAI. Puoi sempre inserirlo nuovamente nel calendario per visualizzare i tuoi giorni di riposo senza doverlo cercare nuovamente."
 }
