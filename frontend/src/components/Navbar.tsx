@@ -23,7 +23,7 @@ const languages: Language[] = [
 ];
 
 const Navbar: React.FC = () => {
-  const { i18n } = useTranslation();
+  const { i18n, t } = useTranslation();
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [currentLanguage, setCurrentLanguage] = useState<Language>({
     code: 'GB',
@@ -90,7 +90,7 @@ const Navbar: React.FC = () => {
           to='/controllbook'
           className='mx-2 font-bold text-lg md:text-base md:font-semibold text-yellow-500'
         >
-          ControllBook
+          {t('controllBook')}
         </Link>
         <Link
           to='/contact'
