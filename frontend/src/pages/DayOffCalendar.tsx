@@ -30,7 +30,7 @@ const DayOffCalendar: React.FC = () => {
             <h3 className='font-extrabold text-red-800 text-3xl uppercase'>
               {t('important')}
             </h3>
-            <p className='font-extrabold text2xl'>
+            <p className='font-extrabold text-2xl'>
               {t('importantCalendarText')}
             </p>
           </div>
