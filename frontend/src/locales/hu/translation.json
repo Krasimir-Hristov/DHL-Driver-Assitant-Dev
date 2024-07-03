@@ -50,5 +50,7 @@
   "cbExampleDesc": "Példa a vezérlő könyv kitöltésére a sofőrök számára (Sorok)",
   "cbTotalDailyHours": "Napi összes óra",
   "cbTotalDailyHoursDesc": "A nap teljes óraszáma, itt mindig 24-et kell beírni",
-  "dayOffCalendar": "Szabadnap naptár"
+  "dayOffCalendar": "Szabadnap naptár",
+  "myGroup": "Melyik a csoportom?",
+  "findGroupA": "A csoport megtalálásához szükséges, hogy munkaidőtáblát kapjon a hónapra, amelyet munkaadója biztosít"
 }

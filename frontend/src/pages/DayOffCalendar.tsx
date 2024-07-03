@@ -15,12 +15,11 @@ const DayOffCalendar: React.FC = () => {
 
         <div className='justify-center text-center mx-3 '>
           <h2 className='text-red-800 font-extrabold  uppercase py-4 text-3xl  decoration-red-800'>
-            Коя е моята група?
+            {t('myGroup')}
           </h2>
 
           <p className='font-extrabold text-2xl'>
-            Намирането на вашата група изисква да имате работен график за
-            месеца, предоставен от вашият работодател (
+            {t('findGroupA')} (
             <span className='text-red-800 bg-yellow-500 font-extrabold rounded'>
               DHL
             </span>

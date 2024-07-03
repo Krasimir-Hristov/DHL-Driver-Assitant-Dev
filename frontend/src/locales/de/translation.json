@@ -50,5 +50,7 @@
   "cbExampleDesc": "Beispiel zum Ausfüllen des Kontrollbuchs für Fahrer (Zeilen)",
   "cbTotalDailyHours": "Gesamtstunden pro Tag",
   "cbTotalDailyHoursDesc": "Gesamtstunden pro Tag, hier sollte die Zahl 24 eingetragen werden",
-  "dayOffCalendar": "Freizeitkalender"
+  "dayOffCalendar": "Freizeitkalender",
+  "myGroup": "Welche ist meine Gruppe?",
+  "findGroupA": "Das Finden Ihrer Gruppe erfordert, dass Sie einen Arbeitsplan für den Monat haben, der von Ihrem Arbeitgeber bereitgestellt wird"
 }

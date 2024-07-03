@@ -50,5 +50,7 @@
   "cbExampleDesc": "Sürücüler için kontrol kitabının doldurulması örneği (Satırlar)",
   "cbTotalDailyHours": "Toplam günlük saat",
   "cbTotalDailyHoursDesc": "Bir günde toplam saat, burada her zaman 24 yazılmalıdır",
-  "dayOffCalendar": "Tatil Takvimi"
+  "dayOffCalendar": "Tatil Takvimi",
+  "myGroup": "Benim grubum ne?",
+  "findGroupA": "Grubunuzu bulmak için işvereniniz tarafından sağlanan aylık çalışma programına sahip olmanız gerekmektedir"
 }

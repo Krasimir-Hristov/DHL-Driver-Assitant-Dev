@@ -50,5 +50,7 @@
   "cbExampleDesc": "Exemplu de completare a cărții de control pentru șoferi (Liniile)",
   "cbTotalDailyHours": "Total ore zilnice",
   "cbTotalDailyHoursDesc": "Totalul orelor într-o zi, aici trebuie completat numărul 24",
-  "dayOffCalendar": "Calendar de zile libere"
+  "dayOffCalendar": "Calendar de zile libere",
+  "myGroup": "Care este grupul meu?",
+  "findGroupA": "Găsirea grupului dvs. necesită să aveți un program de lucru pentru luna respectivă, furnizat de angajatorul dvs."
 }

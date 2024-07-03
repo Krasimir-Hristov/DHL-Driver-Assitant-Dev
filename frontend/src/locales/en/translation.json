@@ -50,5 +50,7 @@
   "cbExampleDesc": "Example of filling out the control book for drivers (Lines)",
   "cbTotalDailyHours": "Total daily hours",
   "cbTotalDailyHoursDesc": "Total hours in a day, this should always be 24",
-  "dayOffCalendar": "Day Off Calendar"
+  "dayOffCalendar": "Day Off Calendar",
+  "myGroup": "Which is my group?",
+  "findGroupA": "Finding your group requires you to have a work schedule for the month provided by your employer"
 }

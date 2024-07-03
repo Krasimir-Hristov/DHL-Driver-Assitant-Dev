@@ -50,5 +50,7 @@
   "cbExampleDesc": "Esempio di compilazione del registro di controllo per conducenti (Linee)",
   "cbTotalDailyHours": "Ore totali giornaliere",
   "cbTotalDailyHoursDesc": "Ore totali in un giorno, qui dovrebbe essere sempre 24",
-  "dayOffCalendar": "Calendario dei giorni liberi"
+  "dayOffCalendar": "Calendario dei giorni liberi",
+  "myGroup": "Qual è il mio gruppo?",
+  "findGroupA": "Per trovare il tuo gruppo, è necessario avere un programma di lavoro per il mese fornito dal tuo datore di lavoro"
 }

@@ -50,5 +50,7 @@
   "cbExampleDesc": "Shembull i plotësimit të librit të kontrollit për shoferët (Linjat)",
   "cbTotalDailyHours": "Orët totale ditore",
   "cbTotalDailyHoursDesc": "Orët totale në një ditë, këtu duhet të plotësohet numri 24",
-  "dayOffCalendar": "Kalendar i ditëve të pushimit"
+  "dayOffCalendar": "Kalendar i ditëve të pushimit",
+  "myGroup": "Cili është grupi im?",
+  "findGroupA": "Gjetja e grupit tuaj kërkon të keni një orar pune për muajin, të dhënë nga punëdhënësi juaj"
 }
