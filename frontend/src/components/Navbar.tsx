@@ -50,7 +50,7 @@ const Navbar: React.FC = () => {
     <nav className='fixed w-full top-0  bg-yellow-500 p-2 md:p-4 z-50'>
       <div className='container mx-auto flex justify-between items-center'>
         <div className='flex items-center'>
-          <Link to='/' className='text-red-700 text-2xl font-bold'>
+          <Link to='/' className='text-red-800 text-2xl font-bold'>
             <div className='flex gap-2 items-center'>
               <p className='text-3xl'>DHL Driver Assistant</p>
               <FlagIcon
