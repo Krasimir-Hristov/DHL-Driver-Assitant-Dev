@@ -146,10 +146,10 @@ const ControllBook: React.FC = () => {
             className='w-96 h-96 lg:w-[500px] lg:h-[500px]' // Добавете класове за големи екрани
           />
         </div>
-        <p className='justify-center text-center text-2xl'>
+        <span className='justify-center text-center text-2xl'>
           {' '}
           <DayOfYear />{' '}
-        </p>
+        </span>
         <hr className='border-t border-gray-400 mx-4 my-4' />
       </div>
 
@@ -166,9 +166,9 @@ const ControllBook: React.FC = () => {
             className='w-96 h-96 lg:w-[500px] lg:h-[500px]' // Добавете класове за големи екрани
           />
         </div>
-        <p className='justify-center text-center text-2xl'>
+        <span className='justify-center text-center text-2xl'>
           <CurrentDate />
-        </p>
+        </span>
         <hr className='border-t border-gray-400 mx-4 my-4' />
       </div>
 
