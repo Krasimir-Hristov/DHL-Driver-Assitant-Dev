@@ -15,7 +15,7 @@ const App: React.FC = () => {
         <div className='flex flex-col min-h-screen'>
           <Navbar />
           {/* Increase padding top for different screen sizes even more */}
-          <main className='flex-grow mb-4 pt-24 md:pt-28'>
+          <main className='flex-grow mb-4 pt-24 md:pt-28 '>
             <Routes>
               <Route path='/' element={<Home />} />
               <Route path='/controllbook' element={<ControllBook />} />
