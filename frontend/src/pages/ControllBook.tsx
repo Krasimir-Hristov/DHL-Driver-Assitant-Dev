@@ -119,11 +119,13 @@ const ControllBook: React.FC = () => {
         <h1 className='text-red-800 font-extrabold bg-yellow-500 justify-center text-center uppercase py-4 text-2xl  decoration-red-800  md:text-6xl'>
           {t('controllBook')}
         </h1>
-        <p className='text-lg text-justify mx-4 my-2'>{t('cbDescription')}</p>
+        <p className='text-lg text-justify font-bold mx-4 my-2'>
+          {t('cbDescription')}
+        </p>
         <hr className='border-t border-gray-400 mx-4 my-4' />
       </div>
 
-      <h1 className='text-2xl md:text-3xl lg:text-4xl mb-8 font-bold text-center '>
+      <h1 className='text-2xl md:text-3xl lg:text-4xl mb-8 font-extrabold text-center '>
         {t('controlBookInfo')}
       </h1>
 
