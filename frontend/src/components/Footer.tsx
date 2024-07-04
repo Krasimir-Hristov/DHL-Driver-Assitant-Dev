@@ -19,7 +19,7 @@ const Footer: React.FC = () => {
           rel='noopener noreferrer'
           className='text-black font-bold text-lg mt-2 md:mt-0'
         >
-          {t('createdByAndSupported')}{' '}
+          {t('createdByAndSupported')}
           <span className='underline'>KRASIMIR HRISTOV</span>
         </a>
       </div>
