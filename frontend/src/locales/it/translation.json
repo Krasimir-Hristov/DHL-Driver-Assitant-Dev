@@ -56,5 +56,9 @@
   "findGroupB": "Successivamente, è necessario cambiare gruppi nell'applicazione (da 1 a 9), confrontando i giorni di riposo nel tuo sistema di calendario con quelli nel calendario sottostante. Quando i giorni di riposo coincidono, questo è il tuo gruppo.",
   "important": "Importante!!!",
   "importantCalendarText": "Una volta trovato il tuo gruppo, è importante ricordare che NON cambia MAI. Puoi sempre inserirlo nuovamente nel calendario per visualizzare i tuoi giorni di riposo senza doverlo cercare nuovamente.",
-  "calendar": "Calendario"
+  "calendar": "Calendario",
+  "greeding": "Ciao, colleghi!",
+  "Wellcome": "Benvenuti nell'applicazione che vi aiuta a gestire la vostra giornata lavorativa e risparmiare tempo.",
+  "homeDesc": "Questa applicazione è uno strumento fondamentale per i conducenti di DHL, offrendo numerosi benefici e facilitazioni. Con essa, potete risparmiare notevolmente tempo, verificare in qualsiasi momento i vostri giorni di riposo per anni a venire, compilare facilmente e velocemente il vostro diario di bordo con le informazioni necessarie e trovare numeri importanti di telefono per emergenze. L'applicazione vi consente di scannerizzare i codici a barre attuali e di pianificare rotte in modo più efficiente, garantendo migliori risultati con il sistema di navigazione MONA e molte altre utili funzioni.",
+  "homeEnd": "Una piacevole giornata lavorativa!"
 }

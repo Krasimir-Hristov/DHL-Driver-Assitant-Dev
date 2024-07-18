@@ -56,5 +56,9 @@
   "findGroupB": "Pastaj duhet të ndërroni grupet në aplikacion (nga 1 deri në 9), duke krahasuar ditët e pushimit në sistemin tuaj kalendarik me ato në kalendarin më poshtë. Kur ditët e pushimit përputhen, kjo është grupi juaj.",
   "important": "E rëndësishme!!!",
   "importantCalendarText": "Pas gjetjes së grupit tuaj, është e rëndësishme të kujtoni se AI NDIKUR nuk ndryshon kurrë. Mund të futni gjithmonë përsëri në kalendar për të parë ditët e pushimit tuaja pa e kërkuar përsëri.",
-  "calendar": "Kalendar"
+  "calendar": "Kalendar",
+  "greeding": "Përshëndetje kolegëve!",
+  "Wellcome": "Mirë se vini në aplikacionin që ju ndihmon të menaxhoni ditën tuaj të punës dhe të kurseni kohë.",
+  "homeDesc": "Ky aplikacion është një mjet kyç për shoferët e DHL, duke ofruar shumë përfitime dhe lehtësira. Me të, mund të kurseni kohë në mënyrë të konsiderueshme, mund të kontrolloni çdo kohë ditët tuaja të lira për vite të ardhshme, plotësoni me lehtësi dhe shpejtësi librin e kontrollit me informacionin e nevojshëm dhe gjeni numra të rëndësishëm të telefonit për emergjenca. Aplikacioni ju lejon të skanoni kodet aktuale të barnave dhe të planifikoni rrugët më efikas, duke siguruar rezultate më të mira me sistemin e navigimit MONA dhe shumë funksione të tjera të dobishme.",
+  "homeEnd": "Një ditë pune të këndshme!"
 }

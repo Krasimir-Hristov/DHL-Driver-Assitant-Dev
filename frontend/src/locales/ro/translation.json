@@ -56,5 +56,9 @@
   "findGroupB": "Apoi trebuie să schimbați grupurile în aplicație (de la 1 la 9), potrivind zilele libere din sistemul dvs. de calendar cu cele din calendarul de mai jos. Când zilele libere se potrivesc, aceasta este grupul dvs.",
   "important": "Important!!!",
   "importantCalendarText": "După ce găsiți grupul dvs., este important să vă amintiți că acesta NU se schimbă niciodată. Îl puteți introduce întotdeauna din nou în calendar pentru a vă vedea zilele libere, fără a-l căuta din nou.",
-  "calendar": "Calendar"
+  "calendar": "Calendar",
+  "greeding": "Salut, colegi!",
+  "Wellcome": "Bine ați venit în aplicația care vă ajută să vă gestionați ziua de lucru și să economisiți timp.",
+  "homeDesc": "Această aplicație este o unealtă cheie pentru șoferii DHL, oferind numeroase beneficii și facilități. Cu ea, puteți economisi semnificativ timpul, puteți verifica în orice moment zilele dvs. libere pentru ani înainte, completați rapid și ușor jurnalul de bord cu informațiile necesare și găsiți numere importante de telefon pentru cazuri de urgență. Aplicația vă permite să scanăriți codurile de bare curente și să planificați rutele mai eficient, asigurând rezultate mai bune cu sistemul de navigație MONA și multe alte funcții utile.",
+  "homeEnd": "O zi de lucru plăcută!"
 }
