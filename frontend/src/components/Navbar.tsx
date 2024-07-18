@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { FlagIcon } from 'react-flag-kit';
 import { useTranslation } from 'react-i18next';
-import { Bars3Icon } from '@heroicons/react/24/outline';
+import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline';
 
 interface Language {
   code: string;
@@ -88,8 +88,10 @@ const Navbar: React.FC = () => {
         </div>
         <div className='md:hidden'>
           <button onClick={toggleMenu} className='text-black'>
-            {!isMenuOpen && !isLanguageMenuOpen && (
-              <Bars3Icon className='w-6 h-6' />
+            {isMenuOpen ? (
+              <XMarkIcon className='w-6 h-6' />
+            ) : (
+              !isLanguageMenuOpen && <Bars3Icon className='w-6 h-6' />
             )}
           </button>
         </div>
@@ -100,18 +102,18 @@ const Navbar: React.FC = () => {
         } flex-col md:hidden`}
       >
         <Link
-          to='/controllbook'
-          onClick={closeMenu}
-          className='mx-2 my-1 font-bold text-lg md:text-base md:font-semibold text-yellow-500'
-        >
-          {t('controllBook')}
-        </Link>
-        <Link
           to='/calendar'
           onClick={closeMenu}
           className='mx-2 my-1 font-bold text-lg md:text-base md:font-semibold text-yellow-500'
         >
           {t('calendar')}
+        </Link>
+        <Link
+          to='/controllbook'
+          onClick={closeMenu}
+          className='mx-2 my-1 font-bold text-lg md:text-base md:font-semibold text-yellow-500'
+        >
+          {t('controllBook')}
         </Link>
       </div>
       <div
@@ -133,16 +135,16 @@ const Navbar: React.FC = () => {
       </div>
       <div className='hidden md:flex bg-red-800 py-2 px-4 text-center justify-center'>
         <Link
-          to='/controllbook'
-          className='mx-2 font-bold text-lg md:text-base md:font-semibold text-yellow-500'
-        >
-          {t('controllBook')}
-        </Link>
-        <Link
           to='/calendar'
           className='mx-2 font-bold text-lg md:text-base md:font-semibold text-yellow-500'
         >
           {t('calendar')}
+        </Link>
+        <Link
+          to='/controllbook'
+          className='mx-2 font-bold text-lg md:text-base md:font-semibold text-yellow-500'
+        >
+          {t('controllBook')}
         </Link>
       </div>
     </nav>
