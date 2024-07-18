@@ -67,6 +67,10 @@ const Navbar: React.FC = () => {
         <Link to='/' className='text-red-700 text-2xl font-bold flex-grow'>
           <div className='flex gap-2 items-center'>
             <p className='text-3xl'>DHL Driver Assistant</p>
+            <div className='hidden md:block'>
+              <FlagIcon code={currentLanguage.code as any} size={24} />
+            </div>
+
             <FlagIcon
               code={currentLanguage.code as any}
               size={24}
