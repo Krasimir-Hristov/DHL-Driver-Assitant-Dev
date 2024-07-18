@@ -23,7 +23,7 @@ const languages: Language[] = [
 ];
 
 const Navbar: React.FC = () => {
-  const { i18n, t } = useTranslation();
+  const { i18n } = useTranslation();
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [currentLanguage, setCurrentLanguage] = useState<Language>({
     code: 'GB',
@@ -47,19 +47,14 @@ const Navbar: React.FC = () => {
   };
 
   return (
-    <nav className='fixed w-full top-0  bg-yellow-500 p-2 md:p-4 z-50'>
+    <nav className='fixed w-full top-0 bg-yellow-500 p-2 md:p-4 z-50'>
       <div className='container mx-auto flex justify-between items-center'>
-        <div className='flex items-center'>
-          <Link to='/' className='text-red-800 text-2xl font-bold'>
-            <div className='flex gap-2 items-center'>
-              <p className='text-3xl'>DHL Driver Assistant</p>
-              <FlagIcon
-                code={currentLanguage.code as any}
-                size={isMenuOpen ? 32 : 24}
-              />
-            </div>
-          </Link>
-        </div>
+        <Link to='/' className='text-red-700 text-2xl font-bold'>
+          <div className='flex gap-2 items-center'>
+            <p className='text-3xl'>DHL Driver Assistant</p>
+            <FlagIcon code={currentLanguage.code as any} size={24} />
+          </div>
+        </Link>
         <div className='md:hidden'>
           <button onClick={toggleMenu} className='text-black'>
             {isMenuOpen ? (
@@ -70,34 +65,22 @@ const Navbar: React.FC = () => {
           </button>
         </div>
         <div
-          className={`md:flex ${isMenuOpen ? 'flex' : 'hidden'} items-center`}
+          className={`flex-col md:flex-row md:flex ${
+            isMenuOpen ? 'flex' : 'hidden'
+          } md:flex md:items-center`}
         >
-          <div className='flex flex-row justify-end'>
+          <div className='flex flex-wrap justify-center md:justify-start'>
             {languages.map(({ code, lang }) => (
               <button
                 key={lang}
                 onClick={() => changeLanguage(lang)}
-                className='text-black hover:text-white mx-1'
+                className='text-black hover:text-white mx-1 my-1 md:my-0'
               >
-                <FlagIcon code={code as any} size={isMenuOpen ? 32 : 24} />
+                <FlagIcon code={code as any} size={24} />
               </button>
             ))}
           </div>
         </div>
-      </div>
-      <div className='bg-red-800 py-2 px-4 text-center justify-center'>
-        <Link
-          to='/controllbook'
-          className='mx-2 font-bold text-lg md:text-base md:font-semibold text-yellow-500'
-        >
-          {t('controllBook')}
-        </Link>
-        <Link
-          to='/calendar'
-          className='mx-2 font-bold text-lg md:text-base md:font-semibold text-yellow-500'
-        >
-          {t('calendar')}
-        </Link>
       </div>
     </nav>
   );
