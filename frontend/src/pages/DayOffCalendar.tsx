@@ -9,7 +9,7 @@ const DayOffCalendar: React.FC = () => {
   return (
     <>
       <div className='bg-slate-200'>
-        <h1 className='text-red-800 font-extrabold bg-yellow-500 justify-center text-center uppercase py-4 text-4xl  decoration-red-800  md:text-6xl'>
+        <h1 className='text-red-800 font-extrabold justify-center text-center uppercase py-4 text-4xl  decoration-red-800  md:text-6xl'>
           {t('dayOffCalendar')}
         </h1>
 
