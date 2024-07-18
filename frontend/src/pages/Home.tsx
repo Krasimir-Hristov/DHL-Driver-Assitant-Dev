@@ -11,7 +11,7 @@ const Home: React.FC = () => {
           {t('greeding')}
         </h1>
         <h2 className='text-xl md:text-3xl font-bold py-6 text-center mb-8'>
-          {t('welcome')}
+          {t('wellcome')}
         </h2>
         <p className='text-lg md:text-xl font-bold py-6 '>{t('homeDesc')}</p>
 
