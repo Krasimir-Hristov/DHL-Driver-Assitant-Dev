@@ -1,37 +1,33 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { useTranslation } from 'react-i18next';
-import WeeklyCalendar from '../components/WeeklyCalendar';
 
 const Home: React.FC = () => {
   const { t, i18n } = useTranslation();
-  const [startWeek, setStartWeek] = useState<number>(1); // Използваме 1 като стойност по подразбиране
 
   return (
-    <div className='flex flex-col items-center justify-center min-h-screen text-center px-4 pt-12 md:pt-0 bg-slate-200'>
-      <div className='mt-5 border-black p-2 border-8'>
-        <h1 className='font-bold text-2xl md:text-4xl border-b-4 border-red-500 pb-2'>
-          {' '}
-          {t('checkDayOff')}
+    <>
+      <div className=' py-12 px-6 md:px-24'>
+        <h1 className='text-4xl text-red-800 uppercase md:text-6xl font-extrabold text-center mb-6'>
+          Здравйте, колеги!
         </h1>
-        <h2 className='text-xl font-bold mt-5  '>{t('choseGroup')}</h2>
-        <div className='flex flex-row p-3 justify-center items-center mt-4 gap-3 border-b-4 border-yellow-500  md:gap-5 font-semibold'>
-          {[1, 2, 3, 4, 5, 6, 7, 8, 9].map((week) => (
-            <p
-              key={week}
-              onClick={() => setStartWeek(week)}
-              className={`p-1 md:p-2 border-2 border-black rounded-md cursor-pointer ${
-                startWeek === week ? 'bg-green-500' : 'bg-white'
-              }`}
-              style={{ minWidth: '1.5rem', textAlign: 'center' }}
-            >
-              {week}
-            </p>
-          ))}
-        </div>
-
-        <WeeklyCalendar startWeek={startWeek} locale={i18n.language} />
+        <h2 className='text-xl md:text-3xl font-bold text-center mb-8'>
+          Добре дошли в приложението, което ви помага да управлявате своя
+          работен ден и да пестите времето си.
+        </h2>
+        <p className='text-lg md:text-xl mb-4'>
+          Нашето приложение е специално създадено за шофьорите на DHL, за да
+          оптимизирате своите рутина и да улесните контрола върху тях. С нашата
+          контролна книга можете лесно да отчитате времето на почивките си, да
+          управлявате туровете си и да получавате необходимата информация като
+          телефонни номера и баркодове, които често използвате.
+        </p>
+        <p className='text-lg md:text-xl'>
+          Навигационната система MONA ви предоставя точни и оптимизирани
+          маршрути, дори и в непознати места, за да можете да извършвате
+          работата си по-ефективно и да постигате по-добри резултати.
+        </p>
       </div>
-    </div>
+    </>
   );
 };
 
