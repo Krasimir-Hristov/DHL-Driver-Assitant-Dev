@@ -69,5 +69,6 @@
   "isCloseTitle": "Company/Office Closed",
   "isClosedDesc": "Used when a business establishment is closed.",
   "givePackageTitle": "Package Handover",
-  "givePackageDesc": "Used when handing over packages to another colleague for distribution (Assistance)."
+  "givePackageDesc": "Used when handing over packages to another colleague for distribution (Assistance).",
+  "toWarehouse": "Storing"
 }

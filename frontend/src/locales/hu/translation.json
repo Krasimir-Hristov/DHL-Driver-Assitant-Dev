@@ -69,5 +69,6 @@
   "isCloseTitle": "Cég/Iroda zárva",
   "isClosedDesc": "Használják, amikor egy üzlet zárva van.",
   "givePackageTitle": "Csomagátadás",
-  "givePackageDesc": "Használják, amikor csomagokat adunk át egy másik kollégának terjesztés céljából (Segítség)."
+  "givePackageDesc": "Használják, amikor csomagokat adunk át egy másik kollégának terjesztés céljából (Segítség).",
+  "toWarehouse": "Raktározás"
 }

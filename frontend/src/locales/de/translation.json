@@ -69,5 +69,6 @@
   "isCloseTitle": "Firma/Büro geschlossen",
   "isClosedDesc": "Wird verwendet, wenn ein Geschäft geschlossen ist.",
   "givePackageTitle": "Paketübergabe",
-  "givePackageDesc": "Wird verwendet, wenn Pakete an einen anderen Kollegen zur Verteilung (Hilfe) übergeben werden."
+  "givePackageDesc": "Wird verwendet, wenn Pakete an einen anderen Kollegen zur Verteilung (Hilfe) übergeben werden.",
+  "toWarehouse": "Lagerung"
 }

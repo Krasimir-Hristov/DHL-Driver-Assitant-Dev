@@ -69,5 +69,6 @@
   "isCloseTitle": "Azienda/Ufficio chiuso",
   "isClosedDesc": "Viene utilizzato quando un esercizio commerciale è chiuso.",
   "givePackageTitle": "Consegna pacchi",
-  "givePackageDesc": "Viene utilizzato quando consegniamo pacchi a un altro collega per distribuzione (Assistenza)."
+  "givePackageDesc": "Viene utilizzato quando consegniamo pacchi a un altro collega per distribuzione (Assistenza).",
+  "toWarehouse": "Stoccaggio"
 }

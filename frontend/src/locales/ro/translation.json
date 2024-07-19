@@ -69,5 +69,6 @@
   "isCloseTitle": "Compania/Oficiul închis",
   "isClosedDesc": "Se folosește atunci când un magazin este închis.",
   "givePackageTitle": "Predare pachete",
-  "givePackageDesc": "Se folosește atunci când predăm pachete unui alt coleg pentru distribuție (Asistență)."
+  "givePackageDesc": "Se folosește atunci când predăm pachete unui alt coleg pentru distribuție (Asistență).",
+  "toWarehouse": "Stocare"
 }
