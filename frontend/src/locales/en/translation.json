@@ -62,5 +62,6 @@
   "homeDesc": "This application is a key tool for DHL drivers, offering many benefits and conveniences. With it, you can save significant time, check your days off years in advance, easily and quickly fill out the logbook with necessary information, and find important emergency phone numbers. The application allows you to scan current barcodes and plan routes more efficiently, providing better results with the MONA navigation system and many other useful features.",
   "homeEnd": "Have a pleasant workday!",
   "barcodesNav": "Barcodes",
-  "cancel": "Cancel"
+  "cancel": "Cancel",
+  "barcodesTitle": "Important Barcodes"
 }
