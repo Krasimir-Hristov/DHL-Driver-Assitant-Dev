@@ -1,4 +1,6 @@
-const weekOffDays = [
+type WeekOffDays = number[][];
+
+const weekOffDays: WeekOffDays = [
   [], // Placeholder for 0 index
   [6], // Week 1: Saturday
   [1, 2], // Week 2: Monday, Tuesday
@@ -11,13 +13,17 @@ const weekOffDays = [
   [1], // Week 9: Monday
 ];
 
-const navLinks = [
+type NavLink = { to: string; label: string };
+
+const navLinks: NavLink[] = [
   { to: '/calendar', label: 'calendar' },
   { to: '/controllbook', label: 'controllBook' },
   { to: '/barcodes', label: 'barcodesNav' },
 ];
 
-const languages = [
+type Language = { code: string; lang: string };
+
+const languages: Language[] = [
   { code: 'GB', lang: 'en' },
   { code: 'BG', lang: 'bg' },
   { code: 'RO', lang: 'ro' },
