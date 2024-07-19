@@ -64,5 +64,6 @@
   "barcodesNav": "Barcodes",
   "barcodesTitle": "Important Barcodes",
   "barcodesDesc": "These are barcodes that assist with the quick scanning of packages when there are many packages at once.",
-  "cancelTitle": "Cancel"
+  "cancelTitle": "Cancel",
+  "cancelDesc": "Used when returning packages back to the depot."
 }

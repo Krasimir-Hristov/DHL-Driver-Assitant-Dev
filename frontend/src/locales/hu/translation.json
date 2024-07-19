@@ -64,5 +64,6 @@
   "barcodesNav": "Vonalkódok",
   "barcodesTitle": "Fontos vonalkódok",
   "barcodesDesc": "Ezek olyan vonalkódok, amelyek segítenek a csomagok gyors beolvasásában, amikor egyszerre sok csomag van.",
-  "cancelTitle": "Mégszakítás"
+  "cancelTitle": "Mégszakítás",
+  "cancelDesc": "A csomagok depóba való visszaküldésénél használják."
 }

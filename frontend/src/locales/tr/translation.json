@@ -64,5 +64,6 @@
   "barcodesNav": "Barkodlar",
   "barcodesTitle": "Önemli Barkodlar",
   "barcodesDesc": "Bunlar, aynı anda birçok paket olduğunda paketleri hızlı bir şekilde taramaya yardımcı olan barkodlardır.",
-  "cancelTitle": "İptal"
+  "cancelTitle": "İptal",
+  "cancelDesc": "Paketleri depoya geri gönderirken kullanılır."
 }

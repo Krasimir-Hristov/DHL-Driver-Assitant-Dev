@@ -64,5 +64,6 @@
   "barcodesNav": "Codici a barre",
   "barcodesTitle": "Codici a barre importanti",
   "barcodesDesc": "Questi sono codici a barre che aiutano a scansionare rapidamente i pacchetti quando ci sono molti pacchetti contemporaneamente.",
-  "cancelTitle": "Annulla"
+  "cancelTitle": "Annulla",
+  "cancelDesc": "Viene utilizzato quando restituisci i pacchetti al deposito."
 }

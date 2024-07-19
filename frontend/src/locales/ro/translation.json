@@ -64,5 +64,6 @@
   "barcodesNav": "Coduri de bare",
   "barcodesTitle": "Coduri de bare importante",
   "barcodesDesc": "Acestea sunt coduri de bare care ajută la scanarea rapidă a pachetelor atunci când sunt multe pachete deodată.",
-  "cancelTitle": "Anulare"
+  "cancelTitle": "Anulare",
+  "cancelDesc": "Se folosește atunci când returnați pachetele înapoi la depozit."
 }

@@ -64,5 +64,6 @@
   "barcodesNav": "Barkodet",
   "barcodesTitle": "Barkodet e rëndësishme",
   "barcodesDesc": "Këto janë barkodet që ndihmojnë në skanimin e shpejtë të paketave kur ka shumë paketa njëherësh.",
-  "cancelTitle": "Anulim"
+  "cancelTitle": "Anulim",
+  "cancelDesc": "Përdoret kur ktheheni paketat në depo."
 }
