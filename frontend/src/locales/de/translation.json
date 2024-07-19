@@ -67,5 +67,6 @@
   "cancelTitle": "Abbruch",
   "cancelDesc": "Wird verwendet, wenn Sie Pakete zurück zum Depot senden.",
   "isCloseTitle": "Firma/Büro geschlossen",
-  "isClosedDesc": "Wird verwendet, wenn ein Geschäft geschlossen ist."
+  "isClosedDesc": "Wird verwendet, wenn ein Geschäft geschlossen ist.",
+  "givePackage": "Paketübergabe"
 }

@@ -67,5 +67,6 @@
   "cancelTitle": "İptal",
   "cancelDesc": "Paketleri depoya geri gönderirken kullanılır.",
   "isCloseTitle": "Şirket/Ofis Kapalı",
-  "isClosedDesc": "Bir iş yeri kapalı olduğunda kullanılır."
+  "isClosedDesc": "Bir iş yeri kapalı olduğunda kullanılır.",
+  "givePackage": "Paket Teslimi"
 }

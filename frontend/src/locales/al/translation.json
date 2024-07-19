@@ -67,5 +67,6 @@
   "cancelTitle": "Anulim",
   "cancelDesc": "Përdoret kur ktheheni paketat në depo.",
   "isCloseTitle": "Kompania/Zyra e mbyllur",
-  "isClosedDesc": "Përdoret kur një subjekt biznesi është i mbyllur."
+  "isClosedDesc": "Përdoret kur një subjekt biznesi është i mbyllur.",
+  "givePackage": "Dorëzim paketash"
 }

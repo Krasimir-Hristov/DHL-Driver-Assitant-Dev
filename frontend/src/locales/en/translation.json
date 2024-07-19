@@ -67,5 +67,6 @@
   "cancelTitle": "Cancel",
   "cancelDesc": "Used when returning packages back to the depot.",
   "isCloseTitle": "Company/Office Closed",
-  "isClosedDesc": "Used when a business establishment is closed."
+  "isClosedDesc": "Used when a business establishment is closed.",
+  "givePackage": "Package Handover"
 }
