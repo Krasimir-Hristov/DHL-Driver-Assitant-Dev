@@ -13,7 +13,7 @@ const Barcodes: React.FC = () => {
 
   const barcodesInfo = [
     {
-      title: 'abruch',
+      title: `${t('cancel')}`,
       image: abruch,
       description: 'abruch',
     },
