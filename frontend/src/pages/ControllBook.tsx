@@ -28,7 +28,7 @@ import DateRange from '../components/DateRange';
 const ControllBook: React.FC = () => {
   const { t } = useTranslation();
 
-  const rows = [
+  const controllBookInfo = [
     {
       title: `${t('cbNameAndAddress')}`, // Примерен ключ от вашите i18n ресурси
       image: greenBookImg,
@@ -177,7 +177,7 @@ const ControllBook: React.FC = () => {
         <hr className='border-t border-gray-400 mx-4 my-4' />
       </div>
 
-      {rows.map((row, index) => (
+      {controllBookInfo.map((row, index) => (
         <div key={index} className='row'>
           <h2 className='justify-center text-center mt-5 text-3xl font-extrabold bg-yellow-500 text-red-800 p-2  uppercase'>
             {row.title}
