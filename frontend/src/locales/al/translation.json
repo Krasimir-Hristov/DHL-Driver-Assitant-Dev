@@ -65,5 +65,6 @@
   "barcodesTitle": "Barkodet e rëndësishme",
   "barcodesDesc": "Këto janë barkodet që ndihmojnë në skanimin e shpejtë të paketave kur ka shumë paketa njëherësh.",
   "cancelTitle": "Anulim",
-  "cancelDesc": "Përdoret kur ktheheni paketat në depo."
+  "cancelDesc": "Përdoret kur ktheheni paketat në depo.",
+  "isCloseTitle": "Kompania/Zyra e mbyllur"
 }

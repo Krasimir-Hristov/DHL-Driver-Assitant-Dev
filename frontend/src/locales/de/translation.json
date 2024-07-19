@@ -65,5 +65,6 @@
   "barcodesTitle": "Wichtige Barcodes",
   "barcodesDesc": "Dies sind Barcodes, die beim schnellen Scannen von Paketen helfen, wenn viele Pakete gleichzeitig vorhanden sind.",
   "cancelTitle": "Abbruch",
-  "cancelDesc": "Wird verwendet, wenn Sie Pakete zurück zum Depot senden."
+  "cancelDesc": "Wird verwendet, wenn Sie Pakete zurück zum Depot senden.",
+  "isCloseTitle": "Firma/Büro geschlossen"
 }
