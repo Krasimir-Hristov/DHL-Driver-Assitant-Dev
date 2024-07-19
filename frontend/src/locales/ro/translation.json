@@ -68,5 +68,6 @@
   "cancelDesc": "Se folosește atunci când returnați pachetele înapoi la depozit.",
   "isCloseTitle": "Compania/Oficiul închis",
   "isClosedDesc": "Se folosește atunci când un magazin este închis.",
-  "givePackageTitle": "Predare pachete"
+  "givePackageTitle": "Predare pachete",
+  "givePackageDesc": "Se folosește atunci când predăm pachete unui alt coleg pentru distribuție (Asistență)."
 }

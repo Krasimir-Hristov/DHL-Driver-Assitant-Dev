@@ -68,5 +68,6 @@
   "cancelDesc": "Paketleri depoya geri gönderirken kullanılır.",
   "isCloseTitle": "Şirket/Ofis Kapalı",
   "isClosedDesc": "Bir iş yeri kapalı olduğunda kullanılır.",
-  "givePackageTitle": "Paket Teslimi"
+  "givePackageTitle": "Paket Teslimi",
+  "givePackageDesc": "Paketleri başka bir meslektaşa dağıtım (Yardım) amacıyla teslim ederken kullanılır."
 }

@@ -68,5 +68,6 @@
   "cancelDesc": "Wird verwendet, wenn Sie Pakete zurück zum Depot senden.",
   "isCloseTitle": "Firma/Büro geschlossen",
   "isClosedDesc": "Wird verwendet, wenn ein Geschäft geschlossen ist.",
-  "givePackageTitle": "Paketübergabe"
+  "givePackageTitle": "Paketübergabe",
+  "givePackageDesc": "Wird verwendet, wenn Pakete an einen anderen Kollegen zur Verteilung (Hilfe) übergeben werden."
 }

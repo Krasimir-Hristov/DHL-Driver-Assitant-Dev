@@ -68,5 +68,6 @@
   "cancelDesc": "Viene utilizzato quando restituisci i pacchetti al deposito.",
   "isCloseTitle": "Azienda/Ufficio chiuso",
   "isClosedDesc": "Viene utilizzato quando un esercizio commerciale è chiuso.",
-  "givePackageTitle": "Consegna pacchi"
+  "givePackageTitle": "Consegna pacchi",
+  "givePackageDesc": "Viene utilizzato quando consegniamo pacchi a un altro collega per distribuzione (Assistenza)."
 }
