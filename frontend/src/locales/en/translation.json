@@ -66,5 +66,6 @@
   "barcodesDesc": "These are barcodes that assist with the quick scanning of packages when there are many packages at once.",
   "cancelTitle": "Cancel",
   "cancelDesc": "Used when returning packages back to the depot.",
-  "isCloseTitle": "Company/Office Closed"
+  "isCloseTitle": "Company/Office Closed",
+  "isClosedDesc": "Used when a business establishment is closed."
 }

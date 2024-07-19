@@ -66,5 +66,6 @@
   "barcodesDesc": "Acestea sunt coduri de bare care ajută la scanarea rapidă a pachetelor atunci când sunt multe pachete deodată.",
   "cancelTitle": "Anulare",
   "cancelDesc": "Se folosește atunci când returnați pachetele înapoi la depozit.",
-  "isCloseTitle": "Compania/Oficiul închis"
+  "isCloseTitle": "Compania/Oficiul închis",
+  "isClosedDesc": "Se folosește atunci când un magazin este închis."
 }

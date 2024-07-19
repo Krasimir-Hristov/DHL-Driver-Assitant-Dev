@@ -66,5 +66,6 @@
   "barcodesDesc": "Ezek olyan vonalkódok, amelyek segítenek a csomagok gyors beolvasásában, amikor egyszerre sok csomag van.",
   "cancelTitle": "Mégszakítás",
   "cancelDesc": "A csomagok depóba való visszaküldésénél használják.",
-  "isCloseTitle": "Cég/Iroda zárva"
+  "isCloseTitle": "Cég/Iroda zárva",
+  "isClosedDesc": "Használják, amikor egy üzlet zárva van."
 }

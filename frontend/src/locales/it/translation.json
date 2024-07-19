@@ -66,5 +66,6 @@
   "barcodesDesc": "Questi sono codici a barre che aiutano a scansionare rapidamente i pacchetti quando ci sono molti pacchetti contemporaneamente.",
   "cancelTitle": "Annulla",
   "cancelDesc": "Viene utilizzato quando restituisci i pacchetti al deposito.",
-  "isCloseTitle": "Azienda/Ufficio chiuso"
+  "isCloseTitle": "Azienda/Ufficio chiuso",
+  "isClosedDesc": "Viene utilizzato quando un esercizio commerciale è chiuso."
 }
