@@ -72,5 +72,6 @@
   "givePackageDesc": "Használják, amikor csomagokat adunk át egy másik kollégának terjesztés céljából (Segítség).",
   "toWarehouseTitle": "Raktározás",
   "toWarehouseDesc": "Használják, amikor előre tudható, hogy egy adott helyszín zárva van, és a csomagokat nem töltik fel a furgonra.",
-  "addressUnavailableTitle": "Elérhetetlen cím"
+  "addressUnavailableTitle": "Elérhetetlen cím",
+  "addressUnavailableDesc": "Használják, amikor egy adott címhez valamilyen okból (baleset, útrekonstrukció stb.) nem lehet hozzáférni."
 }

@@ -72,5 +72,6 @@
   "givePackageDesc": "Paketleri başka bir meslektaşa dağıtım (Yardım) amacıyla teslim ederken kullanılır.",
   "toWarehouseTitle": "Depolama",
   "toWarehouseDesc": "Belirli bir yerin kapalı olduğu önceden biliniyorsa ve paketler vana yüklenmiyorsa kullanılır.",
-  "addressUnavailableTitle": "Erişilemeyen Adres"
+  "addressUnavailableTitle": "Erişilemeyen Adres",
+  "addressUnavailableDesc": "Bir adrese herhangi bir sebepten dolayı (kaza, yol onarımı vb.) erişilemediğinde kullanılır."
 }

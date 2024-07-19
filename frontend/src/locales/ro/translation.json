@@ -72,5 +72,6 @@
   "givePackageDesc": "Se folosește atunci când predăm pachete unui alt coleg pentru distribuție (Asistență).",
   "toWarehouseTitle": "Stocare",
   "toWarehouseDesc": "Se folosește atunci când se știe dinainte că un anumit loc este închis și pachetele nu sunt încărcate în furgon.",
-  "addressUnavailableTitle": "Adresă inaccesibilă"
+  "addressUnavailableTitle": "Adresă inaccesibilă",
+  "addressUnavailableDesc": "Se folosește atunci când nu este posibil să se acceseze o anumită adresă din cauza unui motiv (accident, reparații pe drum, etc.)."
 }
