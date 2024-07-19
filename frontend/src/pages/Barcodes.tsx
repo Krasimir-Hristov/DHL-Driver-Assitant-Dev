@@ -22,7 +22,7 @@ const Barcodes: React.FC = () => {
     {
       title: `${t('isCloseTitle')}`,
       image: firmaClose,
-      description: 'firmaClose',
+      description: `${t('isClosedDesc')}`,
     },
     {
       title: 'give',
