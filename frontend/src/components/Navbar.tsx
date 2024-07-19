@@ -150,6 +150,12 @@ const Navbar: React.FC = () => {
         >
           {t('controllBook')}
         </Link>
+        <Link
+          to='/barcodes'
+          className='mx-2 font-bold text-lg md:text-base md:font-semibold text-yellow-500'
+        >
+          {t('controllBook')}
+        </Link>
       </div>
     </nav>
   );
