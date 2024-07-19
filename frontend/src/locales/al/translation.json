@@ -71,5 +71,6 @@
   "givePackageTitle": "Dorëzim paketash",
   "givePackageDesc": "Përdoret kur i dorëzojmë paketat një kolegu tjetër pentru shpërndarje (Ndihmë).",
   "toWarehouseTitle": "Ruajtje",
-  "toWarehouseDesc": "Përdoret kur dihet paraprakisht se një vend i caktuar është i mbyllur dhe paketat nuk ngarkohen në furgon."
+  "toWarehouseDesc": "Përdoret kur dihet paraprakisht se një vend i caktuar është i mbyllur dhe paketat nuk ngarkohen në furgon.",
+  "addressUnavailableTitle": "Adresë e paarritshme"
 }

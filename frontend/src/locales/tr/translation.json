@@ -71,5 +71,6 @@
   "givePackageTitle": "Paket Teslimi",
   "givePackageDesc": "Paketleri başka bir meslektaşa dağıtım (Yardım) amacıyla teslim ederken kullanılır.",
   "toWarehouseTitle": "Depolama",
-  "toWarehouseDesc": "Belirli bir yerin kapalı olduğu önceden biliniyorsa ve paketler vana yüklenmiyorsa kullanılır."
+  "toWarehouseDesc": "Belirli bir yerin kapalı olduğu önceden biliniyorsa ve paketler vana yüklenmiyorsa kullanılır.",
+  "addressUnavailableTitle": "Erişilemeyen Adres"
 }
