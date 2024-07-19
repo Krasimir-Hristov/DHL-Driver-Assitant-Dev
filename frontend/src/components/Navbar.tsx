@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { navLinks } from '../constants';
 import { Link } from 'react-router-dom';
 import { FlagIcon } from 'react-flag-kit';
 import { useTranslation } from 'react-i18next';
@@ -105,20 +106,16 @@ const Navbar: React.FC = () => {
           isMenuOpen ? 'flex' : 'hidden'
         } flex-col md:hidden`}
       >
-        <Link
-          to='/calendar'
-          onClick={closeMenu}
-          className='mx-2 my-1 font-bold text-lg md:text-base md:font-semibold text-yellow-500'
-        >
-          {t('calendar')}
-        </Link>
-        <Link
-          to='/controllbook'
-          onClick={closeMenu}
-          className='mx-2 my-1 font-bold text-lg md:text-base md:font-semibold text-yellow-500'
-        >
-          {t('controllBook')}
-        </Link>
+        {navLinks.map(({ to, label }) => (
+          <Link
+            key={to}
+            to={to}
+            onClick={closeMenu}
+            className='mx-2 my-1 font-bold text-lg md:text-base md:font-semibold text-yellow-500'
+          >
+            {t(label)}
+          </Link>
+        ))}
       </div>
       <div
         className={`bg-red-800 py-2 px-4 text-center justify-center ${
@@ -138,24 +135,15 @@ const Navbar: React.FC = () => {
         </div>
       </div>
       <div className='hidden md:flex bg-red-800 py-2 px-4 text-center justify-center'>
-        <Link
-          to='/calendar'
-          className='mx-2 font-bold text-lg md:text-base md:font-semibold text-yellow-500'
-        >
-          {t('calendar')}
-        </Link>
-        <Link
-          to='/controllbook'
-          className='mx-2 font-bold text-lg md:text-base md:font-semibold text-yellow-500'
-        >
-          {t('controllBook')}
-        </Link>
-        <Link
-          to='/barcodes'
-          className='mx-2 font-bold text-lg md:text-base md:font-semibold text-yellow-500'
-        >
-          {t('barcodesNav')}
-        </Link>
+        {navLinks.map(({ to, label }) => (
+          <Link
+            key={to}
+            to={to}
+            className='mx-2 font-bold text-lg md:text-base md:font-semibold text-yellow-500'
+          >
+            {t(label)}
+          </Link>
+        ))}
       </div>
     </nav>
   );

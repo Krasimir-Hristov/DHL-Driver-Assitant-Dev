@@ -11,4 +11,10 @@ const weekOffDays = [
   [1], // Week 9: Monday
 ];
 
-export { weekOffDays };
+const navLinks = [
+  { to: '/calendar', label: 'calendar' },
+  { to: '/controllbook', label: 'controllBook' },
+  { to: '/barcodes', label: 'barcodesNav' },
+];
+
+export { weekOffDays, navLinks };
