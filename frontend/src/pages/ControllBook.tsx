@@ -24,6 +24,7 @@ import signatureImg from '../assets/controlBookImg/cbSignature.jpg';
 import DayOfYear from '../components/DayOfYear';
 import CurrentDate from '../components/CurrentDate';
 import DateRange from '../components/DateRange';
+import ListingCard from '../components/ListingCard';
 
 const ControllBook: React.FC = () => {
   const { t } = useTranslation();
@@ -178,23 +179,15 @@ const ControllBook: React.FC = () => {
       </div>
 
       {controllBookInfo.map((row, index) => (
-        <div key={index} className='row'>
-          <h2 className='justify-center text-center mt-5 text-3xl font-extrabold bg-yellow-500 text-red-800 p-2  uppercase'>
-            {row.title}
-          </h2>
-          <div className='flex justify-center my-4'>
-            <img
-              src={row.image}
-              alt={row.title}
-              width={400} // Запазете тези стойности за по-малки екрани
-              height={400} // Запазете тези стойности за по-малки екрани
-              className='w-96 h-96 lg:w-[500px] lg:h-[500px]' // Добавете класове за големи екрани
+        <div>
+          <div>
+            <ListingCard
+              key={index}
+              title={row.title}
+              image={row.image}
+              description={row.description}
             />
           </div>
-          <p className='justify-center text-center text-2xl font-bold'>
-            {row.description}
-          </p>
-          <hr className='border-t border-gray-400 mx-4 my-4' />
         </div>
       ))}
     </div>
