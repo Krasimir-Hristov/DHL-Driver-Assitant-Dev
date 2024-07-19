@@ -70,5 +70,6 @@
   "isClosedDesc": "Bir iş yeri kapalı olduğunda kullanılır.",
   "givePackageTitle": "Paket Teslimi",
   "givePackageDesc": "Paketleri başka bir meslektaşa dağıtım (Yardım) amacıyla teslim ederken kullanılır.",
-  "toWarehouseTitle": "Depolama"
+  "toWarehouseTitle": "Depolama",
+  "toWarehouseDesc": "Belirli bir yerin kapalı olduğu önceden biliniyorsa ve paketler vana yüklenmiyorsa kullanılır."
 }

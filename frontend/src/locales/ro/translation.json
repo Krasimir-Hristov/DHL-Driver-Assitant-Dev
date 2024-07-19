@@ -70,5 +70,6 @@
   "isClosedDesc": "Se folosește atunci când un magazin este închis.",
   "givePackageTitle": "Predare pachete",
   "givePackageDesc": "Se folosește atunci când predăm pachete unui alt coleg pentru distribuție (Asistență).",
-  "toWarehouseTitle": "Stocare"
+  "toWarehouseTitle": "Stocare",
+  "toWarehouseDesc": "Se folosește atunci când se știe dinainte că un anumit loc este închis și pachetele nu sunt încărcate în furgon."
 }

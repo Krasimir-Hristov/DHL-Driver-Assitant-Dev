@@ -70,5 +70,6 @@
   "isClosedDesc": "Viene utilizzato quando un esercizio commerciale è chiuso.",
   "givePackageTitle": "Consegna pacchi",
   "givePackageDesc": "Viene utilizzato quando consegniamo pacchi a un altro collega per distribuzione (Assistenza).",
-  "toWarehouseTitle": "Stoccaggio"
+  "toWarehouseTitle": "Stoccaggio",
+  "toWarehouseDesc": "Viene utilizzato quando si sa in anticipo che una determinata località è chiusa e i pacchi non vengono caricati sul furgone."
 }

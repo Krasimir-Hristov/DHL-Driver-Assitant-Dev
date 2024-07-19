@@ -70,5 +70,6 @@
   "isClosedDesc": "Wird verwendet, wenn ein Geschäft geschlossen ist.",
   "givePackageTitle": "Paketübergabe",
   "givePackageDesc": "Wird verwendet, wenn Pakete an einen anderen Kollegen zur Verteilung (Hilfe) übergeben werden.",
-  "toWarehouseTitle": "Lagerung"
+  "toWarehouseTitle": "Lagerung",
+  "toWarehouseDesc": "Wird verwendet, wenn im Voraus bekannt ist, dass ein bestimmter Standort geschlossen ist und die Pakete nicht in den Lieferwagen geladen werden."
 }

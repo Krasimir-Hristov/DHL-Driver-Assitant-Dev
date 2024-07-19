@@ -70,5 +70,6 @@
   "isClosedDesc": "Used when a business establishment is closed.",
   "givePackageTitle": "Package Handover",
   "givePackageDesc": "Used when handing over packages to another colleague for distribution (Assistance).",
-  "toWarehouseTitle": "Storing"
+  "toWarehouseTitle": "Storing",
+  "toWarehouseDesc": "Used when it is known in advance that a particular location is closed, and the packages are not loaded onto the van."
 }
