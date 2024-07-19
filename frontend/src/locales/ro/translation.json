@@ -62,7 +62,7 @@
   "homeDesc": "Această aplicație este o unealtă cheie pentru șoferii DHL, oferind numeroase beneficii și facilități. Cu ea, puteți economisi semnificativ timpul, puteți verifica în orice moment zilele dvs. libere pentru ani înainte, completați rapid și ușor jurnalul de bord cu informațiile necesare și găsiți numere importante de telefon pentru cazuri de urgență. Aplicația vă permite să scanăriți codurile de bare curente și să planificați rutele mai eficient, asigurând rezultate mai bune cu sistemul de navigație MONA și multe alte funcții utile.",
   "homeEnd": "O zi de lucru plăcută!",
   "barcodesNav": "Coduri de bare",
-  "cancel": "Anulare",
   "barcodesTitle": "Coduri de bare importante",
-  "barcodesDesc": "Acestea sunt coduri de bare care ajută la scanarea rapidă a pachetelor atunci când sunt multe pachete deodată."
+  "barcodesDesc": "Acestea sunt coduri de bare care ajută la scanarea rapidă a pachetelor atunci când sunt multe pachete deodată.",
+  "cancelTitle": "Anulare"
 }

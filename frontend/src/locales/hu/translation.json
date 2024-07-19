@@ -62,7 +62,7 @@
   "homeDesc": "Ez az alkalmazás egy kulcsfontosságú eszköz a DHL sofőrei számára, sok előnnyel és könnyítéssel. Segítségével jelentős időt takaríthatsz meg, bármikor ellenőrizheted szabadnapjaidat a következő évekre, gyorsan és könnyen kitöltheted a vezetési naplót szükséges információkkal, és fontos telefonszámokat találhatsz vészhelyzetek esetére. Az alkalmazás lehetőséget nyújt a jelenlegi vonalkódok szkennelésére és hatékonyabban tervezheted útvonalaidat, jobb eredményeket biztosítva a MONA navigációs rendszerrel és számos más hasznos funkcióval.",
   "homeEnd": "Kellemes munkanapot!",
   "barcodesNav": "Vonalkódok",
-  "cancel": "Mégszakítás",
   "barcodesTitle": "Fontos vonalkódok",
-  "barcodesDesc": "Ezek olyan vonalkódok, amelyek segítenek a csomagok gyors beolvasásában, amikor egyszerre sok csomag van."
+  "barcodesDesc": "Ezek olyan vonalkódok, amelyek segítenek a csomagok gyors beolvasásában, amikor egyszerre sok csomag van.",
+  "cancelTitle": "Mégszakítás"
 }

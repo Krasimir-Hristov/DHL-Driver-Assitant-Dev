@@ -62,7 +62,7 @@
   "homeDesc": "Questa applicazione è uno strumento fondamentale per i conducenti di DHL, offrendo numerosi benefici e facilitazioni. Con essa, potete risparmiare notevolmente tempo, verificare in qualsiasi momento i vostri giorni di riposo per anni a venire, compilare facilmente e velocemente il vostro diario di bordo con le informazioni necessarie e trovare numeri importanti di telefono per emergenze. L'applicazione vi consente di scannerizzare i codici a barre attuali e di pianificare rotte in modo più efficiente, garantendo migliori risultati con il sistema di navigazione MONA e molte altre utili funzioni.",
   "homeEnd": "Una piacevole giornata lavorativa!",
   "barcodesNav": "Codici a barre",
-  "cancel": "Annulla",
   "barcodesTitle": "Codici a barre importanti",
-  "barcodesDesc": "Questi sono codici a barre che aiutano a scansionare rapidamente i pacchetti quando ci sono molti pacchetti contemporaneamente."
+  "barcodesDesc": "Questi sono codici a barre che aiutano a scansionare rapidamente i pacchetti quando ci sono molti pacchetti contemporaneamente.",
+  "cancelTitle": "Annulla"
 }
