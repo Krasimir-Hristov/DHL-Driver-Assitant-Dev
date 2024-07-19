@@ -30,7 +30,7 @@ const Barcodes: React.FC = () => {
       description: `${t('givePackageDesc')}`,
     },
     {
-      title: 'lagern',
+      title: `${t('toWarehouseTitle')}`,
       image: lagern,
       description: 'lagern',
     },
