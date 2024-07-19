@@ -25,7 +25,7 @@ const Barcodes: React.FC = () => {
       description: `${t('isClosedDesc')}`,
     },
     {
-      title: 'give',
+      title: `${t('givePackageTitle')}`,
       image: give,
       description: 'give',
     },
