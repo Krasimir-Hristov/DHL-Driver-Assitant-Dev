@@ -60,5 +60,6 @@
   "greeding": "Përshëndetje kolegëve!",
   "wellcome": "Mirë se vini në aplikacionin që ju ndihmon të menaxhoni ditën tuaj të punës dhe të kurseni kohë.",
   "homeDesc": "Ky aplikacion është një mjet kyç për shoferët e DHL, duke ofruar shumë përfitime dhe lehtësira. Me të, mund të kurseni kohë në mënyrë të konsiderueshme, mund të kontrolloni çdo kohë ditët tuaja të lira për vite të ardhshme, plotësoni me lehtësi dhe shpejtësi librin e kontrollit me informacionin e nevojshëm dhe gjeni numra të rëndësishëm të telefonit për emergjenca. Aplikacioni ju lejon të skanoni kodet aktuale të barnave dhe të planifikoni rrugët më efikas, duke siguruar rezultate më të mira me sistemin e navigimit MONA dhe shumë funksione të tjera të dobishme.",
-  "homeEnd": "Një ditë pune të këndshme!"
+  "homeEnd": "Një ditë pune të këndshme!",
+  "barcodesNav": "Barkodet"
 }

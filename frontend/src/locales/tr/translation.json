@@ -60,5 +60,6 @@
   "greeding": "Merhaba, meslektaşlar!",
   "wellcome": "Uygulamamıza hoş geldiniz, iş gününüzü yönetmenize ve zaman kazanmanıza yardımcı olan.",
   "homeDesc": "Bu uygulama, DHL şoförleri için önemli bir araç olup birçok fayda ve kolaylık sağlamaktadır. Onunla önemli ölçüde zaman kazanabilir, gelecek yıllar için her zaman boş günlerinizi kontrol edebilir, gerekli bilgilerle günlük defterinizi hızlı ve kolay bir şekilde doldurabilir ve acil durumlar için önemli telefon numaralarını bulabilirsiniz. Uygulama, mevcut barkodları taramanıza ve rotalarınızı daha verimli bir şekilde planlamanıza olanak tanır, MONA navigasyon sistemi ile daha iyi sonuçlar sağlayarak birçok başka faydalı özellik sunar.",
-  "homeEnd": "Keyifli bir iş günü geçirmenizi dilerim!"
+  "homeEnd": "Keyifli bir iş günü geçirmenizi dilerim!",
+  "barcodesNav": "Barkodlar"
 }
