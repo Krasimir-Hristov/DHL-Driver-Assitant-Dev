@@ -7,6 +7,7 @@ import Home from './pages/Home';
 import Footer from './components/Footer';
 import ControllBook from './pages/ControllBook';
 import DayOffCalendar from './pages/DayOffCalendar';
+import Barcodes from './pages/Barcodes';
 
 const App: React.FC = () => {
   return (
@@ -19,6 +20,7 @@ const App: React.FC = () => {
             <Routes>
               <Route path='/' element={<Home />} />
               <Route path='/controllbook' element={<ControllBook />} />
+              <Route path='/barcodes' element={<Barcodes />} />
               <Route path='/calendar' element={<DayOffCalendar />} />
             </Routes>
           </main>
