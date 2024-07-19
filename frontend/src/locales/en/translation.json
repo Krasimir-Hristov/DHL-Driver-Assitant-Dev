@@ -63,5 +63,6 @@
   "homeEnd": "Have a pleasant workday!",
   "barcodesNav": "Barcodes",
   "cancel": "Cancel",
-  "barcodesTitle": "Important Barcodes"
+  "barcodesTitle": "Important Barcodes",
+  "barcodesDesc": "These are barcodes that assist with the quick scanning of packages when there are many packages at once."
 }

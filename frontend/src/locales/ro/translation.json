@@ -63,5 +63,6 @@
   "homeEnd": "O zi de lucru plăcută!",
   "barcodesNav": "Coduri de bare",
   "cancel": "Anulare",
-  "barcodesTitle": "Coduri de bare importante"
+  "barcodesTitle": "Coduri de bare importante",
+  "barcodesDesc": "Acestea sunt coduri de bare care ajută la scanarea rapidă a pachetelor atunci când sunt multe pachete deodată."
 }

@@ -63,5 +63,6 @@
   "homeEnd": "Einen angenehmen Arbeitstag!",
   "barcodesNav": "Barcodes",
   "cancel": "Abbruch",
-  "barcodesTitle": "Wichtige Barcodes"
+  "barcodesTitle": "Wichtige Barcodes",
+  "barcodesDesc": "Dies sind Barcodes, die beim schnellen Scannen von Paketen helfen, wenn viele Pakete gleichzeitig vorhanden sind."
 }

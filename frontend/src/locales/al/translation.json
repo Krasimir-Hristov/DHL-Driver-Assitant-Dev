@@ -63,5 +63,6 @@
   "homeEnd": "Një ditë pune të këndshme!",
   "barcodesNav": "Barkodet",
   "cancel": "Anulim",
-  "barcodesTitle": "Barkodet e rëndësishme"
+  "barcodesTitle": "Barkodet e rëndësishme",
+  "barcodesDesc": "Këto janë barkodet që ndihmojnë në skanimin e shpejtë të paketave kur ka shumë paketa njëherësh."
 }

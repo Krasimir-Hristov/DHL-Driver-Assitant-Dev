@@ -63,5 +63,6 @@
   "homeEnd": "Kellemes munkanapot!",
   "barcodesNav": "Vonalkódok",
   "cancel": "Mégszakítás",
-  "barcodesTitle": "Fontos vonalkódok"
+  "barcodesTitle": "Fontos vonalkódok",
+  "barcodesDesc": "Ezek olyan vonalkódok, amelyek segítenek a csomagok gyors beolvasásában, amikor egyszerre sok csomag van."
 }

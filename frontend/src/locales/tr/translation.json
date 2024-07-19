@@ -63,5 +63,6 @@
   "homeEnd": "Keyifli bir iş günü geçirmenizi dilerim!",
   "barcodesNav": "Barkodlar",
   "cancel": "İptal",
-  "barcodesTitle": "Önemli Barkodlar"
+  "barcodesTitle": "Önemli Barkodlar",
+  "barcodesDesc": "Bunlar, aynı anda birçok paket olduğunda paketleri hızlı bir şekilde taramaya yardımcı olan barkodlardır."
 }

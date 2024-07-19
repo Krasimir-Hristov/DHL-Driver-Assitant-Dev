@@ -63,5 +63,6 @@
   "homeEnd": "Una piacevole giornata lavorativa!",
   "barcodesNav": "Codici a barre",
   "cancel": "Annulla",
-  "barcodesTitle": "Codici a barre importanti"
+  "barcodesTitle": "Codici a barre importanti",
+  "barcodesDesc": "Questi sono codici a barre che aiutano a scansionare rapidamente i pacchetti quando ci sono molti pacchetti contemporaneamente."
 }
