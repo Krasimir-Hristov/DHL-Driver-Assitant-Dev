@@ -68,5 +68,5 @@
   "cancelDesc": "A csomagok depóba való visszaküldésénél használják.",
   "isCloseTitle": "Cég/Iroda zárva",
   "isClosedDesc": "Használják, amikor egy üzlet zárva van.",
-  "givePackage": "Csomagátadás"
+  "givePackageTitle": "Csomagátadás"
 }
