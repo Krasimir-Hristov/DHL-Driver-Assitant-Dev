@@ -17,4 +17,17 @@ const navLinks = [
   { to: '/barcodes', label: 'barcodesNav' },
 ];
 
-export { weekOffDays, navLinks };
+const languages = [
+  { code: 'GB', lang: 'en' },
+  { code: 'BG', lang: 'bg' },
+  { code: 'RO', lang: 'ro' },
+  { code: 'DE', lang: 'de' },
+  { code: 'AL', lang: 'al' },
+  { code: 'GR', lang: 'gr' },
+  { code: 'IT', lang: 'it' },
+  { code: 'TR', lang: 'tr' },
+  { code: 'RS', lang: 'ru' },
+  { code: 'HU', lang: 'hu' },
+];
+
+export { weekOffDays, navLinks, languages };

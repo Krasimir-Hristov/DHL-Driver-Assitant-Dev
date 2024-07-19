@@ -1,27 +1,18 @@
 import React, { useState, useEffect } from 'react';
-import { navLinks } from '../constants';
 import { Link } from 'react-router-dom';
+
+import { navLinks } from '../constants';
+import { languages } from '../constants';
+
 import { FlagIcon } from 'react-flag-kit';
 import { useTranslation } from 'react-i18next';
+
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline';
 
 interface Language {
   code: string;
   lang: string;
 }
-
-const languages: Language[] = [
-  { code: 'GB', lang: 'en' },
-  { code: 'BG', lang: 'bg' },
-  { code: 'RO', lang: 'ro' },
-  { code: 'DE', lang: 'de' },
-  { code: 'AL', lang: 'al' },
-  { code: 'GR', lang: 'gr' },
-  { code: 'IT', lang: 'it' },
-  { code: 'TR', lang: 'tr' },
-  { code: 'RS', lang: 'ru' },
-  { code: 'HU', lang: 'hu' },
-];
 
 const Navbar: React.FC = () => {
   const { i18n, t } = useTranslation();
