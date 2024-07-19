@@ -25,6 +25,7 @@ import DayOfYear from '../components/DayOfYear';
 import CurrentDate from '../components/CurrentDate';
 import DateRange from '../components/DateRange';
 import ListingCard from '../components/ListingCard';
+import TitleAndDescripion from '../components/TitleAndDescripion';
 
 const ControllBook: React.FC = () => {
   const { t } = useTranslation();
@@ -110,20 +111,15 @@ const ControllBook: React.FC = () => {
       image: signatureImg,
       description: `${t('cbSignatureDesc')}`, // Примерен ключ от вашите i18n ресурси
     },
-
-    // Добавете повече обекти тук, ако е необходимо
   ];
 
   return (
     <div className='bg-slate-200'>
-      <div className='justify-center text-center'>
-        <h1 className='text-red-800 font-extrabold  justify-center text-center uppercase py-4 text-2xl  decoration-red-800  md:text-6xl'>
-          {t('controllBook')}
-        </h1>
-        <p className='text-lg  text-justify font-bold mx-4 my-2'>
-          {t('cbDescription')}
-        </p>
-        <hr className='border-t border-gray-400 mx-4 my-4' />
+      <div>
+        <TitleAndDescripion
+          title={t('controllBook')}
+          description={t('cbDescription')}
+        />
       </div>
 
       <h1 className='text-2xl md:text-3xl lg:text-4xl mb-8 font-extrabold text-center '>
