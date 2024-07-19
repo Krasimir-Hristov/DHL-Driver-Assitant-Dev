@@ -114,7 +114,7 @@ const ControllBook: React.FC = () => {
   ];
 
   return (
-    <div className='bg-slate-100'>
+    <div className='bg-slate-200'>
       <div className='justify-center text-center'>
         <h1 className='text-red-800 font-extrabold  justify-center text-center uppercase py-4 text-2xl  decoration-red-800  md:text-6xl'>
           {t('controllBook')}
