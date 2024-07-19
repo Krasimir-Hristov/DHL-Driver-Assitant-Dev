@@ -32,7 +32,7 @@ const Barcodes: React.FC = () => {
     {
       title: `${t('toWarehouseTitle')}`,
       image: lagern,
-      description: 'lagern',
+      description: `${t('toWarehouseDesc')}`,
     },
     {
       title: 'streetClose',
