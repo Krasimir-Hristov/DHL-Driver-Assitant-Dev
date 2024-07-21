@@ -74,5 +74,6 @@
   "toWarehouseDesc": "Wird verwendet, wenn im Voraus bekannt ist, dass ein bestimmter Standort geschlossen ist und die Pakete nicht in den Lieferwagen geladen werden.",
   "addressUnavailableTitle": "Unzugängliche Adresse",
   "addressUnavailableDesc": "Wird verwendet, wenn es nicht möglich ist, eine bestimmte Adresse aus einem bestimmten Grund (Unfall, Straßenreparatur usw.) zu erreichen.",
-  "telephonesNav": "Wichtige Telefonnummern"
+  "telephonesNav": "Wichtige Telefonnummern",
+  "telephonesTitle": "Notrufnummern"
 }

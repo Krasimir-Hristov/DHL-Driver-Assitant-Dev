@@ -74,5 +74,6 @@
   "toWarehouseDesc": "Se folosește atunci când se știe dinainte că un anumit loc este închis și pachetele nu sunt încărcate în furgon.",
   "addressUnavailableTitle": "Adresă inaccesibilă",
   "addressUnavailableDesc": "Se folosește atunci când nu este posibil să se acceseze o anumită adresă din cauza unui motiv (accident, reparații pe drum, etc.).",
-  "telephonesNav": "Telefoane importante"
+  "telephonesNav": "Telefoane importante",
+  "telephonesTitle": "Telefoane de urgență"
 }

@@ -74,5 +74,6 @@
   "toWarehouseDesc": "Használják, amikor előre tudható, hogy egy adott helyszín zárva van, és a csomagokat nem töltik fel a furgonra.",
   "addressUnavailableTitle": "Elérhetetlen cím",
   "addressUnavailableDesc": "Használják, amikor egy adott címhez valamilyen okból (baleset, útrekonstrukció stb.) nem lehet hozzáférni.",
-  "telephonesNav": "Fontos telefonok"
+  "telephonesNav": "Fontos telefonok",
+  "telephonesTitle": "Segélyhívó telefonok"
 }
