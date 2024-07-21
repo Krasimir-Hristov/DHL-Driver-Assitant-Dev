@@ -34,13 +34,4 @@ const languages: Language[] = [
   { code: 'HU', lang: 'hu' },
 ];
 
-type Depots = {
-  id: number;
-  name: string;
-};
-const depots: Depots[] = [
-  { id: 1, name: 'Köngen' },
-  { id: 2, name: 'Test' },
-];
-
-export { weekOffDays, navLinks, languages, depots };
+export { weekOffDays, navLinks, languages };
