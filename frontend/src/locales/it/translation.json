@@ -73,5 +73,6 @@
   "toWarehouseTitle": "Stoccaggio",
   "toWarehouseDesc": "Viene utilizzato quando si sa in anticipo che una determinata località è chiusa e i pacchi non vengono caricati sul furgone.",
   "addressUnavailableTitle": "Indirizzo non raggiungibile",
-  "addressUnavailableDesc": "Viene utilizzato quando non è possibile accedere a un determinato indirizzo per qualche motivo (incidente, riparazione della strada, ecc.)."
+  "addressUnavailableDesc": "Viene utilizzato quando non è possibile accedere a un determinato indirizzo per qualche motivo (incidente, riparazione della strada, ecc.).",
+  "telephones": "Telefoni importanti"
 }

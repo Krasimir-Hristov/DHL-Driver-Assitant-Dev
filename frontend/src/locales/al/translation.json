@@ -73,5 +73,6 @@
   "toWarehouseTitle": "Ruajtje",
   "toWarehouseDesc": "Përdoret kur dihet paraprakisht se një vend i caktuar është i mbyllur dhe paketat nuk ngarkohen në furgon.",
   "addressUnavailableTitle": "Adresë e paarritshme",
-  "addressUnavailableDesc": "Përdoret kur nuk është e mundur të aksesoni një adresë të caktuar për ndonjë arsye (aksident, ndreqje rrugore, etj.)."
+  "addressUnavailableDesc": "Përdoret kur nuk është e mundur të aksesoni një adresë të caktuar për ndonjë arsye (aksident, ndreqje rrugore, etj.).",
+  "telephones": "Telefona të rëndësishëm"
 }
