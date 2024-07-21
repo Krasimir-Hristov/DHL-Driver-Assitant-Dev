@@ -13,7 +13,13 @@ import TitleAndDescripion from '../components/TitleAndDescripion';
 const Barcodes: React.FC = () => {
   const { t } = useTranslation();
 
-  const barcodesInfo = [
+  type BarcodesInfo = {
+    title: string;
+    image: string | null;
+    description: string;
+  };
+
+  const barcodesInfo: BarcodesInfo[] = [
     {
       title: `${t('cancelTitle')}`,
       image: abruch,
