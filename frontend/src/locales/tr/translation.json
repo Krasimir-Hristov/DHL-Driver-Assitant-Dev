@@ -74,5 +74,5 @@
   "toWarehouseDesc": "Belirli bir yerin kapalı olduğu önceden biliniyorsa ve paketler vana yüklenmiyorsa kullanılır.",
   "addressUnavailableTitle": "Erişilemeyen Adres",
   "addressUnavailableDesc": "Bir adrese herhangi bir sebepten dolayı (kaza, yol onarımı vb.) erişilemediğinde kullanılır.",
-  "telephones": "Önemli Telefonlar"
+  "telephonesNav": "Önemli Telefonlar"
 }

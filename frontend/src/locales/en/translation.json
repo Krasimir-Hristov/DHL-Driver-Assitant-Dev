@@ -74,5 +74,5 @@
   "toWarehouseDesc": "Used when it is known in advance that a particular location is closed, and the packages are not loaded onto the van.",
   "addressUnavailableTitle": "Unreachable Address",
   "addressUnavailableDesc": "Used when it is not possible to access a given address due to some reason (accident, road repair, etc.).",
-  "telephones": "Important Telephones"
+  "telephonesNav": "Important Telephones"
 }
