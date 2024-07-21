@@ -1,5 +1,4 @@
 type WeekOffDays = number[][];
-
 const weekOffDays: WeekOffDays = [
   [], // Placeholder for 0 index
   [6], // Week 1: Saturday
@@ -14,7 +13,6 @@ const weekOffDays: WeekOffDays = [
 ];
 
 type NavLink = { to: string; label: string };
-
 const navLinks: NavLink[] = [
   { to: '/calendar', label: 'calendar' },
   { to: '/controllbook', label: 'controllBook' },
@@ -23,7 +21,6 @@ const navLinks: NavLink[] = [
 ];
 
 type Language = { code: string; lang: string };
-
 const languages: Language[] = [
   { code: 'GB', lang: 'en' },
   { code: 'BG', lang: 'bg' },
@@ -37,4 +34,13 @@ const languages: Language[] = [
   { code: 'HU', lang: 'hu' },
 ];
 
-export { weekOffDays, navLinks, languages };
+type Depots = {
+  id: number;
+  name: string;
+};
+const depots: Depots[] = [
+  { id: 1, name: 'Köngen' },
+  { id: 2, name: 'Test' },
+];
+
+export { weekOffDays, navLinks, languages, depots };
