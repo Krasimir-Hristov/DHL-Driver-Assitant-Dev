@@ -1,7 +1,6 @@
 import React from 'react';
 
 type DepotsListingProps = {
-  id: string;
   title: string;
   image: string | undefined;
 };

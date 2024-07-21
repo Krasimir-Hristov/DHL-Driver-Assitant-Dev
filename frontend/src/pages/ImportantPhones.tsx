@@ -32,12 +32,7 @@ const ImportantPhones: React.FC = () => {
       <ul>
         {depots.map((depot, index) => (
           <Link to={`/phones/${depot.id}`}>
-            <DepotsListing
-              key={index}
-              id={depot.id}
-              title={depot.name}
-              image={depot.image}
-            />
+            <DepotsListing key={index} title={depot.name} image={depot.image} />
           </Link>
         ))}
       </ul>
