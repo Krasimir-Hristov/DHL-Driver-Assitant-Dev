@@ -8,6 +8,8 @@ import Footer from './components/Footer';
 import ControllBook from './pages/ControllBook';
 import DayOffCalendar from './pages/DayOffCalendar';
 import Barcodes from './pages/Barcodes';
+import ImportantPhones from './pages/ImportantPhones';
+import PhonesDetails from './components/PhonesDetails';
 
 const App: React.FC = () => {
   return (
@@ -22,6 +24,8 @@ const App: React.FC = () => {
               <Route path='/controllbook' element={<ControllBook />} />
               <Route path='/barcodes' element={<Barcodes />} />
               <Route path='/calendar' element={<DayOffCalendar />} />
+              <Route path='/phones' element={<ImportantPhones />} />
+              <Route path='phones/id' element={<PhonesDetails />} />
             </Routes>
           </main>
           <Footer />
