@@ -75,5 +75,6 @@
   "addressUnavailableTitle": "Indirizzo non raggiungibile",
   "addressUnavailableDesc": "Viene utilizzato quando non è possibile accedere a un determinato indirizzo per qualche motivo (incidente, riparazione della strada, ecc.).",
   "telephonesNav": "Telefoni importanti",
-  "telephonesTitle": "Telefoni di emergenza"
+  "telephonesTitle": "Telefoni di emergenza",
+  "telephonesDesc": "Qui puoi trovare numeri di telefono importanti per le emergenze."
 }

@@ -75,5 +75,6 @@
   "addressUnavailableTitle": "Adresă inaccesibilă",
   "addressUnavailableDesc": "Se folosește atunci când nu este posibil să se acceseze o anumită adresă din cauza unui motiv (accident, reparații pe drum, etc.).",
   "telephonesNav": "Telefoane importante",
-  "telephonesTitle": "Telefoane de urgență"
+  "telephonesTitle": "Telefoane de urgență",
+  "telephonesDesc": "Aici puteți găsi numere de telefon importante pentru urgențe."
 }
