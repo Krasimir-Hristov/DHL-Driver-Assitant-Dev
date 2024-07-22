@@ -26,7 +26,7 @@ const PhonesDetails: React.FC = () => {
         {
           name: `${t('manager')}`,
           number: '+49 7024 98301 552',
-          info: 'Звънете на този номер за общи въпроси.',
+          info: `${t('managerDesc')}`,
         },
         {
           name: 'Спешен',
@@ -82,8 +82,8 @@ const PhonesDetails: React.FC = () => {
         {depot.telephones.map((phone, index) => (
           <li key={index}>
             <h2>{phone.name}</h2>
-            <p>Номер: {phone.number}</p>
-            <p>Информация: {phone.info}</p>
+            <p>{phone.number}</p>
+            <p> {phone.info}</p>
           </li>
         ))}
       </ul>
