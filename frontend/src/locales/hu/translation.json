@@ -78,5 +78,6 @@
   "telephonesTitle": "Segélyhívó telefonok",
   "telephonesDesc": "Itt megtalálhatja a fontos segélyhívó telefonszámokat.",
   "manager": "Menedzser",
-  "managerDesc": "Hívja ezt a számot, hogy jelentse, ha beteg (legkésőbb 6:00-ig)."
+  "managerDesc": "Hívja ezt a számot, hogy jelentse, ha beteg (legkésőbb 6:00-ig).",
+  "carsManager": "Járműfelelős"
 }

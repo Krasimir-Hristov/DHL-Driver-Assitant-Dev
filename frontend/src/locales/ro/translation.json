@@ -78,5 +78,6 @@
   "telephonesTitle": "Telefoane de urgență",
   "telephonesDesc": "Aici puteți găsi numere de telefon importante pentru urgențe.",
   "manager": "Manager",
-  "managerDesc": "Sunați aici pentru a raporta că sunteți bolnav (nu mai târziu de ora 6:00)."
+  "managerDesc": "Sunați aici pentru a raporta că sunteți bolnav (nu mai târziu de ora 6:00).",
+  "carsManager": "Responsabil cu vehiculele"
 }

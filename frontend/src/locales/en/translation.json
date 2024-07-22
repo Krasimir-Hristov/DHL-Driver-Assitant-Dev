@@ -78,5 +78,6 @@
   "telephonesTitle": "Emergency Telephones",
   "telephonesDesc": "Here you can find important emergency telephone numbers.",
   "manager": "Manager",
-  "managerDesc": "Call here to report that you are sick (no later than 6:00)."
+  "managerDesc": "Call here to report that you are sick (no later than 6:00).",
+  "carsManager": "Vehicle Manager"
 }
