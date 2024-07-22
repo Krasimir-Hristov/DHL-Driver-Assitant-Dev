@@ -81,5 +81,6 @@
   "managerDesc": "Hívja ezt a számot, hogy jelentse, ha beteg (legkésőbb 6:00-ig).",
   "carsManager": "Járműfelelős",
   "carsManagerDesc": "Járművel kapcsolatos problémák vagy baleset esetén az úton.",
-  "holidayManager": "Szabadságügyi felelős"
+  "holidayManager": "Szabadságügyi felelős",
+  "holidayManagerDesc": "Szabadsággal kapcsolatos kérdések esetén."
 }

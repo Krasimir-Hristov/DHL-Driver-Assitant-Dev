@@ -81,5 +81,6 @@
   "managerDesc": "Rufen Sie hier an, um zu melden, dass Sie krank sind (spätestens bis 6:00 Uhr).",
   "carsManager": "Fahrzeugverantwortlicher",
   "carsManagerDesc": "Bei Problemen mit dem Fahrzeug oder im Falle eines Unfalls auf der Straße.",
-  "holidayManager": "Urlaubsverantwortlicher"
+  "holidayManager": "Urlaubsverantwortlicher",
+  "holidayManagerDesc": "Für Fragen bezüglich Urlaub."
 }
