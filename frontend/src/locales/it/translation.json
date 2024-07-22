@@ -79,5 +79,6 @@
   "telephonesDesc": "Qui puoi trovare numeri di telefono importanti per le emergenze.",
   "manager": "Manager",
   "managerDesc": "Chiama qui per segnalare che sei malato (non più tardi delle 6:00).",
-  "carsManager": "Responsabile dei veicoli"
+  "carsManager": "Responsabile dei veicoli",
+  "carsManagerDesc": "Per problemi con il veicolo o in caso di incidente stradale."
 }

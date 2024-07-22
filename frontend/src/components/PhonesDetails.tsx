@@ -31,7 +31,7 @@ const PhonesDetails: React.FC = () => {
         {
           name: `${t('carsManager')}`,
           number: '+49 123 456 7891',
-          info: 'Звънете на този номер само при спешни случаи.',
+          info: `${t('carsManagerDesc')}`,
         },
       ],
     },
