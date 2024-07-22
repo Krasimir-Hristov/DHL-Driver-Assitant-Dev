@@ -29,14 +29,14 @@ const PhonesDetails: React.FC = () => {
           info: `${t('managerDesc')}`,
         },
         {
-          name: 'Спешен',
+          name: `${t('carsManager')}`,
           number: '+49 123 456 7891',
           info: 'Звънете на този номер само при спешни случаи.',
         },
       ],
     },
     waiblingen: {
-      title: `${t('manager')}`,
+      title: 'Depo Waiblingen',
       description: 'Това е описанието за Склад 2.',
       telephones: [
         {
@@ -45,23 +45,23 @@ const PhonesDetails: React.FC = () => {
           info: 'Звънете на този номер за общи въпроси.',
         },
         {
-          name: 'Спешен',
+          name: `${t('carsManager')}`,
           number: '+49 987 654 3211',
           info: 'Звънете на този номер само при спешни случаи.',
         },
       ],
     },
     kircheim: {
-      title: 'Склад 3',
+      title: 'Depo Kircheim',
       description: 'Това е описанието за Склад 3.',
       telephones: [
         {
-          name: 'Главен офис',
+          name: `${t('manager')}`,
           number: '+49 555 666 7777',
           info: 'Звънете на този номер за общи въпроси.',
         },
         {
-          name: 'Спешен',
+          name: `${t('carsManager')}`,
           number: '+49 555 666 7778',
           info: 'Звънете на този номер само при спешни случаи.',
         },
