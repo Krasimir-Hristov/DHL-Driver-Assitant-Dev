@@ -76,5 +76,6 @@
   "addressUnavailableDesc": "Használják, amikor egy adott címhez valamilyen okból (baleset, útrekonstrukció stb.) nem lehet hozzáférni.",
   "telephonesNav": "Fontos telefonok",
   "telephonesTitle": "Segélyhívó telefonok",
-  "telephonesDesc": "Itt megtalálhatja a fontos segélyhívó telefonszámokat."
+  "telephonesDesc": "Itt megtalálhatja a fontos segélyhívó telefonszámokat.",
+  "manager": "Menedzser"
 }

@@ -76,5 +76,6 @@
   "addressUnavailableDesc": "Used when it is not possible to access a given address due to some reason (accident, road repair, etc.).",
   "telephonesNav": "Important Telephones",
   "telephonesTitle": "Emergency Telephones",
-  "telephonesDesc": "Here you can find important emergency telephone numbers."
+  "telephonesDesc": "Here you can find important emergency telephone numbers.",
+  "manager": "Manager"
 }

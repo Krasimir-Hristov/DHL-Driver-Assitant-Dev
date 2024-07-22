@@ -76,5 +76,6 @@
   "addressUnavailableDesc": "Përdoret kur nuk është e mundur të aksesoni një adresë të caktuar për ndonjë arsye (aksident, ndreqje rrugore, etj.).",
   "telephonesNav": "Telefona të rëndësishëm",
   "telephonesTitle": "Telefona urgjente",
-  "telephonesDesc": "Këtu mund të gjeni numrat e rëndësishëm të telefonit për raste urgjente."
+  "telephonesDesc": "Këtu mund të gjeni numrat e rëndësishëm të telefonit për raste urgjente.",
+  "manager": "Menaxher"
 }

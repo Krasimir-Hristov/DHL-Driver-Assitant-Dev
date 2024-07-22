@@ -76,5 +76,6 @@
   "addressUnavailableDesc": "Wird verwendet, wenn es nicht möglich ist, eine bestimmte Adresse aus einem bestimmten Grund (Unfall, Straßenreparatur usw.) zu erreichen.",
   "telephonesNav": "Wichtige Telefonnummern",
   "telephonesTitle": "Notrufnummern",
-  "telephonesDesc": "Hier finden Sie wichtige Notrufnummern."
+  "telephonesDesc": "Hier finden Sie wichtige Notrufnummern.",
+  "manager": "Manager"
 }

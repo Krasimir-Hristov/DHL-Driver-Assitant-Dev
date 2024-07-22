@@ -76,5 +76,6 @@
   "addressUnavailableDesc": "Bir adrese herhangi bir sebepten dolayı (kaza, yol onarımı vb.) erişilemediğinde kullanılır.",
   "telephonesNav": "Önemli Telefonlar",
   "telephonesTitle": "Acil Telefonlar",
-  "telephonesDesc": "Burada acil durumlar için önemli telefon numaralarını bulabilirsiniz."
+  "telephonesDesc": "Burada acil durumlar için önemli telefon numaralarını bulabilirsiniz.",
+  "manager": "Yönetici"
 }
