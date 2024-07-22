@@ -80,5 +80,6 @@
   "manager": "Manager",
   "managerDesc": "Sunați aici pentru a raporta că sunteți bolnav (nu mai târziu de ora 6:00).",
   "carsManager": "Responsabil cu vehiculele",
-  "carsManagerDesc": "Pentru probleme cu vehiculul sau în caz de accident pe drum."
+  "carsManagerDesc": "Pentru probleme cu vehiculul sau în caz de accident pe drum.",
+  "holidayManager": "Responsabil cu concediile"
 }

@@ -80,5 +80,6 @@
   "manager": "Manager",
   "managerDesc": "Call here to report that you are sick (no later than 6:00).",
   "carsManager": "Vehicle Manager",
-  "carsManagerDesc": "For issues with the vehicle or in case of an accident on the road."
+  "carsManagerDesc": "For issues with the vehicle or in case of an accident on the road.",
+  "holidayManager": "Leave Manager"
 }

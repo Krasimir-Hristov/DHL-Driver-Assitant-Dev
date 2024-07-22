@@ -80,5 +80,6 @@
   "manager": "Manager",
   "managerDesc": "Chiama qui per segnalare che sei malato (non più tardi delle 6:00).",
   "carsManager": "Responsabile dei veicoli",
-  "carsManagerDesc": "Per problemi con il veicolo o in caso di incidente stradale."
+  "carsManagerDesc": "Per problemi con il veicolo o in caso di incidente stradale.",
+  "holidayManager": "Responsabile dei permessi"
 }

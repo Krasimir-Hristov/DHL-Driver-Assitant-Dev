@@ -80,5 +80,6 @@
   "manager": "Yönetici",
   "managerDesc": "Hasta olduğunuzu bildirmek için burayı arayın (en geç 6:00'ya kadar).",
   "carsManager": "Araç Sorumlusu",
-  "carsManagerDesc": "Araç ile ilgili sorunlar veya yolda bir kaza durumunda."
+  "carsManagerDesc": "Araç ile ilgili sorunlar veya yolda bir kaza durumunda.",
+  "holidayManager": "İzin Sorumlusu"
 }
