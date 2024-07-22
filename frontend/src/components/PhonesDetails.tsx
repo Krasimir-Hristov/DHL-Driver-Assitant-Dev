@@ -30,7 +30,12 @@ const PhonesDetails: React.FC = () => {
         },
         {
           name: `${t('carsManager')}`,
-          number: '+49 123 456 7891',
+          number: '01605052283',
+          info: `${t('carsManagerDesc')}`,
+        },
+        {
+          name: `${t('holidayManager')}`,
+          number: '01721673614',
           info: `${t('carsManagerDesc')}`,
         },
       ],
@@ -47,7 +52,12 @@ const PhonesDetails: React.FC = () => {
         {
           name: `${t('carsManager')}`,
           number: '+49 987 654 3211',
-          info: 'Звънете на този номер само при спешни случаи.',
+          info: `${t('carsManagerDesc')}`,
+        },
+        {
+          name: `${t('holidayManager')}`,
+          number: '+49 123 456 7891',
+          info: `${t('carsManagerDesc')}`,
         },
       ],
     },
@@ -63,7 +73,12 @@ const PhonesDetails: React.FC = () => {
         {
           name: `${t('carsManager')}`,
           number: '+49 555 666 7778',
-          info: 'Звънете на този номер само при спешни случаи.',
+          info: `${t('carsManagerDesc')}`,
+        },
+        {
+          name: `${t('holidayManager')}`,
+          number: '+49 123 456 7891',
+          info: `${t('carsManagerDesc')}`,
         },
       ],
     },
