@@ -77,5 +77,6 @@
   "telephonesNav": "Telefona të rëndësishëm",
   "telephonesTitle": "Telefona urgjente",
   "telephonesDesc": "Këtu mund të gjeni numrat e rëndësishëm të telefonit për raste urgjente.",
-  "manager": "Menaxher"
+  "manager": "Menaxher",
+  "managerDesc": "Telefononi këtu për të raportuar se jeni të sëmurë (jo më vonë se ora 6:00)."
 }

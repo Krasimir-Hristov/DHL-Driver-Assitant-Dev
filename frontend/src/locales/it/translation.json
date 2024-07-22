@@ -77,5 +77,6 @@
   "telephonesNav": "Telefoni importanti",
   "telephonesTitle": "Telefoni di emergenza",
   "telephonesDesc": "Qui puoi trovare numeri di telefono importanti per le emergenze.",
-  "manager": "Manager"
+  "manager": "Manager",
+  "managerDesc": "Chiama qui per segnalare che sei malato (non più tardi delle 6:00)."
 }

@@ -77,5 +77,6 @@
   "telephonesNav": "Önemli Telefonlar",
   "telephonesTitle": "Acil Telefonlar",
   "telephonesDesc": "Burada acil durumlar için önemli telefon numaralarını bulabilirsiniz.",
-  "manager": "Yönetici"
+  "manager": "Yönetici",
+  "managerDesc": "Hasta olduğunuzu bildirmek için burayı arayın (en geç 6:00'ya kadar)."
 }
