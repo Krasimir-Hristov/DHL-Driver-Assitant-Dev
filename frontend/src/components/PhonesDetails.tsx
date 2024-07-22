@@ -36,7 +36,7 @@ const PhonesDetails: React.FC = () => {
         {
           name: `${t('holidayManager')}`,
           number: '01721673614',
-          info: `${t('carsManagerDesc')}`,
+          info: `${t('holidayManagerDesc')}`,
         },
       ],
     },
@@ -57,7 +57,7 @@ const PhonesDetails: React.FC = () => {
         {
           name: `${t('holidayManager')}`,
           number: '+49 123 456 7891',
-          info: `${t('carsManagerDesc')}`,
+          info: `${t('holidayManagerDesc')}`,
         },
       ],
     },
@@ -78,7 +78,7 @@ const PhonesDetails: React.FC = () => {
         {
           name: `${t('holidayManager')}`,
           number: '+49 123 456 7891',
-          info: `${t('carsManagerDesc')}`,
+          info: `${t('holidayManagerDesc')}`,
         },
       ],
     },
