@@ -17,8 +17,8 @@ const ImportantPhones: React.FC = () => {
   };
   const depots: Depots[] = [
     { id: 'köngen', name: 'Köngen', image: koengenImage },
-    { id: 'Test 1', name: 'Test 1', image: koengenImage },
-    { id: 'Test 2', name: 'Test 2', image: koengenImage },
+    { id: 'waiblingen', name: 'waiblingen', image: koengenImage },
+    { id: 'kircheim', name: 'kircheim', image: koengenImage },
   ];
 
   return (
@@ -31,9 +31,11 @@ const ImportantPhones: React.FC = () => {
       </div>
       <ul>
         {depots.map((depot, index) => (
-          <Link to={`/phones/${depot.id}`}>
-            <DepotsListing key={index} title={depot.name} image={depot.image} />
-          </Link>
+          <li key={index}>
+            <Link to={`/phones/${depot.id}`}>
+              <DepotsListing title={depot.name} image={depot.image} />
+            </Link>
+          </li>
         ))}
       </ul>
     </div>

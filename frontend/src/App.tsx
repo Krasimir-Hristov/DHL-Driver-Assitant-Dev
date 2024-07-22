@@ -17,15 +17,14 @@ const App: React.FC = () => {
       <Router>
         <div className='flex flex-col min-h-screen'>
           <Navbar />
-          {/* Increase padding top for different screen sizes even more */}
-          <main className='flex-grow mb-4 pt-24 md:pt-28 '>
+          <main className='flex-grow mb-4 pt-24 md:pt-28'>
             <Routes>
               <Route path='/' element={<Home />} />
               <Route path='/controllbook' element={<ControllBook />} />
               <Route path='/barcodes' element={<Barcodes />} />
               <Route path='/calendar' element={<DayOffCalendar />} />
               <Route path='/phones' element={<ImportantPhones />} />
-              <Route path='phones/id' element={<PhonesDetails />} />
+              <Route path='/phones/:id' element={<PhonesDetails />} />{' '}
             </Routes>
           </main>
           <Footer />
