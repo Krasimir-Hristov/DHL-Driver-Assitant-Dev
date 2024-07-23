@@ -82,5 +82,7 @@
   "carsManager": "Oтговорник за колите",
   "carsManagerDesc": "При проблеми със превозното средство, или при инцидент на пътя.",
   "holidayManager": "Отговорник за отпуските",
-  "holidayManagerDesc": "За въпроси свързани с отпуските."
+  "holidayManagerDesc": "За въпроси свързани с отпуските.",
+  "technicalSupport": "Техническа поддръжка",
+  "technicalSupportDesc": "Проблеми със MONA скенери, принтери."
 }

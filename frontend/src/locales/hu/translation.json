@@ -82,5 +82,6 @@
   "carsManager": "Járműfelelős",
   "carsManagerDesc": "Járművel kapcsolatos problémák vagy baleset esetén az úton.",
   "holidayManager": "Szabadságügyi felelős",
-  "holidayManagerDesc": "Szabadsággal kapcsolatos kérdések esetén."
+  "holidayManagerDesc": "Szabadsággal kapcsolatos kérdések esetén.",
+  "technicalSupport": "Műszaki Támogatás"
 }

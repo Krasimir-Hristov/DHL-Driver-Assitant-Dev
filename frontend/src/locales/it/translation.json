@@ -82,5 +82,6 @@
   "carsManager": "Responsabile dei veicoli",
   "carsManagerDesc": "Per problemi con il veicolo o in caso di incidente stradale.",
   "holidayManager": "Responsabile dei permessi",
-  "holidayManagerDesc": "Per domande relative ai permessi."
+  "holidayManagerDesc": "Per domande relative ai permessi.",
+  "technicalSupport": "Supporto Tecnico"
 }

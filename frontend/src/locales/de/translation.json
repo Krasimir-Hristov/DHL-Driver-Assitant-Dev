@@ -82,5 +82,6 @@
   "carsManager": "Fahrzeugverantwortlicher",
   "carsManagerDesc": "Bei Problemen mit dem Fahrzeug oder im Falle eines Unfalls auf der Straße.",
   "holidayManager": "Urlaubsverantwortlicher",
-  "holidayManagerDesc": "Für Fragen bezüglich Urlaub."
+  "holidayManagerDesc": "Für Fragen bezüglich Urlaub.",
+  "technicalSupport": "Technischer Support"
 }

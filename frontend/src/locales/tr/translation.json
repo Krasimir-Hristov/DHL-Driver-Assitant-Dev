@@ -82,5 +82,6 @@
   "carsManager": "Araç Sorumlusu",
   "carsManagerDesc": "Araç ile ilgili sorunlar veya yolda bir kaza durumunda.",
   "holidayManager": "İzin Sorumlusu",
-  "holidayManagerDesc": "İzinlerle ilgili sorular için."
+  "holidayManagerDesc": "İzinlerle ilgili sorular için.",
+  "technicalSupport": "Teknik Destek"
 }
