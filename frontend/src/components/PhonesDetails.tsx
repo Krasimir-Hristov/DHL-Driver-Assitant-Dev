@@ -55,7 +55,7 @@ const PhonesDetails: React.FC = () => {
         },
         {
           name: `${t('complaints')}`,
-          number: '+49 123 456 7891',
+          number: '07024-98301-477',
           info: `${t('complaintsDesc')}`,
         },
       ],
