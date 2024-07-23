@@ -87,5 +87,6 @@
   "technicalSupportDesc": "MONA tarayıcıları, yazıcıları ile ilgili sorunlar.",
   "warehouseManager": "Depo Sorumlusu",
   "warehouseManagerDesc": "Depo ile ilgili sorular için.",
-  "checkOut": "Check-Out"
+  "checkOut": "Check-Out",
+  "cheOutDesc": "Kalan paketler için bir meslektaşınızdan yardım almanız gerekiyorsa."
 }

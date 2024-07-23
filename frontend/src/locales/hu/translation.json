@@ -87,5 +87,6 @@
   "technicalSupportDesc": "Problémák a MONA szkennerek, nyomtatók használatával.",
   "warehouseManager": "Raktárkezelő",
   "warehouseManagerDesc": "Raktárral kapcsolatos kérdések esetén.",
-  "checkOut": "Check-Out"
+  "checkOut": "Check-Out",
+  "cheOutDesc": "Ha segítségre van szüksége egy kollégától a megmaradt csomagokhoz."
 }

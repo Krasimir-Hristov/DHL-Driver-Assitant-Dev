@@ -87,5 +87,6 @@
   "technicalSupportDesc": "Проблеми със MONA скенери, принтери.",
   "warehouseManager": "Отговорник за халето",
   "warehouseManagerDesc": "За въпроси свързани с халето.",
-  "checkOut": "Check-Out"
+  "checkOut": "Check-Out",
+  "cheOutDesc": "При нужда от помощ от колега за останалите пакети."
 }

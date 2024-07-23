@@ -87,5 +87,6 @@
   "technicalSupportDesc": "Проблемы с сканерами MONA, принтерами.",
   "warehouseManager": "Ответственный за склад",
   "warehouseManagerDesc": "По вопросам, связанным со складом.",
-  "checkOut": "Check-Out"
+  "checkOut": "Check-Out",
+  "cheOutDesc": "Если вам нужна помощь от коллеги с оставшимися пакетами."
 }

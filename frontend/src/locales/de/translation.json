@@ -87,5 +87,6 @@
   "technicalSupportDesc": "Probleme mit MONA-Scannern, Druckern.",
   "warehouseManager": "Lagerverwalter",
   "warehouseManagerDesc": "Für Fragen bezüglich des Lagers.",
-  "checkOut": "Check-Out"
+  "checkOut": "Check-Out",
+  "cheOutDesc": "Wenn Sie Hilfe von einem Kollegen für die verbleibenden Pakete benötigen."
 }

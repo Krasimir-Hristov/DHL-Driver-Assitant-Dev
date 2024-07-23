@@ -87,5 +87,6 @@
   "technicalSupportDesc": "Probleme cu scanerele și imprimantele MONA.",
   "warehouseManager": "Responsabil de depozit",
   "warehouseManagerDesc": "Pentru întrebări legate de depozit.",
-  "checkOut": "Check-Out"
+  "checkOut": "Check-Out",
+  "cheOutDesc": "Dacă aveți nevoie de ajutor de la un coleg pentru pachetele rămase."
 }

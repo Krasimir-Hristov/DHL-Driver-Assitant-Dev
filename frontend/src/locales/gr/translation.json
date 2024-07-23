@@ -87,5 +87,6 @@
   "technicalSupportDesc": "Προβλήματα με σαρωτές MONA, εκτυπωτές.",
   "warehouseManager": "Υπεύθυνος αποθήκης",
   "warehouseManagerDesc": "Για ερωτήσεις σχετικές με την αποθήκη.",
-  "checkOut": "Check-Out"
+  "checkOut": "Check-Out",
+  "cheOutDesc": "Εάν χρειάζεστε βοήθεια από έναν συνάδελφο για τα υπόλοιπα πακέτα."
 }
