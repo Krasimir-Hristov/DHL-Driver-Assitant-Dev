@@ -84,5 +84,6 @@
   "holidayManager": "Ответственный за отпуска",
   "holidayManagerDesc": "По вопросам, связанным с отпусками.",
   "technicalSupport": "Техническая поддержка",
-  "technicalSupportDesc": "Проблемы с сканерами MONA, принтерами."
+  "technicalSupportDesc": "Проблемы с сканерами MONA, принтерами.",
+  "warehouseManager": "Ответственный за склад"
 }

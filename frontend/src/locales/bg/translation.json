@@ -84,5 +84,7 @@
   "holidayManager": "Отговорник за отпуските",
   "holidayManagerDesc": "За въпроси свързани с отпуските.",
   "technicalSupport": "Техническа поддръжка",
-  "technicalSupportDesc": "Проблеми със MONA скенери, принтери."
+  "technicalSupportDesc": "Проблеми със MONA скенери, принтери.",
+  "warehouseManager": "Отговорник за халето",
+  "warehouseManagerDesc": "За въпроси свързани с халето."
 }

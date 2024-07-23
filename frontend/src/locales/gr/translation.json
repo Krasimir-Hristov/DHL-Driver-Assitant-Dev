@@ -84,5 +84,6 @@
   "holidayManager": "Υπεύθυνος για τις άδειες",
   "holidayManagerDesc": "Για ερωτήσεις σχετικές με τις άδειες.",
   "technicalSupport": "Τεχνική Υποστήριξη",
-  "technicalSupportDesc": "Προβλήματα με σαρωτές MONA, εκτυπωτές."
+  "technicalSupportDesc": "Προβλήματα με σαρωτές MONA, εκτυπωτές.",
+  "warehouseManager": "Υπεύθυνος αποθήκης"
 }

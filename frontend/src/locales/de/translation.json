@@ -84,5 +84,6 @@
   "holidayManager": "Urlaubsverantwortlicher",
   "holidayManagerDesc": "Für Fragen bezüglich Urlaub.",
   "technicalSupport": "Technischer Support",
-  "technicalSupportDesc": "Probleme mit MONA-Scannern, Druckern."
+  "technicalSupportDesc": "Probleme mit MONA-Scannern, Druckern.",
+  "warehouseManager": "Lagerverwalter"
 }

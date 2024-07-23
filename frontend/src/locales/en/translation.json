@@ -84,5 +84,6 @@
   "holidayManager": "Leave Manager",
   "holidayManagerDesc": "For questions related to leave.",
   "technicalSupport": "Technical Support",
-  "technicalSupportDesc": "Issues with MONA scanners, printers."
+  "technicalSupportDesc": "Issues with MONA scanners, printers.",
+  "warehouseManager": "Warehouse Manager"
 }

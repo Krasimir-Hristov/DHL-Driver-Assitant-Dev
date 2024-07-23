@@ -84,5 +84,6 @@
   "holidayManager": "Szabadságügyi felelős",
   "holidayManagerDesc": "Szabadsággal kapcsolatos kérdések esetén.",
   "technicalSupport": "Műszaki Támogatás",
-  "technicalSupportDesc": "Problémák a MONA szkennerek, nyomtatók használatával."
+  "technicalSupportDesc": "Problémák a MONA szkennerek, nyomtatók használatával.",
+  "warehouseManager": "Raktárkezelő"
 }

@@ -84,5 +84,6 @@
   "holidayManager": "Responsabile dei permessi",
   "holidayManagerDesc": "Per domande relative ai permessi.",
   "technicalSupport": "Supporto Tecnico",
-  "technicalSupportDesc": "Problemi con scanner e stampanti MONA."
+  "technicalSupportDesc": "Problemi con scanner e stampanti MONA.",
+  "warehouseManager": "Responsabile del magazzino"
 }
