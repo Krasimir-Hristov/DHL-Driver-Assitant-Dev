@@ -85,5 +85,6 @@
   "holidayManagerDesc": "İzinlerle ilgili sorular için.",
   "technicalSupport": "Teknik Destek",
   "technicalSupportDesc": "MONA tarayıcıları, yazıcıları ile ilgili sorunlar.",
-  "warehouseManager": "Depo Sorumlusu"
+  "warehouseManager": "Depo Sorumlusu",
+  "warehouseManagerDesc": "Depo ile ilgili sorular için."
 }
