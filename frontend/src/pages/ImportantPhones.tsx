@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 import koengenImage from '../assets/depots/depotKoengen.jpeg';
+import waiblingenImage from '../assets/depots/depotWaiblingen.jpeg';
 
 import { useTranslation } from 'react-i18next';
 import TitleAndDescripion from '../components/TitleAndDescripion';
@@ -17,7 +18,7 @@ const ImportantPhones: React.FC = () => {
   };
   const depots: Depots[] = [
     { id: 'köngen', name: 'Köngen', image: koengenImage },
-    { id: 'waiblingen', name: 'waiblingen', image: koengenImage },
+    { id: 'waiblingen', name: 'waiblingen', image: waiblingenImage },
     { id: 'kircheim', name: 'kircheim', image: koengenImage },
   ];
 
