@@ -20,7 +20,7 @@ const Footer: React.FC = () => {
           className='text-black font-bold text-lg mt-2 md:mt-0'
         >
           {t('createdByAndSupported')}
-          <span className='underline'>KRASIMIR HRISTOV</span>
+          <span className='underline'> KRASIMIR HRISTOV</span>
         </a>
       </div>
     </footer>
