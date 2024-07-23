@@ -89,5 +89,6 @@
   "warehouseManagerDesc": "Raktárral kapcsolatos kérdések esetén.",
   "checkOut": "Check-Out",
   "cheOutDesc": "Ha segítségre van szüksége egy kollégától a megmaradt csomagokhoz.",
-  "complaints": "Panaszok"
+  "complaints": "Panaszok",
+  "complaintsDesc": "Csomagokkal, ügyfelekkel stb. kapcsolatos problémák esetén."
 }

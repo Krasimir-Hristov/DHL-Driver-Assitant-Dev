@@ -89,5 +89,6 @@
   "warehouseManagerDesc": "For questions related to the warehouse.",
   "checkOut": "Check-Out",
   "cheOutDesc": "If you need help from a colleague for the remaining packages.",
-  "complaints": "Complaints"
+  "complaints": "Complaints",
+  "complaintsDesc": "For issues with packages, customers, etc."
 }
