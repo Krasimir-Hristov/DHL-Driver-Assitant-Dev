@@ -88,5 +88,6 @@
   "warehouseManager": "Përgjegjës për magazinë",
   "warehouseManagerDesc": "Për pyetje në lidhje me magazinën.",
   "checkOut": "Check-Out",
-  "cheOutDesc": "Nëse keni nevojë për ndihmë nga një koleg për paketat e mbetura."
+  "cheOutDesc": "Nëse keni nevojë për ndihmë nga një koleg për paketat e mbetura.",
+  "complaints": "Ankesa"
 }

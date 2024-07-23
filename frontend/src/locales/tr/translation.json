@@ -88,5 +88,6 @@
   "warehouseManager": "Depo Sorumlusu",
   "warehouseManagerDesc": "Depo ile ilgili sorular için.",
   "checkOut": "Check-Out",
-  "cheOutDesc": "Kalan paketler için bir meslektaşınızdan yardım almanız gerekiyorsa."
+  "cheOutDesc": "Kalan paketler için bir meslektaşınızdan yardım almanız gerekiyorsa.",
+  "complaints": "Şikayetler"
 }

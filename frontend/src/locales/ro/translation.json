@@ -88,5 +88,6 @@
   "warehouseManager": "Responsabil de depozit",
   "warehouseManagerDesc": "Pentru întrebări legate de depozit.",
   "checkOut": "Check-Out",
-  "cheOutDesc": "Dacă aveți nevoie de ajutor de la un coleg pentru pachetele rămase."
+  "cheOutDesc": "Dacă aveți nevoie de ajutor de la un coleg pentru pachetele rămase.",
+  "complaints": "Reclamații"
 }

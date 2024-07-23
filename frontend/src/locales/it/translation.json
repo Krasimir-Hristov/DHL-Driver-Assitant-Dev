@@ -88,5 +88,6 @@
   "warehouseManager": "Responsabile del magazzino",
   "warehouseManagerDesc": "Per domande relative al magazzino.",
   "checkOut": "Check-Out",
-  "cheOutDesc": "Se hai bisogno di aiuto da un collega per i pacchi rimanenti."
+  "cheOutDesc": "Se hai bisogno di aiuto da un collega per i pacchi rimanenti.",
+  "complaints": "Reclami"
 }

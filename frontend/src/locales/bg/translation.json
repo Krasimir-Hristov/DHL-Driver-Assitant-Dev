@@ -88,5 +88,6 @@
   "warehouseManager": "Отговорник за халето",
   "warehouseManagerDesc": "За въпроси свързани с халето.",
   "checkOut": "Check-Out",
-  "cheOutDesc": "При нужда от помощ от колега за останалите пакети."
+  "cheOutDesc": "При нужда от помощ от колега за останалите пакети.",
+  "complaints": "Рекламации"
 }
