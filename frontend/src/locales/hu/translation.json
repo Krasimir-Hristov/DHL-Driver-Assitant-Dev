@@ -83,5 +83,6 @@
   "carsManagerDesc": "Járművel kapcsolatos problémák vagy baleset esetén az úton.",
   "holidayManager": "Szabadságügyi felelős",
   "holidayManagerDesc": "Szabadsággal kapcsolatos kérdések esetén.",
-  "technicalSupport": "Műszaki Támogatás"
+  "technicalSupport": "Műszaki Támogatás",
+  "technicalSupportDesc": "Problémák a MONA szkennerek, nyomtatók használatával."
 }

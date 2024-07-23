@@ -83,5 +83,6 @@
   "carsManagerDesc": "Pentru probleme cu vehiculul sau în caz de accident pe drum.",
   "holidayManager": "Responsabil cu concediile",
   "holidayManagerDesc": "Pentru întrebări legate de concedii.",
-  "technicalSupport": "Suport Tehnic"
+  "technicalSupport": "Suport Tehnic",
+  "technicalSupportDesc": "Probleme cu scanerele și imprimantele MONA."
 }

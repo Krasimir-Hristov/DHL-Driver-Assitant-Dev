@@ -83,5 +83,6 @@
   "carsManagerDesc": "Για προβλήματα με το όχημα ή σε περίπτωση ατυχήματος στον δρόμο.",
   "holidayManager": "Υπεύθυνος για τις άδειες",
   "holidayManagerDesc": "Για ερωτήσεις σχετικές με τις άδειες.",
-  "technicalSupport": "Τεχνική Υποστήριξη"
+  "technicalSupport": "Τεχνική Υποστήριξη",
+  "technicalSupportDesc": "Προβλήματα με σαρωτές MONA, εκτυπωτές."
 }

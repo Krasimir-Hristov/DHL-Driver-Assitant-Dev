@@ -83,5 +83,6 @@
   "carsManagerDesc": "Araç ile ilgili sorunlar veya yolda bir kaza durumunda.",
   "holidayManager": "İzin Sorumlusu",
   "holidayManagerDesc": "İzinlerle ilgili sorular için.",
-  "technicalSupport": "Teknik Destek"
+  "technicalSupport": "Teknik Destek",
+  "technicalSupportDesc": "MONA tarayıcıları, yazıcıları ile ilgili sorunlar."
 }

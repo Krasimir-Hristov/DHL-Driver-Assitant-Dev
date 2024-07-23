@@ -83,5 +83,6 @@
   "carsManagerDesc": "Për probleme me automjetin ose în rast aksidenti në rrugë.",
   "holidayManager": "Përgjegjës për pushimet",
   "holidayManagerDesc": "Për pyetje në lidhje me pushimet.",
-  "technicalSupport": "Mbështetje Teknike"
+  "technicalSupport": "Mbështetje Teknike",
+  "technicalSupportDesc": "Probleme me skanerët dhe printerët MONA."
 }

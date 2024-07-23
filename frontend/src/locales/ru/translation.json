@@ -83,5 +83,6 @@
   "carsManagerDesc": "При проблемах с транспортным средством или в случае аварии на дороге.",
   "holidayManager": "Ответственный за отпуска",
   "holidayManagerDesc": "По вопросам, связанным с отпусками.",
-  "technicalSupport": "Техническая поддержка"
+  "technicalSupport": "Техническая поддержка",
+  "technicalSupportDesc": "Проблемы с сканерами MONA, принтерами."
 }

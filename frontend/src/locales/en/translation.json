@@ -83,5 +83,6 @@
   "carsManagerDesc": "For issues with the vehicle or in case of an accident on the road.",
   "holidayManager": "Leave Manager",
   "holidayManagerDesc": "For questions related to leave.",
-  "technicalSupport": "Technical Support"
+  "technicalSupport": "Technical Support",
+  "technicalSupportDesc": "Issues with MONA scanners, printers."
 }
