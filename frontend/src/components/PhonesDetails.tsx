@@ -131,19 +131,6 @@ const PhonesDetails: React.FC = () => {
         ))}
       </ul>
     </div>
-    // <div>
-    //   <h1>{depot.title}</h1>
-    //   <p>{depot.description}</p>
-    //   <ul>
-    //     {depot.telephones.map((phone, index) => (
-    //       <li key={index}>
-    //         <h2>{phone.name}</h2>
-    //         <p>{phone.number}</p>
-    //         <p> {phone.info}</p>
-    //       </li>
-    //     ))}
-    //   </ul>
-    // </div>
   );
 };
 
