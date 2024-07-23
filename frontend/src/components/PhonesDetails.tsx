@@ -43,6 +43,11 @@ const PhonesDetails: React.FC = () => {
           number: '07024-98301-477',
           info: `${t('technicalSupportDesc')}`,
         },
+        {
+          name: `${t('warehouseManager')}`,
+          number: '+49 123 456 7891',
+          info: `${t('warehouseManagerDesc')}`,
+        },
       ],
     },
     waiblingen: {
