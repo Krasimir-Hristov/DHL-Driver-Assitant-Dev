@@ -17,11 +17,11 @@ const TelephonesCard: React.FC<TelephoneCardProps> = ({
       {/* Using "tel:" protocol to enable direct dialing on click from mobile devices */}
       <a
         href={`tel:${number}`}
-        className='block text-blue-500 hover:text-blue-700 font-bold my-2'
+        className='block text-blue-500 hover:text-blue-700 text-xl font-bold my-2'
       >
         {number}
       </a>
-      <p className='text-gray-600'>{info}</p>
+      <p className='text-black font-bold'>{info}</p>
     </div>
   );
 };
