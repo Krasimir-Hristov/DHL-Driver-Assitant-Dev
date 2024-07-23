@@ -14,7 +14,6 @@ const TelephonesCard: React.FC<TelephoneCardProps> = ({
   return (
     <div className='bg-gray-200 rounded-lg text-center p-4 shadow-md m-2'>
       <h2 className='text-xl font-bold bg-yellow-400 text-red-800 '>{name}</h2>
-      {/* Using "tel:" protocol to enable direct dialing on click from mobile devices */}
       <a
         href={`tel:${number}`}
         className='block text-blue-500 hover:text-blue-700 text-xl font-bold my-2'
