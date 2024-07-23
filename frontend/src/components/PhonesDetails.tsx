@@ -2,6 +2,8 @@ import React from 'react';
 import { useParams } from 'react-router-dom';
 
 import { useTranslation } from 'react-i18next';
+import TitleAndDescripion from './TitleAndDescripion';
+import TelephonesCard from './TelephonesCard';
 
 interface Telephone {
   name: string;
@@ -110,19 +112,38 @@ const PhonesDetails: React.FC = () => {
   }
 
   return (
-    <div>
-      <h1>{depot.title}</h1>
-      <p>{depot.description}</p>
+    <div className='bg-slate-200'>
+      <div>
+        <TitleAndDescripion
+          title={depot.title}
+          description={depot.description}
+        />
+      </div>
       <ul>
         {depot.telephones.map((phone, index) => (
           <li key={index}>
-            <h2>{phone.name}</h2>
-            <p>{phone.number}</p>
-            <p> {phone.info}</p>
+            <TelephonesCard
+              name={phone.name}
+              number={phone.number}
+              info={phone.info}
+            />
           </li>
         ))}
       </ul>
     </div>
+    // <div>
+    //   <h1>{depot.title}</h1>
+    //   <p>{depot.description}</p>
+    //   <ul>
+    //     {depot.telephones.map((phone, index) => (
+    //       <li key={index}>
+    //         <h2>{phone.name}</h2>
+    //         <p>{phone.number}</p>
+    //         <p> {phone.info}</p>
+    //       </li>
+    //     ))}
+    //   </ul>
+    // </div>
   );
 };
 
