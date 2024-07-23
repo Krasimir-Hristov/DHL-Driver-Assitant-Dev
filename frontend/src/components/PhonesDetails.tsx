@@ -68,18 +68,38 @@ const PhonesDetails: React.FC = () => {
       telephones: [
         {
           name: `${t('manager')}`,
-          number: '+49 987 654 3210',
-          info: 'Звънете на този номер за общи въпроси.',
+          number: '+49 7024 98301 552',
+          info: `${t('managerDesc')}`,
         },
         {
           name: `${t('carsManager')}`,
-          number: '+49 987 654 3211',
+          number: '01605052283',
           info: `${t('carsManagerDesc')}`,
         },
         {
           name: `${t('holidayManager')}`,
-          number: '+49 123 456 7891',
+          number: '01721673614',
           info: `${t('holidayManagerDesc')}`,
+        },
+        {
+          name: `${t('technicalSupport')}`,
+          number: '07024-98301-477',
+          info: `${t('technicalSupportDesc')}`,
+        },
+        {
+          name: `${t('warehouseManager')}`,
+          number: '+49 123 456 7891',
+          info: `${t('warehouseManagerDesc')}`,
+        },
+        {
+          name: `${t('checkOut')}`,
+          number: '+49 123 456 7891',
+          info: `${t('cheOutDesc')}`,
+        },
+        {
+          name: `${t('complaints')}`,
+          number: '07024-98301-477',
+          info: `${t('complaintsDesc')}`,
         },
       ],
     },
@@ -89,18 +109,38 @@ const PhonesDetails: React.FC = () => {
       telephones: [
         {
           name: `${t('manager')}`,
-          number: '+49 555 666 7777',
-          info: 'Звънете на този номер за общи въпроси.',
+          number: '+49 7024 98301 552',
+          info: `${t('managerDesc')}`,
         },
         {
           name: `${t('carsManager')}`,
-          number: '+49 555 666 7778',
+          number: '01605052283',
           info: `${t('carsManagerDesc')}`,
         },
         {
           name: `${t('holidayManager')}`,
-          number: '+49 123 456 7891',
+          number: '01721673614',
           info: `${t('holidayManagerDesc')}`,
+        },
+        {
+          name: `${t('technicalSupport')}`,
+          number: '07024-98301-477',
+          info: `${t('technicalSupportDesc')}`,
+        },
+        {
+          name: `${t('warehouseManager')}`,
+          number: '+49 123 456 7891',
+          info: `${t('warehouseManagerDesc')}`,
+        },
+        {
+          name: `${t('checkOut')}`,
+          number: '+49 123 456 7891',
+          info: `${t('cheOutDesc')}`,
+        },
+        {
+          name: `${t('complaints')}`,
+          number: '07024-98301-477',
+          info: `${t('complaintsDesc')}`,
         },
       ],
     },
