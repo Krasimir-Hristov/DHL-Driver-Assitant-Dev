@@ -38,6 +38,11 @@ const PhonesDetails: React.FC = () => {
           number: '01721673614',
           info: `${t('holidayManagerDesc')}`,
         },
+        {
+          name: `${t('technicalSupport')}`,
+          number: '07024-98301-477',
+          info: `${t('technicalSupportDesc')}`,
+        },
       ],
     },
     waiblingen: {
