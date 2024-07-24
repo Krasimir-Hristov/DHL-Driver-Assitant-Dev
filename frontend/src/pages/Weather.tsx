@@ -12,9 +12,7 @@ import {
   FaSearch,
 } from 'react-icons/fa';
 import { RiLoaderFill } from 'react-icons/ri';
-
 import { useTranslation } from 'react-i18next';
-
 import axios from 'axios';
 
 interface WeatherDataProps {
@@ -30,7 +28,7 @@ interface WeatherDataProps {
     }
   ];
   sys: {
-    country: string;
+    country: string | undefined;
   };
   wind: {
     speed: number;
@@ -53,7 +51,7 @@ const WeatherCard: React.FC = () => {
       const response = await axios.get(url);
       return response.data;
     } catch (err) {
-      setError('Failed to fetch weather data');
+      setError('Неуспешно извличане на данни за времето');
       setLoading(false);
     }
   };
@@ -64,18 +62,27 @@ const WeatherCard: React.FC = () => {
       const response = await axios.get(url);
       return response.data;
     } catch (err) {
-      setError('Failed to fetch weather data');
+      setError('Неуспешно извличане на данни за времето');
       setLoading(false);
     }
   };
 
   useEffect(() => {
-    navigator.geolocation.getCurrentPosition(async (position) => {
-      const { latitude, longitude } = position.coords;
-      const currentWeather = await fetchWeatherByLocation(latitude, longitude);
-      setWeatherData(currentWeather);
-      setLoading(false);
-    });
+    navigator.geolocation.getCurrentPosition(
+      async (position) => {
+        const { latitude, longitude } = position.coords;
+        const currentWeather = await fetchWeatherByLocation(
+          latitude,
+          longitude
+        );
+        setWeatherData(currentWeather);
+        setLoading(false);
+      },
+      () => {
+        setError('Не може да се определи местоположението');
+        setLoading(false);
+      }
+    );
   }, []);
 
   const handleSearch = async () => {
@@ -83,7 +90,7 @@ const WeatherCard: React.FC = () => {
       return;
     }
     setLoading(true);
-    setError(null); // Clear any previous errors
+    setError(null); // Изчистване на предишни грешки
     const cityWeather = await fetchWeatherByCity(city);
     setWeatherData(cityWeather);
     setLoading(false);
@@ -92,13 +99,22 @@ const WeatherCard: React.FC = () => {
   const handleRetry = () => {
     setError(null);
     setLoading(true);
-    // Retry fetching weather based on current location
-    navigator.geolocation.getCurrentPosition(async (position) => {
-      const { latitude, longitude } = position.coords;
-      const currentWeather = await fetchWeatherByLocation(latitude, longitude);
-      setWeatherData(currentWeather);
-      setLoading(false);
-    });
+    // Опитайте отново да извлечете времето на база текущото местоположение
+    navigator.geolocation.getCurrentPosition(
+      async (position) => {
+        const { latitude, longitude } = position.coords;
+        const currentWeather = await fetchWeatherByLocation(
+          latitude,
+          longitude
+        );
+        setWeatherData(currentWeather);
+        setLoading(false);
+      },
+      () => {
+        setError('Не може да се определи местоположението');
+        setLoading(false);
+      }
+    );
   };
 
   const getWeatherIcon = (main: string) => {
@@ -164,7 +180,7 @@ const WeatherCard: React.FC = () => {
         <div className='flex justify-between items-center mb-4'>
           <input
             type='text'
-            placeholder='Enter a City'
+            placeholder='Въведете град'
             className='border border-gray-300 rounded-lg p-2 w-full'
             value={city}
             onChange={(e) => setCity(e.target.value)}
@@ -178,13 +194,13 @@ const WeatherCard: React.FC = () => {
         </div>
         <div className='text-center'>
           <h1 className='text-4xl font-bold'>{weatherData.name}</h1>
-          <p className='text-xl text-gray-500'>{weatherData.sys.country}</p>
-          {getWeatherIcon(weatherData.weather[0].main)}
+          <p className='text-xl text-gray-500'>{weatherData.sys?.country}</p>
+          {getWeatherIcon(weatherData.weather[0]?.main || 'Clouds')}
           <p className='text-6xl font-bold mt-4'>
             {Math.round(weatherData.main.temp)}°C
           </p>
           <p className='text-xl text-gray-600'>
-            {weatherData.weather[0].description}
+            {weatherData.weather[0]?.description || 'N/A'}
           </p>
           <div className='flex justify-between items-center mt-6'>
             <div className='flex items-center'>
