@@ -170,17 +170,8 @@ const WeatherCard: React.FC = () => {
     );
   }
 
-  if (
-    !weatherData ||
-    !weatherData.weather ||
-    !Array.isArray(weatherData.weather) ||
-    weatherData.weather.length === 0
-  ) {
-    return (
-      <div className='flex justify-center items-center min-h-screen bg-slate-200'>
-        <p className='text-xl text-gray-500'>Няма налични данни за времето.</p>
-      </div>
-    );
+  if (!weatherData) {
+    return null;
   }
 
   return (
@@ -203,15 +194,13 @@ const WeatherCard: React.FC = () => {
         </div>
         <div className='text-center'>
           <h1 className='text-4xl font-bold'>{weatherData.name}</h1>
-          <p className='text-xl text-gray-500'>
-            {weatherData.sys?.country || 'N/A'}
-          </p>
-          {getWeatherIcon(weatherData.weather[0].main)}
+          <p className='text-xl text-gray-500'>{weatherData.sys?.country}</p>
+          {getWeatherIcon(weatherData.weather[0]?.main || 'Clouds')}
           <p className='text-6xl font-bold mt-4'>
             {Math.round(weatherData.main.temp)}°C
           </p>
           <p className='text-xl text-gray-600'>
-            {weatherData.weather[0].description || 'N/A'}
+            {weatherData.weather[0]?.description || 'N/A'}
           </p>
           <div className='flex justify-between items-center mt-6'>
             <div className='flex items-center'>
