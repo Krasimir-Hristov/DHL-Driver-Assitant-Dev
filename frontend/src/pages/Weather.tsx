@@ -226,7 +226,7 @@ const WeatherCard: React.FC = () => {
             <div className='flex items-center'>
               <FaWind className='text-blue-500' />
               <span className='ml-2 text-gray-600'>
-                {weatherData.wind.speed} km/h Скорост на вятъра
+                {weatherData.wind.speed} {t('weatherWindSpeed')}
               </span>
             </div>
           </div>
