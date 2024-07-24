@@ -94,5 +94,6 @@
   "weatherNav": "Weather",
   "tryAgainButtonWeather": "Try Again",
   "weatherErrorMessage": "Failed to retrieve weather data for the specified location.",
-  "weatherEnterCity": "Enter city"
+  "weatherEnterCity": "Enter city",
+  "weatherHumidity": "Humidity"
 }

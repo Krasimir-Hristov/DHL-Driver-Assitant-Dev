@@ -94,5 +94,6 @@
   "weatherNav": "Wetter",
   "tryAgainButtonWeather": "Erneut versuchen",
   "weatherErrorMessage": "Fehler beim Abrufen der Wetterdaten für den angegebenen Ort.",
-  "weatherEnterCity": "Stadt eingeben"
+  "weatherEnterCity": "Stadt eingeben",
+  "weatherHumidity": "Luftfeuchtigkeit"
 }

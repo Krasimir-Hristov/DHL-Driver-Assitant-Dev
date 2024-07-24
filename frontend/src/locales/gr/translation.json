@@ -94,5 +94,6 @@
   "weatherNav": "Καιρός",
   "tryAgainButtonWeather": "Δοκιμάστε ξανά",
   "weatherErrorMessage": "Αποτυχία ανάκτησης δεδομένων καιρού για την καθορισμένη τοποθεσία.",
-  "weatherEnterCity": "Εισάγετε πόλη"
+  "weatherEnterCity": "Εισάγετε πόλη",
+  "weatherHumidity": "Υγρασία"
 }

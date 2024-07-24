@@ -94,5 +94,6 @@
   "weatherNav": "Moti",
   "tryAgainButtonWeather": "Provo përsëri",
   "weatherErrorMessage": "Dështim në marrjen e të dhënave të motit për lokacionin e specifikuar.",
-  "weatherEnterCity": "Shkruani qytetin"
+  "weatherEnterCity": "Shkruani qytetin",
+  "weatherHumidity": "Lagështia"
 }

@@ -94,5 +94,6 @@
   "weatherNav": "Meteo",
   "tryAgainButtonWeather": "Riprova",
   "weatherErrorMessage": "Impossibile recuperare i dati meteorologici per la posizione specificata.",
-  "weatherEnterCity": "Inserisci città"
+  "weatherEnterCity": "Inserisci città",
+  "weatherHumidity": "Umidità"
 }

@@ -94,5 +94,6 @@
   "weatherNav": "Hava Durumu",
   "tryAgainButtonWeather": "Yeniden Dene",
   "weatherErrorMessage": "Belirtilen konum için hava durumu verileri alınamadı.",
-  "weatherEnterCity": "Şehri girin"
+  "weatherEnterCity": "Şehri girin",
+  "weatherHumidity": "Nem"
 }
