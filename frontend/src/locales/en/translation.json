@@ -93,5 +93,6 @@
   "complaintsDesc": "For issues with packages, customers, etc.",
   "weatherNav": "Weather",
   "tryAgainButtonWeather": "Try Again",
-  "weatherErrorMessage": "Failed to retrieve weather data for the specified location."
+  "weatherErrorMessage": "Failed to retrieve weather data for the specified location.",
+  "weatherEnterCity": "Enter city"
 }

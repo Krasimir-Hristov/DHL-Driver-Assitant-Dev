@@ -93,5 +93,6 @@
   "complaintsDesc": "Pentru probleme cu pachete, clienți, etc.",
   "weatherNav": "Vremea",
   "tryAgainButtonWeather": "Încearcă din nou",
-  "weatherErrorMessage": "Eșec la preluarea datelor meteo pentru locația specificată."
+  "weatherErrorMessage": "Eșec la preluarea datelor meteo pentru locația specificată.",
+  "weatherEnterCity": "Introduceți orașul"
 }

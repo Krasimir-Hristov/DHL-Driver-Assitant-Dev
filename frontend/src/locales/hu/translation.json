@@ -93,5 +93,6 @@
   "complaintsDesc": "Csomagokkal, ügyfelekkel stb. kapcsolatos problémák esetén.",
   "weatherNav": "Időjárás",
   "tryAgainButtonWeather": "Próbáld újra",
-  "weatherErrorMessage": "Nem sikerült lekérni az időjárási adatokat a megadott helyszínre."
+  "weatherErrorMessage": "Nem sikerült lekérni az időjárási adatokat a megadott helyszínre.",
+  "weatherEnterCity": "Adja meg a várost"
 }

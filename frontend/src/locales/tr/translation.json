@@ -93,5 +93,6 @@
   "complaintsDesc": "Paketler, müşteriler vb. ile ilgili sorunlar için.",
   "weatherNav": "Hava Durumu",
   "tryAgainButtonWeather": "Yeniden Dene",
-  "weatherErrorMessage": "Belirtilen konum için hava durumu verileri alınamadı."
+  "weatherErrorMessage": "Belirtilen konum için hava durumu verileri alınamadı.",
+  "weatherEnterCity": "Şehri girin"
 }

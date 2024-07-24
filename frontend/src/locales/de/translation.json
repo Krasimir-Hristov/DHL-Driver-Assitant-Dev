@@ -93,5 +93,6 @@
   "complaintsDesc": "Bei Problemen mit Paketen, Kunden usw.",
   "weatherNav": "Wetter",
   "tryAgainButtonWeather": "Erneut versuchen",
-  "weatherErrorMessage": "Fehler beim Abrufen der Wetterdaten für den angegebenen Ort."
+  "weatherErrorMessage": "Fehler beim Abrufen der Wetterdaten für den angegebenen Ort.",
+  "weatherEnterCity": "Stadt eingeben"
 }
