@@ -18,6 +18,7 @@ const navLinks: NavLink[] = [
   { to: '/controllbook', label: 'controllBook' },
   { to: '/barcodes', label: 'barcodesNav' },
   { to: '/phones', label: 'telephonesNav' },
+  { to: '/weather', label: 'weatherNav' },
 ];
 
 type Language = { code: string; lang: string };
