@@ -12,6 +12,9 @@ import {
   FaSearch,
 } from 'react-icons/fa';
 import { RiLoaderFill } from 'react-icons/ri';
+
+import { useTranslation } from 'react-i18next';
+
 import axios from 'axios';
 
 interface WeatherDataProps {
@@ -42,6 +45,7 @@ const WeatherCard: React.FC = () => {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
   const [city, setCity] = useState<string>('');
+  const { t } = useTranslation();
 
   const fetchWeatherByLocation = async (lat: number, lon: number) => {
     const url = `${api_endpoint}/weather?lat=${lat}&lon=${lon}&appid=${api_key}&units=metric`;
