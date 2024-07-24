@@ -53,7 +53,7 @@ const WeatherCard: React.FC = () => {
       return response.data;
     } catch (err) {
       console.error('Error fetching weather by location:', err);
-      setError('Неуспешно извличане на данни за времето');
+      setError(`${t('weatherErrorMessage')}`);
       setLoading(false);
     }
   };
@@ -66,7 +66,7 @@ const WeatherCard: React.FC = () => {
       return response.data;
     } catch (err) {
       console.error('Error fetching weather by city:', err);
-      setError('Неуспешно извличане на данни за времето');
+      setError(`${t('weatherErrorMessage')}`);
       setLoading(false);
     }
   };
@@ -84,7 +84,7 @@ const WeatherCard: React.FC = () => {
       },
       (error) => {
         console.error('Geolocation error:', error);
-        setError('Н може да се определи местоположението');
+        setError(`${t('weatherErrorMessage')}`);
         setLoading(false);
       }
     );
@@ -116,7 +116,7 @@ const WeatherCard: React.FC = () => {
       },
       (error) => {
         console.error('Geolocation error on retry:', error);
-        setError('Не може да се определи местоположението');
+        setError(`${t('weatherErrorMessage')}`);
         setLoading(false);
       }
     );
