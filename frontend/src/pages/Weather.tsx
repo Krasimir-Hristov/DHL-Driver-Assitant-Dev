@@ -75,7 +75,9 @@ const WeatherCard: React.FC = () => {
   }, []);
 
   const handleSearch = async () => {
-    if (city.trim() === '') return;
+    if (city.trim() === '') {
+      return;
+    }
     setLoading(true);
     setError(null); // Clear any previous errors
     const cityWeather = await fetchWeatherByCity(city);
