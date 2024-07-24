@@ -95,5 +95,6 @@
   "tryAgainButtonWeather": "Riprova",
   "weatherErrorMessage": "Impossibile recuperare i dati meteorologici per la posizione specificata.",
   "weatherEnterCity": "Inserisci città",
-  "weatherHumidity": "Umidità"
+  "weatherHumidity": "Umidità",
+  "weatherWindSpeed": "Velocità del vento (km/h)"
 }

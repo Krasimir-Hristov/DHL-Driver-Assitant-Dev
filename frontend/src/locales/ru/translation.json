@@ -95,5 +95,6 @@
   "tryAgainButtonWeather": "Попробуйте снова",
   "weatherErrorMessage": "Не удалось получить данные о погоде для указанного местоположения.",
   "weatherEnterCity": "Введите город",
-  "weatherHumidity": "Влажность"
+  "weatherHumidity": "Влажность",
+  "weatherWindSpeed": "Скорость ветра (км/ч)"
 }

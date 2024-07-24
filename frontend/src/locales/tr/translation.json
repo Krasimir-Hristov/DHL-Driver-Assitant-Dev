@@ -95,5 +95,6 @@
   "tryAgainButtonWeather": "Yeniden Dene",
   "weatherErrorMessage": "Belirtilen konum için hava durumu verileri alınamadı.",
   "weatherEnterCity": "Şehri girin",
-  "weatherHumidity": "Nem"
+  "weatherHumidity": "Nem",
+  "weatherWindSpeed": "Rüzgar Hızı (km/s)"
 }

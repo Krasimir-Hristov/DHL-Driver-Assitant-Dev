@@ -95,5 +95,6 @@
   "tryAgainButtonWeather": "Încearcă din nou",
   "weatherErrorMessage": "Eșec la preluarea datelor meteo pentru locația specificată.",
   "weatherEnterCity": "Introduceți orașul",
-  "weatherHumidity": "Umiditate"
+  "weatherHumidity": "Umiditate",
+  "weatherWindSpeed": "Viteză vânt (km/h)"
 }

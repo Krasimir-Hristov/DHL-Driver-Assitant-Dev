@@ -95,5 +95,6 @@
   "tryAgainButtonWeather": "Опитай отново",
   "weatherErrorMessage": "Неуспешно извличане на данни за времето за зададеното местоположение.",
   "weatherEnterCity": "Въведете град",
-  "weatherHumidity": "Влажност"
+  "weatherHumidity": "Влажност",
+  "weatherWindSpeed": "Скорост на вятъра (км/ч)"
 }

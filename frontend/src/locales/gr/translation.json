@@ -95,5 +95,6 @@
   "tryAgainButtonWeather": "Δοκιμάστε ξανά",
   "weatherErrorMessage": "Αποτυχία ανάκτησης δεδομένων καιρού για την καθορισμένη τοποθεσία.",
   "weatherEnterCity": "Εισάγετε πόλη",
-  "weatherHumidity": "Υγρασία"
+  "weatherHumidity": "Υγρασία",
+  "weatherWindSpeed": "Ταχύτητα ανέμου (χλμ/ώρα)"
 }

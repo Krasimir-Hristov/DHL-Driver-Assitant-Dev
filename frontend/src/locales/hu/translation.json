@@ -95,5 +95,6 @@
   "tryAgainButtonWeather": "Próbáld újra",
   "weatherErrorMessage": "Nem sikerült lekérni az időjárási adatokat a megadott helyszínre.",
   "weatherEnterCity": "Adja meg a várost",
-  "weatherHumidity": "Páratartalom"
+  "weatherHumidity": "Páratartalom",
+  "weatherWindSpeed": "Szélsebesség (km/h)"
 }

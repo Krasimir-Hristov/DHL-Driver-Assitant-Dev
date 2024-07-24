@@ -95,5 +95,6 @@
   "tryAgainButtonWeather": "Try Again",
   "weatherErrorMessage": "Failed to retrieve weather data for the specified location.",
   "weatherEnterCity": "Enter city",
-  "weatherHumidity": "Humidity"
+  "weatherHumidity": "Humidity",
+  "weatherWindSpeed": "Wind Speed (km/h)"
 }
