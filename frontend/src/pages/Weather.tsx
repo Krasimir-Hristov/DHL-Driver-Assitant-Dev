@@ -49,10 +49,8 @@ const WeatherCard: React.FC = () => {
     const url = `${api_endpoint}/weather?lat=${lat}&lon=${lon}&appid=${api_key}&units=metric`;
     try {
       const response = await axios.get(url);
-      console.log('Weather data by location:', response.data);
       return response.data;
     } catch (err) {
-      console.error('Error fetching weather by location:', err);
       setError('Неуспешно извличане на данни за времето');
       setLoading(false);
     }
@@ -62,10 +60,8 @@ const WeatherCard: React.FC = () => {
     const url = `${api_endpoint}/weather?q=${city}&appid=${api_key}&units=metric`;
     try {
       const response = await axios.get(url);
-      console.log('Weather data by city:', response.data);
       return response.data;
     } catch (err) {
-      console.error('Error fetching weather by city:', err);
       setError('Неуспешно извличане на данни за времето');
       setLoading(false);
     }
@@ -83,7 +79,6 @@ const WeatherCard: React.FC = () => {
         setLoading(false);
       },
       (error) => {
-        console.error('Geolocation error:', error);
         setError('Не може да се определи местоположението');
         setLoading(false);
       }
@@ -115,7 +110,6 @@ const WeatherCard: React.FC = () => {
         setLoading(false);
       },
       (error) => {
-        console.error('Geolocation error on retry:', error);
         setError('Не може да се определи местоположението');
         setLoading(false);
       }
