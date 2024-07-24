@@ -91,5 +91,6 @@
   "cheOutDesc": "If you need help from a colleague for the remaining packages.",
   "complaints": "Complaints",
   "complaintsDesc": "For issues with packages, customers, etc.",
-  "weatherNav": "Weather"
+  "weatherNav": "Weather",
+  "tryAgainButtonWeather": "Try Again"
 }

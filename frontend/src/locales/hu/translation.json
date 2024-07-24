@@ -91,5 +91,6 @@
   "cheOutDesc": "Ha segítségre van szüksége egy kollégától a megmaradt csomagokhoz.",
   "complaints": "Panaszok",
   "complaintsDesc": "Csomagokkal, ügyfelekkel stb. kapcsolatos problémák esetén.",
-  "weatherNav": "Időjárás"
+  "weatherNav": "Időjárás",
+  "tryAgainButtonWeather": "Próbáld újra"
 }
