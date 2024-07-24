@@ -192,7 +192,7 @@ const WeatherCard: React.FC = () => {
         <div className='flex justify-between items-center mb-4'>
           <input
             type='text'
-            placeholder='Въведете град'
+            placeholder={`${t('weatherEnterCity')}`}
             className='border border-gray-300 rounded-lg p-2 w-full'
             value={city}
             onChange={(e) => setCity(e.target.value)}
