@@ -49,8 +49,10 @@ const WeatherCard: React.FC = () => {
     const url = `${api_endpoint}/weather?lat=${lat}&lon=${lon}&appid=${api_key}&units=metric`;
     try {
       const response = await axios.get(url);
+      console.log('Weather data by location:', response.data);
       return response.data;
     } catch (err) {
+      console.error('Error fetching weather by location:', err);
       setError('Неуспешно извличане на данни за времето');
       setLoading(false);
     }
@@ -60,8 +62,10 @@ const WeatherCard: React.FC = () => {
     const url = `${api_endpoint}/weather?q=${city}&appid=${api_key}&units=metric`;
     try {
       const response = await axios.get(url);
+      console.log('Weather data by city:', response.data);
       return response.data;
     } catch (err) {
+      console.error('Error fetching weather by city:', err);
       setError('Неуспешно извличане на данни за времето');
       setLoading(false);
     }
@@ -78,7 +82,8 @@ const WeatherCard: React.FC = () => {
         setWeatherData(currentWeather);
         setLoading(false);
       },
-      () => {
+      (error) => {
+        console.error('Geolocation error:', error);
         setError('Не може да се определи местоположението');
         setLoading(false);
       }
@@ -99,7 +104,6 @@ const WeatherCard: React.FC = () => {
   const handleRetry = () => {
     setError(null);
     setLoading(true);
-    // Опитайте отново да извлечете времето на база текущото местоположение
     navigator.geolocation.getCurrentPosition(
       async (position) => {
         const { latitude, longitude } = position.coords;
@@ -110,7 +114,8 @@ const WeatherCard: React.FC = () => {
         setWeatherData(currentWeather);
         setLoading(false);
       },
-      () => {
+      (error) => {
+        console.error('Geolocation error on retry:', error);
         setError('Не може да се определи местоположението');
         setLoading(false);
       }
@@ -170,8 +175,16 @@ const WeatherCard: React.FC = () => {
     );
   }
 
-  if (!weatherData) {
-    return null;
+  if (
+    !weatherData ||
+    !weatherData.weather ||
+    !Array.isArray(weatherData.weather)
+  ) {
+    return (
+      <div className='flex justify-center items-center min-h-screen bg-slate-200'>
+        <p className='text-xl text-gray-500'>Няма налични данни за времето.</p>
+      </div>
+    );
   }
 
   return (
@@ -194,13 +207,15 @@ const WeatherCard: React.FC = () => {
         </div>
         <div className='text-center'>
           <h1 className='text-4xl font-bold'>{weatherData.name}</h1>
-          <p className='text-xl text-gray-500'>{weatherData.sys?.country}</p>
-          {getWeatherIcon(weatherData.weather[0]?.main || 'Clouds')}
+          <p className='text-xl text-gray-500'>
+            {weatherData.sys?.country || 'N/A'}
+          </p>
+          {getWeatherIcon(weatherData.weather[0].main)}
           <p className='text-6xl font-bold mt-4'>
             {Math.round(weatherData.main.temp)}°C
           </p>
           <p className='text-xl text-gray-600'>
-            {weatherData.weather[0]?.description || 'N/A'}
+            {weatherData.weather[0].description || 'N/A'}
           </p>
           <div className='flex justify-between items-center mt-6'>
             <div className='flex items-center'>
