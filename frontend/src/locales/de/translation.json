@@ -92,5 +92,6 @@
   "complaints": "Beschwerden",
   "complaintsDesc": "Bei Problemen mit Paketen, Kunden usw.",
   "weatherNav": "Wetter",
-  "tryAgainButtonWeather": "Erneut versuchen"
+  "tryAgainButtonWeather": "Erneut versuchen",
+  "weatherErrorMessage": "Fehler beim Abrufen der Wetterdaten für den angegebenen Ort."
 }

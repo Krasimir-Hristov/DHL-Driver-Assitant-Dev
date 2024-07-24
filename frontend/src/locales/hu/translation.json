@@ -92,5 +92,6 @@
   "complaints": "Panaszok",
   "complaintsDesc": "Csomagokkal, ügyfelekkel stb. kapcsolatos problémák esetén.",
   "weatherNav": "Időjárás",
-  "tryAgainButtonWeather": "Próbáld újra"
+  "tryAgainButtonWeather": "Próbáld újra",
+  "weatherErrorMessage": "Nem sikerült lekérni az időjárási adatokat a megadott helyszínre."
 }

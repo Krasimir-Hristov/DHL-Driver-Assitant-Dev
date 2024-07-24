@@ -92,5 +92,6 @@
   "complaints": "Reclami",
   "complaintsDesc": "Per problemi con pacchi, clienti, ecc.",
   "weatherNav": "Meteo",
-  "tryAgainButtonWeather": "Riprova"
+  "tryAgainButtonWeather": "Riprova",
+  "weatherErrorMessage": "Impossibile recuperare i dati meteorologici per la posizione specificata."
 }

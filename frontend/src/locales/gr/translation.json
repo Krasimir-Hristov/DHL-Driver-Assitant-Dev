@@ -92,5 +92,6 @@
   "complaints": "Παράπονα",
   "complaintsDesc": "Για προβλήματα με πακέτα, πελάτες κ.λπ.",
   "weatherNav": "Καιρός",
-  "tryAgainButtonWeather": "Δοκιμάστε ξανά"
+  "tryAgainButtonWeather": "Δοκιμάστε ξανά",
+  "weatherErrorMessage": "Αποτυχία ανάκτησης δεδομένων καιρού για την καθορισμένη τοποθεσία."
 }

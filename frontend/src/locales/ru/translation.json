@@ -92,5 +92,6 @@
   "complaints": "Жалобы",
   "complaintsDesc": "По вопросам, связанным с посылками, клиентами и т.д.",
   "weatherNav": "Погода",
-  "tryAgainButtonWeather": "Попробуйте снова"
+  "tryAgainButtonWeather": "Попробуйте снова",
+  "weatherErrorMessage": "Не удалось получить данные о погоде для указанного местоположения."
 }

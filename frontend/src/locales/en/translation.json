@@ -92,5 +92,6 @@
   "complaints": "Complaints",
   "complaintsDesc": "For issues with packages, customers, etc.",
   "weatherNav": "Weather",
-  "tryAgainButtonWeather": "Try Again"
+  "tryAgainButtonWeather": "Try Again",
+  "weatherErrorMessage": "Failed to retrieve weather data for the specified location."
 }

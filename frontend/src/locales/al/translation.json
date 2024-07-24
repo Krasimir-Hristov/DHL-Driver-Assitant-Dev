@@ -92,5 +92,6 @@
   "complaints": "Ankesa",
   "complaintsDesc": "Për probleme me pako, klientë, etj.",
   "weatherNav": "Moti",
-  "tryAgainButtonWeather": "Provo përsëri"
+  "tryAgainButtonWeather": "Provo përsëri",
+  "weatherErrorMessage": "Dështim në marrjen e të dhënave të motit për lokacionin e specifikuar."
 }

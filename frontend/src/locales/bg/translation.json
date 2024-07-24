@@ -92,5 +92,6 @@
   "complaints": "Рекламации",
   "complaintsDesc": "При проблеми с пакети, клиенти и т.н.",
   "weatherNav": "Времето",
-  "tryAgainButtonWeather": "Опитай отново"
+  "tryAgainButtonWeather": "Опитай отново",
+  "weatherErrorMessage": "Неуспешно извличане на данни за времето за зададеното местоположение."
 }
