@@ -220,7 +220,7 @@ const WeatherCard: React.FC = () => {
             <div className='flex items-center'>
               <FaTint className='text-blue-500' />
               <span className='ml-2 text-gray-600'>
-                {weatherData.main.humidity}% Влажност
+                {weatherData.main.humidity}% {t('weatherHumidity')}
               </span>
             </div>
             <div className='flex items-center'>
