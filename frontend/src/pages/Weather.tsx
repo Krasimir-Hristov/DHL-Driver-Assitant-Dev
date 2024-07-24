@@ -148,7 +148,7 @@ const WeatherCard: React.FC = () => {
           className='p-2 bg-blue-500 text-white rounded-lg'
           onClick={handleRetry}
         >
-          Опитай отново
+          {t('tryAgainButtonWeather')}
         </button>
       </div>
     );
