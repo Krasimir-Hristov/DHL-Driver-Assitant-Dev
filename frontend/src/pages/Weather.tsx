@@ -84,7 +84,7 @@ const WeatherCard: React.FC = () => {
       },
       (error) => {
         console.error('Geolocation error:', error);
-        setError('Не може да се определи местоположението');
+        setError('Н може да се определи местоположението');
         setLoading(false);
       }
     );
