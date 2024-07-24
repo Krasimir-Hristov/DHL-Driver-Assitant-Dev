@@ -21,12 +21,10 @@ interface WeatherDataProps {
     temp: number;
     humidity: number;
   };
-  weather: [
-    {
-      main: string;
-      description: string;
-    }
-  ];
+  weather: {
+    main: string;
+    description: string;
+  }[];
   sys: {
     country: string | undefined;
   };
@@ -49,7 +47,7 @@ const WeatherCard: React.FC = () => {
     const url = `${api_endpoint}/weather?lat=${lat}&lon=${lon}&appid=${api_key}&units=metric`;
     try {
       const response = await axios.get(url);
-      console.log('Weather data by location:', response.data);
+      console.log('Weather data by location:', response.data); // Лог на данните
       return response.data;
     } catch (err) {
       console.error('Error fetching weather by location:', err);
@@ -62,7 +60,7 @@ const WeatherCard: React.FC = () => {
     const url = `${api_endpoint}/weather?q=${city}&appid=${api_key}&units=metric`;
     try {
       const response = await axios.get(url);
-      console.log('Weather data by city:', response.data);
+      console.log('Weather data by city:', response.data); // Лог на данните
       return response.data;
     } catch (err) {
       console.error('Error fetching weather by city:', err);
@@ -153,6 +151,8 @@ const WeatherCard: React.FC = () => {
     }
   };
 
+  console.log('Weather data:', weatherData);
+
   if (loading) {
     return (
       <div className='flex justify-center items-center min-h-screen bg-slate-200'>
@@ -178,8 +178,10 @@ const WeatherCard: React.FC = () => {
   if (
     !weatherData ||
     !weatherData.weather ||
-    !Array.isArray(weatherData.weather)
+    !Array.isArray(weatherData.weather) ||
+    weatherData.weather.length === 0
   ) {
+    console.log('Weather data is missing or malformed.');
     return (
       <div className='flex justify-center items-center min-h-screen bg-slate-200'>
         <p className='text-xl text-gray-500'>Няма налични данни за времето.</p>
