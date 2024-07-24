@@ -1,7 +1,44 @@
-import React from 'react';
-import { FaCloud, FaTint, FaWind, FaSearch } from 'react-icons/fa';
+import React, { useEffect, useState } from 'react';
+import {
+  FaCloud,
+  FaCloudRain,
+  FaCloudShowersHeavy,
+  FaCloudSun,
+  FaCloudMoon,
+  FaSun,
+  FaMoon,
+  FaSnowflake,
+  FaBolt,
+  FaSmog,
+  FaTint,
+  FaWind,
+  FaSearch,
+} from 'react-icons/fa';
+import { RiLoaderFill } from 'react-icons/ri';
+import axios from 'axios';
 
 const WeatherCard: React.FC = () => {
+  const api_key = import.meta.env.VITE_API_KEY;
+  const api_endpoint = import.meta.env.VITE_API_ENDPOINT;
+
+  const [weatherData, setWeatherData] = useState<any>(null);
+
+  const fetchCurrentWeather = async (lat: number, lon: number) => {
+    const url = `${api_endpoint}weather?lat=${lat}&lon=${lon}&appid=${api_key}&units=metric`;
+    const response = await axios.get(url);
+    return response.data;
+  };
+
+  useEffect(() => {
+    navigator.geolocation.getCurrentPosition(async (position) => {
+      const { latitude, longitude } = position.coords;
+      Promise.all([fetchCurrentWeather(latitude, longitude)]).then(
+        ([currentWeather]) => {
+          console.log(currentWeather);
+        }
+      );
+    });
+  });
   return (
     <div className='flex justify-center items-center min-h-screen bg-slate-200'>
       <div className='bg-white rounded-lg shadow-lg p-8 w-full max-w-md mx-auto'>
