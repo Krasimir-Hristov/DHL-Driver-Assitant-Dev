@@ -21,10 +21,12 @@ interface WeatherDataProps {
     temp: number;
     humidity: number;
   };
-  weather: {
-    main: string;
-    description: string;
-  }[];
+  weather: [
+    {
+      main: string;
+      description: string;
+    }
+  ];
   sys: {
     country: string | undefined;
   };
@@ -175,12 +177,7 @@ const WeatherCard: React.FC = () => {
     );
   }
 
-  if (
-    !weatherData ||
-    !weatherData.weather ||
-    !Array.isArray(weatherData.weather) ||
-    weatherData.weather.length === 0
-  ) {
+  if (!weatherData || !Array.isArray(weatherData.weather)) {
     console.log('Weather data is missing or malformed.');
     return (
       <div className='flex justify-center items-center min-h-screen bg-slate-200'>
