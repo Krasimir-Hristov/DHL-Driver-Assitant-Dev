@@ -175,7 +175,7 @@ const WeatherCard: React.FC = () => {
   }
 
   return (
-    <div className='flex justify-center items-center min-h-screen bg-slate-100'>
+    <div className='flex justify-center items-center min-h-screen bg-slate-200'>
       <div className='bg-white rounded-lg shadow-lg p-8 w-full max-w-md mx-auto'>
         <div className='flex justify-between items-center mb-4'>
           <input
