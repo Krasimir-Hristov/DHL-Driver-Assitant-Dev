@@ -96,5 +96,6 @@
   "weatherErrorMessage": "Eșec la preluarea datelor meteo pentru locația specificată.",
   "weatherEnterCity": "Introduceți orașul",
   "weatherHumidity": "Umiditate",
-  "weatherWindSpeed": "Viteză vânt (km/h)"
+  "weatherWindSpeed": "Viteză vânt (km/h)",
+  "weatherTittle": "Vremea de azi"
 }

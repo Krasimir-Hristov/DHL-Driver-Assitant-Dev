@@ -96,5 +96,6 @@
   "weatherErrorMessage": "Nem sikerült lekérni az időjárási adatokat a megadott helyszínre.",
   "weatherEnterCity": "Adja meg a várost",
   "weatherHumidity": "Páratartalom",
-  "weatherWindSpeed": "Szélsebesség (km/h)"
+  "weatherWindSpeed": "Szélsebesség (km/h)",
+  "weatherTittle": "Mai időjárás"
 }

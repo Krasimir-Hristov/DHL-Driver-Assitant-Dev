@@ -96,5 +96,6 @@
   "weatherErrorMessage": "Dështim në marrjen e të dhënave të motit për lokacionin e specifikuar.",
   "weatherEnterCity": "Shkruani qytetin",
   "weatherHumidity": "Lagështia",
-  "weatherWindSpeed": "Shpejtësia e erës (km/h)"
+  "weatherWindSpeed": "Shpejtësia e erës (km/h)",
+  "weatherTittle": "Moti i sotëm"
 }

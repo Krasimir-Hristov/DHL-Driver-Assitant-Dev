@@ -96,5 +96,6 @@
   "weatherErrorMessage": "Failed to retrieve weather data for the specified location.",
   "weatherEnterCity": "Enter city",
   "weatherHumidity": "Humidity",
-  "weatherWindSpeed": "Wind Speed (km/h)"
+  "weatherWindSpeed": "Wind Speed (km/h)",
+  "weatherTittle": "Today's Weather"
 }

@@ -96,5 +96,6 @@
   "weatherErrorMessage": "Fehler beim Abrufen der Wetterdaten für den angegebenen Ort.",
   "weatherEnterCity": "Stadt eingeben",
   "weatherHumidity": "Luftfeuchtigkeit",
-  "weatherWindSpeed": "Windgeschwindigkeit (km/h)"
+  "weatherWindSpeed": "Windgeschwindigkeit (km/h)",
+  "weatherTittle": "Das Wetter heute"
 }

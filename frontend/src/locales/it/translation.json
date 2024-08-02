@@ -96,5 +96,6 @@
   "weatherErrorMessage": "Impossibile recuperare i dati meteorologici per la posizione specificata.",
   "weatherEnterCity": "Inserisci città",
   "weatherHumidity": "Umidità",
-  "weatherWindSpeed": "Velocità del vento (km/h)"
+  "weatherWindSpeed": "Velocità del vento (km/h)",
+  "weatherTittle": "Il meteo di oggi"
 }

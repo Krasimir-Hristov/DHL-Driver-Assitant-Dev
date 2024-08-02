@@ -96,5 +96,6 @@
   "weatherErrorMessage": "Belirtilen konum için hava durumu verileri alınamadı.",
   "weatherEnterCity": "Şehri girin",
   "weatherHumidity": "Nem",
-  "weatherWindSpeed": "Rüzgar Hızı (km/s)"
+  "weatherWindSpeed": "Rüzgar Hızı (km/s)",
+  "weatherTittle": "Bugünkü Hava Durumu"
 }

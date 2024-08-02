@@ -96,5 +96,6 @@
   "weatherErrorMessage": "Не удалось получить данные о погоде для указанного местоположения.",
   "weatherEnterCity": "Введите город",
   "weatherHumidity": "Влажность",
-  "weatherWindSpeed": "Скорость ветра (км/ч)"
+  "weatherWindSpeed": "Скорость ветра (км/ч)",
+  "weatherTittle": "Погода сегодня"
 }
