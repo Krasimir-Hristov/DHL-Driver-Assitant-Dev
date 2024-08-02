@@ -204,7 +204,7 @@ const WeatherCard: React.FC = () => {
     <div className='bg-slate-200'>
       <div>
         <TitleAndDescripion
-          title={t('telephonesTitle')}
+          title={t('weatherTittle')}
           description={t('telephonesDesc')}
         />
       </div>
