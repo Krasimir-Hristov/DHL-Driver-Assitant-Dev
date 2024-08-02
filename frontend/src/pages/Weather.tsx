@@ -14,6 +14,7 @@ import {
 import { RiLoaderFill } from 'react-icons/ri';
 import { useTranslation } from 'react-i18next';
 import axios from 'axios';
+import TitleAndDescripion from '../components/TitleAndDescripion';
 
 interface WeatherDataProps {
   name: string;
@@ -200,47 +201,55 @@ const WeatherCard: React.FC = () => {
   }
 
   return (
-    <div className='flex justify-center items-center min-h-screen bg-slate-200'>
-      <div className='bg-white rounded-lg shadow-lg p-8 w-full max-w-md mx-auto'>
-        <div className='flex justify-between items-center mb-4'>
-          <input
-            type='text'
-            placeholder={`${t('weatherEnterCity')}`}
-            className='border border-gray-300 rounded-lg p-2 w-full'
-            value={city}
-            onChange={(e) => setCity(e.target.value)}
-          />
-          <button
-            className='ml-2 p-2 bg-blue-500 text-white rounded-lg'
-            onClick={handleSearch}
-          >
-            <FaSearch />
-          </button>
-        </div>
-        <div className='text-center'>
-          <h1 className='text-4xl font-bold'>{weatherData.name}</h1>
-          <p className='text-xl text-gray-500'>
-            {weatherData.sys?.country || 'N/A'}
-          </p>
-          {getWeatherIcon(weatherData.weather[0].main)}
-          <p className='text-6xl font-bold mt-4'>
-            {Math.round(weatherData.main.temp)}°C
-          </p>
-          <p className='text-xl text-gray-600'>
-            {weatherData.weather[0].description || 'N/A'}
-          </p>
-          <div className='flex justify-between items-center mt-6'>
-            <div className='flex items-center'>
-              <FaTint className='text-blue-500' />
-              <span className='ml-2 text-gray-600'>
-                {weatherData.main.humidity}% {t('weatherHumidity')}
-              </span>
-            </div>
-            <div className='flex items-center'>
-              <FaWind className='text-blue-500' />
-              <span className='ml-2 text-gray-600'>
-                {weatherData.wind.speed} {t('weatherWindSpeed')}
-              </span>
+    <div className='bg-slate-200'>
+      <div>
+        <TitleAndDescripion
+          title={t('telephonesTitle')}
+          description={t('telephonesDesc')}
+        />
+      </div>
+      <div className='flex justify-center items-center min-h-screen bg-slate-200'>
+        <div className='bg-white rounded-lg shadow-lg p-8 w-full max-w-md mx-auto'>
+          <div className='flex justify-between items-center mb-4'>
+            <input
+              type='text'
+              placeholder={`${t('weatherEnterCity')}`}
+              className='border border-gray-300 rounded-lg p-2 w-full'
+              value={city}
+              onChange={(e) => setCity(e.target.value)}
+            />
+            <button
+              className='ml-2 p-2 bg-blue-500 text-white rounded-lg'
+              onClick={handleSearch}
+            >
+              <FaSearch />
+            </button>
+          </div>
+          <div className='text-center'>
+            <h1 className='text-4xl font-bold'>{weatherData.name}</h1>
+            <p className='text-xl text-gray-500'>
+              {weatherData.sys?.country || 'N/A'}
+            </p>
+            {getWeatherIcon(weatherData.weather[0].main)}
+            <p className='text-6xl font-bold mt-4'>
+              {Math.round(weatherData.main.temp)}°C
+            </p>
+            <p className='text-xl text-gray-600'>
+              {weatherData.weather[0].description || 'N/A'}
+            </p>
+            <div className='flex justify-between items-center mt-6'>
+              <div className='flex items-center'>
+                <FaTint className='text-blue-500' />
+                <span className='ml-2 text-gray-600'>
+                  {weatherData.main.humidity}% {t('weatherHumidity')}
+                </span>
+              </div>
+              <div className='flex items-center'>
+                <FaWind className='text-blue-500' />
+                <span className='ml-2 text-gray-600'>
+                  {weatherData.wind.speed} {t('weatherWindSpeed')}
+                </span>
+              </div>
             </div>
           </div>
         </div>
