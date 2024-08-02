@@ -44,6 +44,7 @@ const WeatherCard: React.FC = () => {
   const [loading, setLoading] = useState<boolean>(true);
   const [error, setError] = useState<string | null>(null);
   const [city, setCity] = useState<string>('');
+
   const { t } = useTranslation();
 
   const fetchWeatherByLocation = async (lat: number, lon: number) => {
