@@ -98,5 +98,6 @@
   "weatherHumidity": "Humidity",
   "weatherWindSpeed": "Wind Speed (km/h)",
   "weatherTittle": "Today's Weather",
-  "weatherDescClouds": "The weather will be cloudy, keep a raincoat handy."
+  "weatherDescClouds": "The weather will be cloudy, keep a raincoat handy.",
+  "weatherDescRain": "The weather will be rainy, be sure to take a raincoat."
 }

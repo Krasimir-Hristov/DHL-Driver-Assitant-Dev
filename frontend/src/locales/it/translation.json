@@ -98,5 +98,6 @@
   "weatherHumidity": "Umidità",
   "weatherWindSpeed": "Velocità del vento (km/h)",
   "weatherTittle": "Il meteo di oggi",
-  "weatherDescClouds": "Il tempo sarà nuvoloso, tenete un impermeabile a portata di mano."
+  "weatherDescClouds": "Il tempo sarà nuvoloso, tenete un impermeabile a portata di mano.",
+  "weatherDescRain": "Il tempo sarà piovoso, assicurati di prendere un impermeabile."
 }

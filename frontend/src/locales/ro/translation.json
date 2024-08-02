@@ -98,5 +98,6 @@
   "weatherHumidity": "Umiditate",
   "weatherWindSpeed": "Viteză vânt (km/h)",
   "weatherTittle": "Vremea de azi",
-  "weatherDescClouds": "Vremea va fi înnorată, păstrați un impermeabil la îndemână."
+  "weatherDescClouds": "Vremea va fi înnorată, păstrați un impermeabil la îndemână.",
+  "weatherDescRain": "Vremea va fi ploioasă, asigurați-vă că luați un impermeabil."
 }

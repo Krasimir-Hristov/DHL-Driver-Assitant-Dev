@@ -98,5 +98,6 @@
   "weatherHumidity": "Luftfeuchtigkeit",
   "weatherWindSpeed": "Windgeschwindigkeit (km/h)",
   "weatherTittle": "Das Wetter heute",
-  "weatherDescClouds": "Das Wetter wird bewölkt sein, halten Sie einen Regenmantel bereit."
+  "weatherDescClouds": "Das Wetter wird bewölkt sein, halten Sie einen Regenmantel bereit.",
+  "weatherDescRain": "Das Wetter wird regnerisch sein, nehmen Sie unbedingt einen Regenmantel mit."
 }

@@ -98,5 +98,6 @@
   "weatherHumidity": "Nem",
   "weatherWindSpeed": "Rüzgar Hızı (km/s)",
   "weatherTittle": "Bugünkü Hava Durumu",
-  "weatherDescClouds": "Hava bulutlu olacak, bir yağmurluk bulundurun."
+  "weatherDescClouds": "Hava bulutlu olacak, bir yağmurluk bulundurun.",
+  "weatherDescRain": "Hava yağmurlu olacak, mutlaka bir yağmurluk alın."
 }

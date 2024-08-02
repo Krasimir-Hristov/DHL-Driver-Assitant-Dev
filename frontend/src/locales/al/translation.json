@@ -98,5 +98,6 @@
   "weatherHumidity": "Lagështia",
   "weatherWindSpeed": "Shpejtësia e erës (km/h)",
   "weatherTittle": "Moti i sotëm",
-  "weatherDescClouds": "Moti do të jetë me re, mbani një mushama pranë."
+  "weatherDescClouds": "Moti do të jetë me re, mbani një mushama pranë.",
+  "weatherDescRain": "Moti do të jetë me shi, sigurohuni që të merrni një mushama."
 }
