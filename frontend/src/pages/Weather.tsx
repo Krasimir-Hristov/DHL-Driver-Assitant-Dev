@@ -41,7 +41,7 @@ const WeatherCard: React.FC = () => {
   const api_endpoint = import.meta.env.VITE_API_ENDPOINT;
 
   const [weatherData, setWeatherData] = useState<WeatherDataProps | null>(null);
-  const [loading, setLoading] = useState(true);
+  const [loading, setLoading] = useState<boolean>(true);
   const [error, setError] = useState<string | null>(null);
   const [city, setCity] = useState<string>('');
   const { t } = useTranslation();
@@ -204,7 +204,7 @@ const WeatherCard: React.FC = () => {
     <div className='bg-slate-200'>
       <div>
         <TitleAndDescripion
-          title={t('telephonesTitle')}
+          title={t('weatherTittle')}
           description={t('telephonesDesc')}
         />
       </div>
