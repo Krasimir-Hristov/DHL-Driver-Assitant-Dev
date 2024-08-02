@@ -97,5 +97,6 @@
   "weatherEnterCity": "Введите город",
   "weatherHumidity": "Влажность",
   "weatherWindSpeed": "Скорость ветра (км/ч)",
-  "weatherTittle": "Погода сегодня"
+  "weatherTittle": "Погода сегодня",
+  "weatherDescClouds": "Погода будет облачной, держите под рукой дождевик."
 }

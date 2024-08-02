@@ -97,5 +97,6 @@
   "weatherEnterCity": "Adja meg a várost",
   "weatherHumidity": "Páratartalom",
   "weatherWindSpeed": "Szélsebesség (km/h)",
-  "weatherTittle": "Mai időjárás"
+  "weatherTittle": "Mai időjárás",
+  "weatherDescClouds": "Az idő felhős lesz, tartson kéznél egy esőkabátot."
 }

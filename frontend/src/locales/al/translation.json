@@ -97,5 +97,6 @@
   "weatherEnterCity": "Shkruani qytetin",
   "weatherHumidity": "Lagështia",
   "weatherWindSpeed": "Shpejtësia e erës (km/h)",
-  "weatherTittle": "Moti i sotëm"
+  "weatherTittle": "Moti i sotëm",
+  "weatherDescClouds": "Moti do të jetë me re, mbani një mushama pranë."
 }

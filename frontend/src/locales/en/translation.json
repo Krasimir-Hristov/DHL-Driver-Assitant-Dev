@@ -97,5 +97,6 @@
   "weatherEnterCity": "Enter city",
   "weatherHumidity": "Humidity",
   "weatherWindSpeed": "Wind Speed (km/h)",
-  "weatherTittle": "Today's Weather"
+  "weatherTittle": "Today's Weather",
+  "weatherDescClouds": "The weather will be cloudy, keep a raincoat handy."
 }

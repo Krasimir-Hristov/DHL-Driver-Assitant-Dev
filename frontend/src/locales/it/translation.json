@@ -97,5 +97,6 @@
   "weatherEnterCity": "Inserisci città",
   "weatherHumidity": "Umidità",
   "weatherWindSpeed": "Velocità del vento (km/h)",
-  "weatherTittle": "Il meteo di oggi"
+  "weatherTittle": "Il meteo di oggi",
+  "weatherDescClouds": "Il tempo sarà nuvoloso, tenete un impermeabile a portata di mano."
 }

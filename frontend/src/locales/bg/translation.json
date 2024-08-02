@@ -97,5 +97,6 @@
   "weatherEnterCity": "Въведете град",
   "weatherHumidity": "Влажност",
   "weatherWindSpeed": "Скорост на вятъра (км/ч)",
-  "weatherTittle": "Времето Днес"
+  "weatherTittle": "Времето Днес",
+  "weatherDescClouds": "Времето ще е облачно, имайте дъждобран под ръка."
 }

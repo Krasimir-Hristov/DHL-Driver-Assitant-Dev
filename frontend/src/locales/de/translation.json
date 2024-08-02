@@ -97,5 +97,6 @@
   "weatherEnterCity": "Stadt eingeben",
   "weatherHumidity": "Luftfeuchtigkeit",
   "weatherWindSpeed": "Windgeschwindigkeit (km/h)",
-  "weatherTittle": "Das Wetter heute"
+  "weatherTittle": "Das Wetter heute",
+  "weatherDescClouds": "Das Wetter wird bewölkt sein, halten Sie einen Regenmantel bereit."
 }

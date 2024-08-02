@@ -97,5 +97,6 @@
   "weatherEnterCity": "Şehri girin",
   "weatherHumidity": "Nem",
   "weatherWindSpeed": "Rüzgar Hızı (km/s)",
-  "weatherTittle": "Bugünkü Hava Durumu"
+  "weatherTittle": "Bugünkü Hava Durumu",
+  "weatherDescClouds": "Hava bulutlu olacak, bir yağmurluk bulundurun."
 }

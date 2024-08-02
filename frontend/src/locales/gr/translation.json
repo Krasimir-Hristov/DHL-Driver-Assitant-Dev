@@ -97,5 +97,6 @@
   "weatherEnterCity": "Εισάγετε πόλη",
   "weatherHumidity": "Υγρασία",
   "weatherWindSpeed": "Ταχύτητα ανέμου (χλμ/ώρα)",
-  "weatherTittle": "Ο Καιρός Σήμερα"
+  "weatherTittle": "Ο Καιρός Σήμερα",
+  "weatherDescClouds": "Ο καιρός θα είναι συννεφιασμένος, κρατήστε ένα αδιάβροχο κοντά σας."
 }
