@@ -1,5 +1,6 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
+import AdSense from '../components/AdSense';
 
 const Home: React.FC = () => {
   const { t } = useTranslation();
@@ -14,6 +15,10 @@ const Home: React.FC = () => {
           {t('wellcome')}
         </h2>
         <p className='text-lg md:text-xl font-bold py-6 '>{t('homeDesc')}</p>
+
+        <div>
+          <AdSense />
+        </div>
 
         <p className='text-4xl font-extrabold text-red-800 mt-12 text-center'>
           {t('homeEnd')}
