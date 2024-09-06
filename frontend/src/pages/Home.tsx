@@ -23,6 +23,9 @@ const Home: React.FC = () => {
         <p className='text-4xl font-extrabold text-red-800 mt-12 text-center'>
           {t('homeEnd')}
         </p>
+        <div>
+          <AdSense />
+        </div>
       </div>
     </>
   );
