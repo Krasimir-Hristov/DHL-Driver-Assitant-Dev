@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import WeeklyCalendar from '../components/WeeklyCalendar';
+import AdSense from '../components/AdSense';
 
 const DayOffCalendar: React.FC = () => {
   const { t, i18n } = useTranslation();
@@ -34,6 +35,10 @@ const DayOffCalendar: React.FC = () => {
               {t('importantCalendarText')}
             </p>
           </div>
+        </div>
+
+        <div>
+          <AdSense />
         </div>
 
         <div className='flex flex-col items-center justify-center min-h-screen text-center px-4 pt-12 md:pt-0 bg-slate-200'>
