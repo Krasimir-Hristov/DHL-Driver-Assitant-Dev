@@ -10,7 +10,7 @@ import DayOffCalendar from './pages/DayOffCalendar';
 import Barcodes from './pages/Barcodes';
 import ImportantPhones from './pages/ImportantPhones';
 import PhonesDetails from './components/PhonesDetails';
-import Weather from './pages/Weather';
+// import Weather from './pages/Weather';
 
 const App: React.FC = () => {
   return (
@@ -26,7 +26,7 @@ const App: React.FC = () => {
               <Route path='/calendar' element={<DayOffCalendar />} />
               <Route path='/phones' element={<ImportantPhones />} />
               <Route path='/phones/:id' element={<PhonesDetails />} />
-              <Route path='/weather' element={<Weather />} />
+              {/* <Route path='/weather' element={<Weather />} /> */}
             </Routes>
           </main>
           <Footer />
