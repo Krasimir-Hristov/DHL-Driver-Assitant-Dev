@@ -26,6 +26,7 @@ import CurrentDate from '../components/CurrentDate';
 import DateRange from '../components/DateRange';
 import ListingCard from '../components/ListingCard';
 import TitleAndDescripion from '../components/TitleAndDescripion';
+import AdSense from '../components/AdSense';
 
 const ControllBook: React.FC = () => {
   const { t } = useTranslation();
@@ -120,6 +121,10 @@ const ControllBook: React.FC = () => {
           title={t('controllBook')}
           description={t('cbDescription')}
         />
+      </div>
+
+      <div>
+        <AdSense />
       </div>
 
       <h1 className='text-2xl md:text-3xl lg:text-4xl mb-8 font-extrabold text-center '>
