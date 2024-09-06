@@ -9,6 +9,7 @@ import lagern from '../assets/barcodes/lagern.jpg';
 import streetClose from '../assets/barcodes/streetclose.jpg';
 import ListingCard from '../components/ListingCard';
 import TitleAndDescripion from '../components/TitleAndDescripion';
+import AdSense from '../components/AdSense';
 
 const Barcodes: React.FC = () => {
   const { t } = useTranslation();
@@ -53,6 +54,10 @@ const Barcodes: React.FC = () => {
           title={t('barcodesTitle')}
           description={t('barcodesDesc')}
         />
+      </div>
+
+      <div>
+        <AdSense />
       </div>
       {barcodesInfo.map((row, index) => (
         <div>
